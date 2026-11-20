@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a65b31e064@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261219T200000
+DTEND;TZID=America/Chicago:20261219T220000
+SUMMARY:Horace Trahan
+LOCATION:Hideaway on Lee\, 407 Lee Ave\, Lafayette
+DESCRIPTION:Horace Trahan\, the maker of the hit single\, “That Butt Thin
+ g\,” in 1999\, is a world renowned Cajun and Zydeco artist\, respected f
+ or his ability to pull the hell out of an accordion and belt out vocals th
+ at will give you chills. Having over-stepped boundaries and bypassed the s
+ tereotypes of naysayers\, this native of Ossun\, Louisiana\, has made a hu
+ ge and highly anticipated comeback on the music scene!\nAt the age of fift
+ een\, Horace wanted to learn to play the accordion. His father brought him
+  to Felix Richard\, a strong accordionist and first cousin who lived in Ca
+ nkton\, LA. Horace was a natural and booked his first gig within six month
+ s of learning to play.\nHorace was very comfortable in a musical setting\,
+  as he had purchased his first guitar at the age of twelve and had also be
+ gun playing the saxophone in the fifth grade. It was when he combined his 
+ angelic-pitched voice with the skills he honed on a Crown single row accor
+ dion\, which the musical magic began. Horace was sixteen years old when he
+  began singing Cajun music in French and in English. Not long after making
+  his mark on bass drum in the marching band at Carencro High School and gr
+ aduating\, Horace hit the road and began touring with D.L. Menard. The roa
+ d schedules would take the talented eighteen year-old musician to New York
+ \, Boston\, Chicago\, Canada\, France\, California\, and the summer Olympi
+ cs in Atlanta.\nTwo years later\, in 1996\, Horace and D.L. Menard recorde
+ d a CD on Swallow Records. During this time\, at the age of twenty\, Horac
+ e also released his first CD entitled\, Ossun Blues\, for the same label.\
+ nHorace’s music took root quickly\, and he formed a band called\, “The
+  Ossun Express.” The band consisted of an accordion\, fiddle\, guitar\, 
+ bass\, drums\, and sometimes a triangle. This version of “The Ossun Expr
+ ess” never recorded\, but played many local venues and festivals\, makin
+ g a name for the group. In the year 2000\, Horace revamped his band with a
+ ll new members\, and they were called\, “The New Ossun Express.” It wa
+ s at this time that Horace recorded his second album entitled\, Get On Boa
+ rd\, on the Zydeco Hound label. In 2001 they followed up with his third an
+ d final album on the same label\, entitled\, Reach Out and Touch a Hand\, 
+ which was later renamed by its new owner\, Fred Charlie\, as That Butt Thi
+ ng\, for the title track of the same name. These golden\, classic recordin
+ gs are currently a part of ‘la crème de la crème\,’ under the owners
+ hip of Floyd Soileu’s Flat Town Music Company.\nHaving thoroughly learne
+ d the business of owning the music you write and create\, Horace’s self-
+ released albums\, Keep Walking\, (August 2010)\; his Christmas In Every Wa
+ y EP\, (December 2011)\; All The Way\, (August 2012)\, and most recently\,
+  Until The End (December 2017)\, are extremely successful records register
+ ed under his own record label and publishing company\, The Redemptive Proc
+ ess. Horace also recorded By Special Request\, a grand slam of a cover alb
+ um\, released on Maison de Soul Records in November of 2013.\nIn April of 
+ 2012\, Horace Trahan was called to collaborate with the Canadian\, electro
+  hip-hop band\, Radio Radio\, on two tracks for their third album entitled
+ \, Havre de Grace. The first song\, “Y’en a qui connais\,” appears a
+ s track number four (4) on the CD\, and features Horace Trahan as the crea
+ tor of the track’s title and the chorus\, as well as performing accordio
+ n and vocals. The second song\, “One Day/ Liberez-moi\,” features Hora
+ ce\, as the writer and singer of the chorus. “One Day/ Liberez-moi\,” 
+ was released as a download bonus on their label\, Bonsound\, later that ye
+ ar. Havre de Grace won ‘best hip-hop album’ at the ADISQ 2012 Awards a
+ nd the East-Coast Music Awards 2012.\nHorace’s most recent project is th
+ e completion of a documentary entitled\, Cajun and Creole: Black and White
+ \, produced by his wife\, Chantelle Trahan\, in 2013. The film features Ho
+ race\, a Louisiana Cajun\, and his father-in-law\, Rodney Bernard\, a Loui
+ siana Creole\, and the ties that bind them musically\, geographically\, cu
+ lturally…\n\nhttps://www.hideawayonlee.com/events/horace-trahan-4-xg3ds-
+ y2xrl-n5scz-lh2r7-b9gp8-dkdxz-wm2kd-m373j-89ffj-8h3j4-bplxx-hfl6e-8k8gf-8k
+ lhw-gd9l5-5bhcx-be7l2-8tjtf
+URL:https://www.hideawayonlee.com/events/horace-trahan-4-xg3ds-y2xrl-n5scz-
+ lh2r7-b9gp8-dkdxz-wm2kd-m373j-89ffj-8h3j4-bplxx-hfl6e-8k8gf-8klhw-gd9l5-5b
+ hcx-be7l2-8tjtf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Horace Trahan
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

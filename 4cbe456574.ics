@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4cbe456574@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261231T100000
+DTEND;TZID=America/Chicago:20261231T140000
+SUMMARY:New Year's Noon Carnival and Countdown
+LOCATION:Children's Museum of Acadiana\, 201 E. Congress St\, Lafayette
+DESCRIPTION:Get ready for an unforgettable experience at the 29th Annual Ne
+ w Year’s Noon Carnival and Countdown at the Children’s Museum of Acadi
+ ana! This is the place to be for kids and families to welcome 2026! What t
+ o expect: 🎉 Double the Confetti Fun! A spectacular confetti blast insid
+ e and outside to celebrate the countdown to NOON! 🎵 Live Music Magic! 
+ 🤹 Amazement in the Air! Be wowed by the incredible stunts of the Amazin
+ g Bacon Stilt Walker\, an entertainer like no other. 🎁 Win Big! Partici
+ pate in games and activities with amazing prizes up for grabs. 👒 Dress 
+ the Part! Enjoy free wearable party favors that will have you looking cele
+ bration-ready. 🎨 Hands-On Fun! Interactive exhibits\, festive crafts\, 
+ and so much more to spark creativity and joy. 📅 When: December 31 🕙 
+ Time: 10:00 AM – 2:00 PM (Countdown at Noon!) 📍 Where: Children’s M
+ useum of Acadiana\, Downtown Lafayette\n\nhttps://www.lafayettetravel.com/
+ event/new-years-noon-carnival-and-countdown/46019/
+URL:https://www.lafayettetravel.com/event/new-years-noon-carnival-and-count
+ down/46019/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New Year's Noon Carnival and Countdown
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

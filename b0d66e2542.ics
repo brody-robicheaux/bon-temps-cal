@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b0d66e2542@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270115T120000
+DTEND;TZID=America/Chicago:20270117T120000
+SUMMARY:Miss Louisiana Ultimate USA Scholarship Pageant
+LOCATION:Wonderland Performing Arts\, 2807 Johnston St\, Lafayette
+DESCRIPTION:Join us January 15–17\, 2027 for the inaugural Miss Louisiana
+  Ultimate USA State Pageant!\n\n📍 Wonderland Center for Performing Arts
+ \n💎 Theme: Bling on the Bayou\n👗 Opening Dresses: Gold\n👑 Six Age
+  Divisions\n\nRegister here:\nhttps://form.jotform.com/261726286639065\n\n
+ https://happeningnext.com/event/miss-louisiana-ultimate-usa-scholarship-pa
+ geant-eid3a0e832hi6
+URL:https://happeningnext.com/event/miss-louisiana-ultimate-usa-scholarship
+ -pageant-eid3a0e832hi6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Miss Louisiana Ultimate USA Scholarship Pageant
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:099ad75325@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261206T140000
+DTEND;TZID=America/Chicago:20261206T160000
+SUMMARY:Teddy Bear Tea
+LOCATION:Moncus Park\, 2913 Johnston Street\, Lafayette
+DESCRIPTION:Teddy Bear Tea\, presented by Roots Pediatric Dentistry\, invit
+ es families to share a magical holiday experience filled with warmth\, won
+ der\, and whimsy. Enjoy sweet treats\, festive activities\, and seasonal s
+ urprises. Each child receives a special keepsake to remember the day. Rese
+ rved complimentary parking will be available for ticket purchasers. TICKET
+ S COMING SOON! Learn more at www.moncuspark.org/teddybeartea\n\nhttps://mo
+ ncuspark.org/calendar-events/teddy-bear-tea-2/
+URL:https://moncuspark.org/calendar-events/teddy-bear-tea-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Teddy Bear Tea
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ef854b1c18@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261210T190000
+DTEND;TZID=America/Chicago:20261210T203000
+SUMMARY:Dance This Holiday
+LOCATION:Wonderland Center for Performing Arts\, 2807 Johnston Street\, Laf
+ ayette
+DESCRIPTION:Get into the holiday spirit\, hit the dance floor\, and celebra
+ te the season together in person!\nAbout this Event\n\nDance This Holiday 
+ Join us as our talented dancers (ages 3-8) take the stage to weave a tapes
+ try of holiday enchantment through their captivating performances.\n\nhttp
+ s://happeningnext.com/event/dance-this-holiday-eid1ef0l92nedha
+URL:https://happeningnext.com/event/dance-this-holiday-eid1ef0l92nedha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dance This Holiday
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

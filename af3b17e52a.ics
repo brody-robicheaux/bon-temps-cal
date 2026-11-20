@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:af3b17e52a@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261222T200000
+DTEND;TZID=America/Chicago:20261222T220000
+SUMMARY:The Collaboratory Open Jam Night
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:THE COLLABORATORY OPEN JAM\n\nJoin us Tuesday\, December 22 at 
+ the Blue Moon Saloon for a night of live music\, good vibes\, and communit
+ y!\n\n \n\nHappy Hour: 5–8 PM\nSign-Ups: 8 PM\nJam Starts: 8:30 PM\nNO 
+ COVER — FREE ENTRY!\n\n \n\nBring your instrument\, your voice\, or jus
+ t your good vibes! Whether you're ready to jump on stage or just hang out 
+ and enjoy the music\, everyone's welcome.\n\n \n\nNeed somewhere to sleep
+ ? We've got you covered! Book a room with us and enjoy FREE entry + a FREE
+  drink! Get the full Blue Moon Saloon experience all in one place.\n\nVisi
+ t www.BlueMoonSaloon.com to learn more and book your stay!\n\nhttps://even
+ ts.timely.fun/kw4jncf1/event/78517111/20261222200000
+URL:https://events.timely.fun/kw4jncf1/event/78517111/20261222200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Collaboratory Open Jam Night
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

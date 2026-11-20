@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:aa3d26ce8e@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261211T203000
+DTEND;TZID=America/Chicago:20261211T223000
+SUMMARY:Candlelight: Tribute to Fleetwood Mac
+LOCATION:Petroleum Club of Lafayette\, 111 Heymann Boulevard\, Lafayette//\
+ , Lafayette
+DESCRIPTION:⭐ Candlelight concerts bring the magic of a live\, multi-sens
+ ory musical experience to awe-inspiring locations like never seen before i
+ n Lafayette. Get your tickets now to discover the music of Fleetwood Mac a
+ t Petroleum Club of Lafayette under the gentle glow of candlelight. This i
+ s a tribute concert experience. It is not affiliated with\, endorsed by\, 
+ or sponsored by the artist\, their estate\, or official representatives. G
+ eneral Info 📍 Venue: Petroleum Club of Lafayette 📅 Dates and times: 
+ select your dates/times directly in the ticket selector ⏳ Duration: 60 m
+ inutes. Doors open 60 minutes before the show. No entry once it starts 
+ 👤 Age requirement: 8 years old or older. Anyone under the age of 16 mus
+ t be accompanied by an adult ♿ Accessibility: the venue is ADA compliant
+  ❓ View the FAQs for this event here 🪑 Seating is assigned on a first
+  come first served basis in each zone 🕯️ If you would like to book a 
+ private concert or buy regular tickets for a large group (+30 people)\, cl
+ ick here 🎻 Check out all the Candlelight concerts in Lafayette 🎁 To 
+ treat your friends and family to a Candlelight gift card\, click here Tent
+ ative Program Everywhere Gypsy You Make Loving Fun Never Going Back Again 
+ Don't Stop Gold Dust Woman Go Your Own Way Landslide Little Lies Songbird 
+ Rhiannon The Chain Dreams Say You Love Me Second Hand News Performers Stri
+ ng Quartet Seating Map\n\nhttps://happeningnext.com/event/candlelight-trib
+ ute-to-fleetwood-mac-eid1afw9x4sxwm
+URL:https://happeningnext.com/event/candlelight-tribute-to-fleetwood-mac-ei
+ d1afw9x4sxwm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Candlelight: Tribute to Fleetwood Mac
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

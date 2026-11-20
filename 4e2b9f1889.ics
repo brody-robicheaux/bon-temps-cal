@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4e2b9f1889@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261219T193000
+DTEND;TZID=America/Chicago:20261219T210000
+SUMMARY:Sean Patton (Peacock\, FX's English Teacher\, Late Night with Jimmy
+  Fallon)
+LOCATION:Club 337\, 1521 W Pinhook Rd\, Lafayette
+DESCRIPTION:Saturday December 19th\, 2026 - 7:30PM\nClub 337 1521 W Pinhook
+  Rd\, Lafayette\, LA\nLafayette Comedy presents comedian SEAN PATTON (as s
+ een on Peacock\, FX's English Teacher\, Late Night with Jimmy Fallon) at C
+ lub 337 on Saturday\, December 19 at 7:30 p.m.\nTickets are on sale for $3
+ 0 VIP\, $25 General Admission (plus taxes/fees)\nDoors at 7:00 p.m.\nAGES 
+ 18+\nSean Patton is a comedian based in New York\, by way of New Orleans.\
+ nHe began doing stand-up in the Crescent City and has since performed in c
+ omedy clubs and festivals across the world\, including The Melbourne Inter
+ national Comedy Festival (2011\, 2018)\, The Glasgow Comedy Fest (2016)\, 
+ the Dublin Comedy Fest (2017)\, and The Edinburgh Fringe (2017\, 2019). Ot
+ her festival appearances include SXSW (2016\, 2017\, 2018\, 2022)\, The Mo
+ ontower Comedy Festival (2012\, 2013\, 2014\, 2019)\, Just for Laughs Chic
+ ago (2013)\, Just for Laughs Toronto (2013)\, and Just for Laughs Montreal
+  (2008\, 2010\, 2012\, 2016\, 2018). He's performed on Comedy Central’s 
+ Live at Gotham (2009)\, Late Night with Jimmy Fallon (2010)\, Conan (2011\
+ , 2013)\, and Comedy Central’s The Half Hour (2013). More recently\, He'
+ s been on @midnight (2014\, 2015)\, The Meltdown with Jonah and Kumail (20
+ 15)\, This Is Not Happening (2015\, 2017\, 2019)\, Showtime's Live from SX
+ SW (2017)\, TruTV's Comedy Knockout (2016\, 2017\, 2018)\, and This Week a
+ t the Comedy Cellar (2018\, 2019\, 2020).\nIn 2019\, he released his secon
+ d album\, Scuttlebutt\, on Helium Records. His next album\, King Scorpio\,
+  was released on Christmas Eve 2021 and as a special on YouTube in August 
+ 2022. His special Number One streamed on Peacock from 2022 to 2024 and is 
+ currently available on 800lb Gorilla’s YouTube page.\nAs for acting\, He
+ 's appeared on IFC'S Maron\, TruTV's Those Who Can't\, and both seasons of
+  FX’s English Teacher. He more recently appeared in season 5 of HBO’s 
+ Hacks.\nUnless otherwise stated\, please consider all of our shows as “a
+ dult subject matter.”\nNo refunds will be issued unless the show is canc
+ eled or rescheduled.\nNo third-party tickets allowed (do not purchase from
+  StubHub or other 3rd party sites)\nClub 337 is located inside the Doublet
+ ree Hotel located at 1521 W Pinhook Rd\, Lafayette\, LA. (Free Parking)\nC
+ lub 337 has theater-style seating as a first-come basis | Drinks can be pu
+ rchased at the bar | 2 full bars with a restaurant on site.\n\nhttps://hap
+ peningnext.com/event/sean-patton-peacock-fxs-english-teacher-late-night-wi
+ th-jimmy-fallon-eid3a0dr2bj75
+URL:https://happeningnext.com/event/sean-patton-peacock-fxs-english-teacher
+ -late-night-with-jimmy-fallon-eid3a0dr2bj75
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sean Patton (Peacock\, FX's English Teacher\, Late Night with J
+ immy Fallon)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

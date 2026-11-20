@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:edaa35c146@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261204T190000
+DTEND;TZID=America/Chicago:20261204T220000
+SUMMARY:Skyliners BIg Band Dance
+LOCATION:PC53 - Petroleum Club of Lafayette\, 111 Heymann Blvd\, Lafayette
+DESCRIPTION:The Skyliners Big Band Dance\nJoin us for our last dance of the
+  season in our 76th year\, on Friday\, December 4\, 2026\, from 7:00 to 10
+  PM at The Petroleum Club.\nGet ready to dance and listen to our fabulous 
+ 18-piece big band\, featuring vocalists Billie Castle and Bill Roza\, in a
+ n elegant ballroom!\nYou do not need to be a member of The Petroleum Club 
+ of Lafayette or our dance club to attend.\nIf you have not purchased membe
+ rship to our dance club\, admission is $20 at the door\, $10 for students.
+ \nFood and drinks are available for sale at our dance events.\nThis is ele
+ gant ballroom dancing at its finest! Please honor our dress code\, which i
+ s cocktail attire to formal. (No jeans\, please.)\nGrab your dancing shoes
+ \, friends! We can't wait to see you there!\nYour membership and attendanc
+ e help to keep this treasured big band going!\n\nhttps://happeningnext.com
+ /event/skyliners-big-band-dance-eid3a0eae2iao
+URL:https://happeningnext.com/event/skyliners-big-band-dance-eid3a0eae2iao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Skyliners BIg Band Dance
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

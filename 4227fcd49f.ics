@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4227fcd49f@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270108T183000
+DTEND;TZID=America/Chicago:20270108T203000
+SUMMARY:Bikini Truck Stop \, Grey Areas Ghost Prism & Soul Giant
+LOCATION:Feed N Seed Lafayette\, 106 N Grant St\, Lafayette
+DESCRIPTION:Bikini Truck Stop\n\non Tour from Austin Texas\n\nwith\n\nGhost
+  Prism\n\nGrey Areas\n\nand\n\nSoul Giant!\n\nDoors 630\nMusic 730\n\nJanu
+ ary 8\n\n$10\n\nALL AGES\n\nhttps://happeningnext.com/event/bikini-truck-s
+ top-grey-areas-ghost-prism-andamp-soul-giant-eid3a0ebra5vs
+URL:https://happeningnext.com/event/bikini-truck-stop-grey-areas-ghost-pris
+ m-andamp-soul-giant-eid3a0ebra5vs
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bikini Truck Stop \, Grey Areas Ghost Prism & Soul Giant
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0b7914fcdd@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261219T190000
+DTEND;TZID=America/Chicago:20261219T210000
+SUMMARY:The Creole Nutcracker
+LOCATION:Heymann Performing Arts Center\, 1373 S College Rd\, Lafayette
+DESCRIPTION:Experience the magic of the holidays\, Louisiana style! Join us
+  for The Creole Nutcracker on Saturday\, December 19\, 2026\, at the Heyma
+ nn Performing Arts Center in Lafayette\, Louisiana. This reimagining of th
+ e beloved holiday classic celebrates the rich culture\, vibrant traditions
+ \, and joyful spirit of Louisiana through dance\, music\, and storytelling
+ . Gather your family and friends for a journey filled with familiar Louisi
+ ana flavor\, festive surprises\, and holiday wonder. Make The Creole Nutcr
+ acker part of your holiday tradition! Visit thecreolenutcracker.com for ti
+ ckets and more information.\n\nhttps://happeningnext.com/event/the-creole-
+ nutcracker-eid3a0e832i7q
+URL:https://happeningnext.com/event/the-creole-nutcracker-eid3a0e832i7q
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Creole Nutcracker
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

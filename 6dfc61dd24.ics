@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6dfc61dd24@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261125T180000
+DTEND;TZID=America/Chicago:20261125T190000
+SUMMARY:Yoga in the Park
+LOCATION:Moncus Park\, 2913 Johnston St\, Lafayette
+DESCRIPTION:Join us for Yoga in the Park\, part of the "Fit For All" series
+  presented by Louisiana Orthopaedic Specialists & Orthopedic Urgent Care. 
+ Every Wednesday at 6:00 PM\, unroll your mat and unwind with a free commun
+ ity yoga session at Moncus Park. Whether you're a seasoned yogi or trying 
+ it for the first time\, it's an easy way to reset midweek and move alongsi
+ de your neighbors. Location: First Horizon Amphitheater\, unless otherwise
+  noted What to know: Every Wednesday at 6:00 PM All ages and experience le
+ vels welcome Bring your own mat and water Wear comfortable clothing No reg
+ istration required Completely free Class may be canceled or moved due to r
+ ain or excessive heat\, check our social media stories each Wednesday for 
+ updates and location Instructer Schedule: 9/16- Neil Gresham 9/23 -Zoe Win
+ gate 9/30 -Zoe Wingate 10/7- Jeanne Marie Lousao 10/14- Tammy Marlin *wait
+ ing for documents* 10/21- Neil Gresham 10/28- Zoe Wingate 11/4- Jeanne Mar
+ ie Lousao 11/11- Zoe Wingate 11/18- Kayla Duhon 11/25- Allie Edge See you 
+ on the mat!\n\nhttps://moncuspark.org/calendar-events/yoga2026/
+URL:https://moncuspark.org/calendar-events/yoga2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Yoga in the Park
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

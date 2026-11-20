@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:87383d00a9@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261120T200000
+DTEND;TZID=America/Chicago:20261120T220000
+SUMMARY:Southern Screen Film Festival with live Music by Sabine Mcalla
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:It’s night two of the Southern Screen Festival\, and we’re 
+ celebrating with live music by Sabine McCalla ! A New Orleans favorite\, M
+ cCalla brings soulful songwriting and a vibrant blend of American roots mu
+ sic\, from Southern blues and soul to Brazilian samba. Her debut album\, D
+ on’t Call Me Baby \, captures the sound that has delighted dancers and r
+ evelers for years. Join filmmakers\, artists\, friends\, and fellow music 
+ lovers for good company and soulful sounds. sabine-mccalla.com\n\n \n\nAb
+ out the Artist\n\nSabine McCalla is a New Orleans singer-songwriter whose 
+ music brings together Southern soul\, blues\, Brazilian samba\, and a broa
+ d range of roots influences. Her debut full-length album\, Don’t Call Me
+  Baby \, released in November 2025 and co-produced by Ajaï Combelic and S
+ am Doores of the Deslondes\, has earned more than 1.75 million streams and
+  praise from publications including No Depression\, Songlines\, and Uncut.
+  She has shared stages with Nick Shoulders\, Rainbow Girls\, John Craigie\
+ , and the Deslondes\, and performed at the UK’s End of the Road Festival
+ . Her work also extends to film\, with an appearance alongside her sister 
+ Leyla McCalla in Ryan Coogler’s Sinners and performance and music contri
+ butions to Taylor McFadden’s Lovers . sabine-mccalla.com\n\nhttps://even
+ ts.timely.fun/kw4jncf1/event/78509490/20261120200000
+URL:https://events.timely.fun/kw4jncf1/event/78509490/20261120200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Southern Screen Film Festival with live Music by Sabine Mcalla
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

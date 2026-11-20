@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:620ef67a0a@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261212T190000
+DTEND;TZID=America/Chicago:20261212T220000
+SUMMARY:The Christmas Party Premiere: Characters Night Out
+LOCATION:Sunday's\, 431 Jefferson Street\, Lafayette
+DESCRIPTION:A festive night out where your favorite Christmas characters hi
+ t the party scene in person—come celebrate and make merry!\nAbout this E
+ vent\nThe Christmas Party Premiere: Characters Night Out is where all your
+  faves will be.\nCome join us for a cozy and festive evening at Sunday's !
+  Who said dressing up is only for Halloween? Put on your favorite christma
+ s movie character outfit and get ready to mingle with friends old and new.
+  This in person event is the perfect way to kick off the holiday season. E
+ njoy delicious dishes\, festive drinks\, great music\, and create new memo
+ ries. Don't forget to bring your holiday spirit and your character's attit
+ ude!\n\nhttps://happeningnext.com/event/the-christmas-party-premiere-chara
+ cters-night-out-eid1ef0l93tr5oa
+URL:https://happeningnext.com/event/the-christmas-party-premiere-characters
+ -night-out-eid1ef0l93tr5oa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Christmas Party Premiere: Characters Night Out
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

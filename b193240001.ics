@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b193240001@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261122T210000
+DTEND;TZID=America/Chicago:20261122T230000
+SUMMARY:Southern Screen Film Festival with Live Music by Diamond J and the 
+ Ruby Red Raindrops
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:We're going back to the Moon for Southern Screen's official Wra
+ p Party! Close out the festival in true Southern Screen style and join fil
+ mmakers\, musicians\, and festival guests for a night celebrating the stor
+ ies shared\, the connections made\, and the creativity that brought us tog
+ ether. Diamond J and the Ruby Red Raindrops bring their soulful R&B sound 
+ and slow boogie grooves for one last dance with the incredible community t
+ hat makes Southern Screen shine.\n\n \n\nDiamond J & The Ruby Red Raindro
+ ps is a regional music group from the Acadiana / Lafayette area in Louisia
+ na known for a swamp-pop\, slow-boogie\, and swamp-and-roll style.\n\nhttp
+ s://events.timely.fun/kw4jncf1/event/78509494/20261122210000
+URL:https://events.timely.fun/kw4jncf1/event/78509494/20261122210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Southern Screen Film Festival with Live Music by Diamond J and 
+ the Ruby Red Raindrops
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

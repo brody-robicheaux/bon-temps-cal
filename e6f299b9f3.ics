@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e6f299b9f3@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261219T200000
+DTEND;TZID=America/Chicago:20261219T220000
+SUMMARY:Michael Scott Bourdeaux's 5th annual Holiday Honky Tonk
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:🎄🤠 THE 5TH ANNUAL HOLIDAY HONKY TONK! 🤠🎄\n\nIt's be
+ coming a Blue Moon holiday tradition! Join us Saturday\, December 19th for
+  Michael Scott Boudreaux's 5th Annual Holiday Honky Tonk Special featuring
+  the Michael Scott Boudreaux Band (MSB) and a whole crew of special guests
+ !\n\nWe're bringing the honky-tonk spirit\, holiday cheer\, and some serio
+ us musical talent together for one unforgettable night!\n\n🌟 FEATURING 
+ SPECIAL GUESTS:\n🎸 Joe Bryson\n🎸 Konner James\n🎸 Jared Crenshaw\n
+ 🎸 Gage Myers\n🎸 Gray Walker\n🎸 Jacky Lynx\n\n📅 Saturday\, Dece
+ mber 19th\n🎶 SHOWTIME: 8 PM\n🎟️ COVER: $15\n\nFive years strong an
+ d still making it a holiday tradition! Round up your friends\, put on your
+  dancing boots\, and come celebrate the season the honky-tonk way!\n\nMerr
+ y Christmas\, y'all! We'll see you under the moon! 🌙🎅\n\nhttps://eve
+ nts.timely.fun/kw4jncf1/event/78485769/20261219200000
+URL:https://events.timely.fun/kw4jncf1/event/78485769/20261219200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Michael Scott Bourdeaux's 5th annual Holiday Honky Tonk
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

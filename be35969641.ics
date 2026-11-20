@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:be35969641@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261206T130000
+DTEND;TZID=America/Chicago:20261206T150000
+SUMMARY:Sonic Christmas Parade
+LOCATION:Downtown to the Oil Center\, Downtown to the Oil Center\, Lafayett
+ e
+DESCRIPTION:The annual parade marks the official arrival of Santa in Lafaye
+ tte. Santa is the star of the parade which will also have floats\, high sc
+ hool marching bands and dance clubs. Kids should bring any letters for San
+ ta to the parade where they will be collected and mailed to the North Pole
+ . The Sonic Christmas Parade is a perfect opportunity to get into the holi
+ day spirit. The parade begins at 1:00 PM at the Jefferson Street underpass
+  in Downtown. The parade will travel down Jefferson Street toward Johnston
+  on its way toward the Oil Center. After the parade passes through Downtow
+ n\, there will be an after-party held at Parc International with a chance 
+ to take pictures with Santa and enjoy the North Pole installation at the p
+ arc. For parade details call (337) 501-2600.\n\nhttps://www.lafayettetrave
+ l.com/event/sonic-christmas-parade/27992/
+URL:https://www.lafayettetravel.com/event/sonic-christmas-parade/27992/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sonic Christmas Parade
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:92f54edc7d@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270111T223000
+DTEND;TZID=America/Chicago:20270112T003000
+SUMMARY:Read Until Midnight Release Party for A Court of Forgotten Melody!
+LOCATION:302 A Jefferson Street\, Lafayette\, 302 Jefferson St\, Lafayette
+DESCRIPTION:We’re opening our doors at 10:30 p.m. on Jan. 11 for a cozy R
+ ead Until Midnight release event for A Court of Forgotten Melody!\nWe'll h
+ ave cozy twinkle lights with crafts\, drinks\, and snacks as we channel ou
+ r inner Valkyrie read-a-thon to midnight!\nAll participants must have orde
+ red their ticket and a copy of A Court of Forgotten Melody through CHB Laf
+ ayette (in-store or through Bon Temps Tix). Tickets that include a Goody B
+ ag will close 2 weeks before the event so we can prep the goodies!\nTicket
+ ing Info:\n🌟$60 -- A Court of Forgotten Melody + Goodies & In-Store Dis
+ count (Single Admission): Pre-order your copy of A Court of Forgotten Melo
+ dy by Dec. 27 @ 11:59 p.m. This ticket option includes A Court of Forgotte
+ n Melody\, a Goody Bag\, and an In-Store Discount during the party!\n🌟$
+ 55 -- A Court of Forgotten Melody + Goodies (Single Admission): Pre-order 
+ A Court of Splintered Harmony to pick up at the event by Dec. 27 @ 11:59 p
+ .m.! This single admission ticket will include A Court of Forgotten Melody
+  + A Goody Bag!\n🌟$45 -- A Court of Forgotten Melody (Single Admission 
+ - Book Only): Pre-Order your copy of A Court of Forgotten Melody as your s
+ ingle admission ticket to the midnight release party by 5:00 p.m. on Jan. 
+ 11\, 2026!\nEvery ticket covers your book purchase\, snacks\, and beverage
+ s for the event!\n\nhttps://happeningnext.com/event/read-until-midnight-re
+ lease-party-for-a-court-of-forgotten-melody-eid3a0ea9eme2
+URL:https://happeningnext.com/event/read-until-midnight-release-party-for-a
+ -court-of-forgotten-melody-eid3a0ea9eme2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Read Until Midnight Release Party for A Court of Forgotten Melo
+ dy!
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

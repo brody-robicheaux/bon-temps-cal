@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ae8e268805@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261122T130000
+DTEND;TZID=America/Chicago:20261122T160000
+SUMMARY:Bal du Dimanche -- Balfa Toujours
+LOCATION:Vermilionville\, 300 Fisher Rd\, Lafayette
+DESCRIPTION:Bayou Vermilion District & Vermilionville host the Bal du Diman
+ che (Sunday Dance) EVERY WEEK (may be pre-empted by private events). This 
+ live music series is held in Vermilionville’s Performance Center and rus
+ tic dancehall from 1-4 p.m. Admission is $12 and includes a self-guided to
+ ur of the Vermilionville Living History Museum.\nCome early and grab lunch
+  at Vermilionville’s restaurant\, La Cuisine de Maman. The restaurant is
+  open every Sunday from 11 a.m.-2 p.m. and features authentic Cajun and Cr
+ eole cuisine. On Sundays\, the restaurant features an all-you-can-eat Sund
+ ay buffet. Le Bal du Dimanche is broadcast live on KRVS Public Media 1-3 P
+ M.\nSunday\, November 22: Balfas Toujours\nAdmission to the Live Concert S
+ eries is included in your Bayou Vermilion District & Vermilionville member
+ ship. To purchase or renew your membership online\, visit this link:\nhttp
+ s://bayouvermiliondistrict.org/membership">https://bayouvermiliondistrict.
+ org/membership\nAll proceeds from this event go towards helping the Bayou 
+ Vermilion District and Vermilionville fulfill their local\, environmental 
+ and cultural missions.\n\nhttps://happeningnext.com/event/bal-du-dimanche-
+ balfa-toujours-eid3a0e5hk2s4
+URL:https://happeningnext.com/event/bal-du-dimanche-balfa-toujours-eid3a0e5
+ hk2s4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bal du Dimanche -- Balfa Toujours
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

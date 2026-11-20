@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c23b462224@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261205T150000
+DTEND;TZID=America/Chicago:20261205T190000
+SUMMARY:Noel a Broussard
+LOCATION:Broussard Chamber of Commerce\, 310 E Main St\, Broussard
+DESCRIPTION:Join us downtown Broussard for Noel a Broussard! The parade wil
+ l begin at 3:00 pm at the corner of Morgan Avenue and Albertson Parkway an
+ d will head up Morgan Street\, take a right onto Main Street\, and end at 
+ Arceneaux Park. After the parade\, join us in front of Broussard City Hall
+  for Reindeer Games\, Face Painting and Balloon Artistry\, Papa Noel's Mar
+ ket\, and The Annual Lighting of the Community Christmas Tree at 6:30 pm.\
+ n\nhttps://www.lafayettetravel.com/event/noel-a-broussard/45835/
+URL:https://www.lafayettetravel.com/event/noel-a-broussard/45835/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Noel a Broussard
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

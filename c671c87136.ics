@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c671c87136@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261120T110000
+DTEND;TZID=America/Chicago:20261120T140000
+SUMMARY:Food Truck Friday : Fall Edition
+LOCATION:Moncus Park\, 2913 Johnston St\, Lafayette
+DESCRIPTION:Food Truck Friday: Fall Edition Food Truck Friday is back at Mo
+ ncus Park for a limited run this October and November! Every Friday\, grab
+  lunch from your favorite local food trucks\, then stay awhile. Settle in 
+ under the oaks\, enjoy tables inside or out\, and make an afternoon of it 
+ with shade\, fans\, yard games\, and plenty of room for the kids to play. 
+ Trucks are announced each Friday morning on our Facebook page\, so keep an
+  eye on our page to see who's cooking that day! When: Friday\, October 2 F
+ riday\, October 9 Friday\, October 16 Friday\, October 23 Friday\, Novembe
+ r 6 Friday\, November 13 Friday\, November 20 Time: 11am to 2pm Where: Mon
+ cus Park\, 2913 Johnston St\, Lafayette Kick off your Friday the right way
+ . The fall weather's perfect for it\, so come on out\, enjoy the park\, an
+ d support some local trucks while you're at it!\n\nhttps://moncuspark.org/
+ calendar-events/food-truck-friday-fall-edition/
+URL:https://moncuspark.org/calendar-events/food-truck-friday-fall-edition/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Food Truck Friday : Fall Edition
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

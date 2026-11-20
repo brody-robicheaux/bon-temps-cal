@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4b8338f4fb@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261204T190000
+DTEND;TZID=America/Chicago:20261204T210000
+SUMMARY:Chorale Acadienne Presents: Christmas by Candlelight
+LOCATION:St. Mary Mother of the Church\, 419 Doucet Road\, Lafayette
+DESCRIPTION:Join Chorale Acadienne for Christmas by Candlelight\, two beaut
+ iful evenings of music and merriment at St. Mary Catholic Church in Lafaye
+ tte\, Louisiana 419 Doucet Rd\, Lafayette\, LA 70503. The concerts will fe
+ ature selections from Handel's Messiah\, classic carols for all to sing\, 
+ and other festive arrangements for choir and orchestra. And as always\, Ch
+ orale Acadienne will conclude the night with a candlelit finale. Tickets a
+ re available in advance at choraleacadienne.com/tickets or by calling 337-
+ 349-5342. Tickets will also be available at the door. General Admission: $
+ 25 Seniors (65+): $20 Students: $10\n\nhttps://www.lafayettetravel.com/eve
+ nt/chorale-acadienne-presents%3a-christmas-by-candlelight/45834/
+URL:https://www.lafayettetravel.com/event/chorale-acadienne-presents%3a-chr
+ istmas-by-candlelight/45834/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Chorale Acadienne Presents: Christmas by Candlelight
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

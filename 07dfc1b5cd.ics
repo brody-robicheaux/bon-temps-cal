@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:07dfc1b5cd@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261212T180000
+DTEND;TZID=America/Chicago:20261212T200000
+SUMMARY:Christmas Holiday Hoot Night
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:🎄🌙 IT’S THE MOST WONDERFUL NIGHT OF THE YEAR! 🌙🎄\
+ n\nANNUAL CHRISTMAS HOOT NIGHT AT THE BLUE MOON SALOON!\n\nGrab your Chris
+ tmas spirit and join us for our annual Christmas Hoot Night! ❤️🎶\n\
+ n🎅 Depart from the Moon at 6 PM and hit the streets for some Christmas 
+ caroling during Art Walk!\n\n🎤 Then\, come back to the Blue Moon\, pick
+  your favorite Christmas carol\, and take the stage with our very own Blue
+  Moon Christmas Band featuring:\n\n✨ Dave Trainer\n✨ Lee Tedrow\n✨ D
+ anny Devillier\n\n☕ Hot toddies\, candy canes\, Christmas cheer\, and pl
+ enty of holiday singing!\n\nWhether you're ready to belt out your favorite
+  carol or just soak up the holiday magic\, there's a place for you at the 
+ Moon.\n\nhttps://events.timely.fun/kw4jncf1/event/78485771/20261212180000
+URL:https://events.timely.fun/kw4jncf1/event/78485771/20261212180000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Christmas Holiday Hoot Night
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

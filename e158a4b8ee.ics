@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e158a4b8ee@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261212T100000
+DTEND;TZID=America/Chicago:20261212T150000
+SUMMARY:Sip & Thrift Ugly Sweater Party
+LOCATION:Acadiana Mall Cir\, Lafayette\, LA 70503\, United States\, 773 Aca
+ diana Mall Cir\, Lafayette
+DESCRIPTION:Ugly Sweater Sip & Thrift Bus Tour\nGrab your ugliest Christmas
+  sweater and get ready for a festive day of sipping\, thrifting\, and holi
+ day fun!\nJoin us on December 12th from 10 AM–3 PM as we head to Sunset 
+ and Grand Coteau to shop some amazing local spots.\n•TTMT pet pantry and
+  flea market\n•Sunset rail stop flea market\n•Le Petit Cadeaux\nTicket
+ s are $50 per person.\nParking: Acadiana Mall at the Dillard’s entrance 
+ closest to the food court.\nBus loads: 9:30 AM\nTour: 10 AM–3 PM\nAlcoho
+ l will be provided. You are also welcome to bring your own drinks and snac
+ ks. The bus has a bathroom and storage available for your purchases.\nCome
+  dressed in your best ugly Christmas sweater and get ready to shop\, sip\,
+  laugh\, and celebrate the Christmas season with us.\nMusic Disclaimer: Mu
+ sic will be played throughout the bus ride and may be loud. Song requests 
+ are welcome. We try to play edited versions when available\, but some song
+ s may contain explicit words or mature language.\nTickets are non-refundab
+ le.\n\nhttps://happeningnext.com/event/sip-andamp-thrift-ugly-sweater-part
+ y-eid3a0e55wnxo
+URL:https://happeningnext.com/event/sip-andamp-thrift-ugly-sweater-party-ei
+ d3a0e55wnxo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sip & Thrift Ugly Sweater Party
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

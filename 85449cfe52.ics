@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:85449cfe52@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261218T190000
+DTEND;TZID=America/Chicago:20261218T203000
+SUMMARY:Luke Null (Saturday Night Live!)
+LOCATION:Club 337\, 1521 W Pinhook Rd\, Lafayette
+DESCRIPTION:Luke Null (Saturday Night Live!)\nFriday December 18th\, 2026 -
+  7:00PM\nClub 337 1521 W Pinhook Rd\, Lafayette\, LA\nLafayette Comedy pre
+ sents comedian & musician LUKE NULL (as seen on Saturday Night Live!) on F
+ riday\, Dec. 18th at 7:00PM at Club 337 inside the Doubletree Hotel.\nTick
+ ets are on sale for $36 VIP (reserved seating in the first 3 rows) or $27 
+ general admission (plus taxes/fees).\nDoors open for 6:30PM\nLuke Null beg
+ an performing comedy the moment he picked up a guitar in Chicago. During h
+ is stay in the Windy city he developed his signature musical comedy style\
+ , blending witty humor with catchy earworms. This unique approach garnered
+  the attention of Lorne Michaels and earned him the chance to perform as a
+  cast member on Saturday Night live. After a year in New York as a feature
+ d player on SNL\, Luke moved to LA and is now a regular at the Hollywood I
+ mprov. He performs standup comedy at clubs and colleges across the country
+ . In 2024\, Luke released a live standup special entitled "Pretty Songs\, 
+ Dirty Words" through 800 Pound Gorilla Records\, now available on YouTube.
+ \n\nUnless otherwise stated\, please consider all of our shows as “adult
+  subject matter.”\nNo refunds will be issued unless the show is canceled
+  or rescheduled.\nNo third-party tickets allowed (do not purchase from Stu
+ bHub or other 3rd party sites)\nClub 337 is located inside the Doubletree 
+ Hotel located at 1521 W Pinhook Rd\, Lafayette\, LA. (Free Parking)\nClub 
+ 337 has theater-style seating as a first-come basis | Drinks can be purcha
+ sed at the bar | 2 full bars with a restaurant on site.\n\nhttps://happeni
+ ngnext.com/event/luke-null-saturday-night-live-eid3a0e1u4r6v
+URL:https://happeningnext.com/event/luke-null-saturday-night-live-eid3a0e1u
+ 4r6v
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Luke Null (Saturday Night Live!)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

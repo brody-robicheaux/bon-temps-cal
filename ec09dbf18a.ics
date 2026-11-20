@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ec09dbf18a@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261225T210000
+DTEND;TZID=America/Chicago:20261226T020000
+SUMMARY:Z-ro live in concert Christmas Night at Grant Street
+LOCATION:Grant Street Dance Hall\, 113 w grant st\, Lafayette
+DESCRIPTION:Z-ro live in concert Christmas Night at Grant Street\n\nhttps:/
+ /happeningnext.com/event/z-ro-live-in-concert-christmas-night-at-grant-str
+ eet-eid1ef0l8c197er
+URL:https://happeningnext.com/event/z-ro-live-in-concert-christmas-night-at
+ -grant-street-eid1ef0l8c197er
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Z-ro live in concert Christmas Night at Grant Street
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

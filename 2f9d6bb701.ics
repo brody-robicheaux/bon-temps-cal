@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2f9d6bb701@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Southern Screen Festival | 16th Annual
+LOCATION:Acadiana Center for the Arts\, 101 W Vermilion St\, Lafayette
+DESCRIPTION:Whether you are flying in from many miles away or trekking acro
+ ss town\, Southern Screen Festival attracts entertainment lovers and creat
+ ors to see something new and learn something unforgettable. With dozens of
+  films screenings\, plus an array of workshops\, panels\, parties\, and li
+ ve performances\, the four day celebration every November is sure to enter
+ tain\, educate\, and inspire. Let Southern Screen show you how the heart o
+ f Cajun Country showcases emerging and innovative storytellers! Every year
+ \, the Southern Screen Festival is honored to host some of the most intere
+ sting and innovative creators from across Louisiana and the globe. Spannin
+ g film\, television\, music\, podcasts and emerging media\, Southern Scree
+ n welcomes professionals who can share knowledge and inspire our Southern 
+ Louisiana communities Southern Screen is a multidisciplinary 501(c)(3) non
+ profit arts organization dedicated to supporting and celebrating storytell
+ ers across film\, music\, and the broader creative arts. Through year-roun
+ d events\, workshops\, and community programming\, we provide emerging and
+  established artists opportunities to develop their craft\, share their wo
+ rk\, and connect with audiences. By expanding access to diverse forms of s
+ torytelling\, Southern Screen strengthens the creative community and culmi
+ nates this work each year with theSouthern Screen Festival in November.\n\
+ nhttps://www.southernscreen.org/attend?occurrence=2026-11-21
+URL:https://www.southernscreen.org/attend?occurrence=2026-11-21
+END:VEVENT
+END:VCALENDAR

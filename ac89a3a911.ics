@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ac89a3a911@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261204T180000
+DTEND;TZID=America/Chicago:20261204T200000
+SUMMARY:Twinkle Light Night
+LOCATION:Children's Museum of Acadiana\, 201 East Congress
+DESCRIPTION:Regular Admission: $14 per person\, CMA Members: Half-off with 
+ code\, Children under 12 months: FREE\, Taxes and fees apply.\nHoliday mag
+ ic is back at the Children’s Museum of Acadiana!\nJoin us for Twinkle Li
+ ght Night on Friday\, December 4th from 6 PM to 8 PM. Presented by Carson 
+ Animal Hospital.\nBring the whole family for an evening filled with festiv
+ e fun and Christmas magic! Meet Santa\, say hello to the Grinch\, and enjo
+ y appearances from Olaf and Elsa. Kids will also experience snow in our co
+ urtyard\, decorate cookies\, and create their very own holiday keepsakes!\
+ n\nhttps://www.downtownlafayette.org/event/twinkle-light-night
+URL:https://www.downtownlafayette.org/event/twinkle-light-night
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Twinkle Light Night
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

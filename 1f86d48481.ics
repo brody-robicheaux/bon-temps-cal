@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1f86d48481@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261129T180000
+DTEND;TZID=America/Chicago:20261129T200000
+SUMMARY:Louisiana Christmas Day 2026: Fifth Anniversary Gala
+LOCATION:Heymann Performing Arts Center\, 1373 S College Rd\, Lafayette
+DESCRIPTION:Tickets: https://www.heymanncenter.com/events/2026/louisiana-ch
+ ristmas-day2\nJoin internationally acclaimed opera star André Courville a
+ nd his Atchafalaya Orchestra for our Fifth Anniversary Gala concert of you
+ r favorite Christmas songs featuring special guest stars Grammy-nominated 
+ family trio Sweet Cecilia\, Grammy-winning Cajun legend Wayne Toups\, Gram
+ my-winning Zydeco legend Chubby Carrier\, Acadiana's star singer Jennifer 
+ Kaye\, Cajun fiddler and singer-songwriter Jourdan Thibodeaux\, and Cajun 
+ accordionist and vocalist Hunter Courville.\nAnd the celebration doesn't e
+ nd with the final note! Following the concert\, join us for a special Fift
+ h Anniversary celebration featuring a champagne toast\, photos with the st
+ ars\, and more as we celebrate five years of Louisiana Christmas Day toget
+ her.\nSUNDAY\, NOVEMBER 29\, 2026 at 6:00PM\nHEYMANN PERFORMING ARTS CENTE
+ R\nLAFAYETTE\, LA\n\nhttps://happeningnext.com/event/louisiana-christmas-d
+ ay-2026-fifth-anniversary-gala-eid3a0e2w5jtb
+URL:https://happeningnext.com/event/louisiana-christmas-day-2026-fifth-anni
+ versary-gala-eid3a0e2w5jtb
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Louisiana Christmas Day 2026: Fifth Anniversary Gala
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

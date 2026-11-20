@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6bf10893d8@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261205T210000
+DTEND;TZID=America/Chicago:20261205T230000
+SUMMARY:Shotgun Lillie | Rock'n'Bowl® de Lafayette
+LOCATION:Rock'n'Bowl de Lafayette\, 905 Jefferson St\, Lafayette
+DESCRIPTION:Saturday night rock is on! Shotgun Lillie brings the rock to Ro
+ ck'n'Bowl® de Lafayette on Saturday\, December 5 at 9:00 PM. Turn it up a
+ nd come out with us!\n\nhttps://happeningnext.com/event/shotgun-lillie-roc
+ knbowl-de-lafayette-eid3a0eb54luq
+URL:https://happeningnext.com/event/shotgun-lillie-rocknbowl-de-lafayette-e
+ id3a0eb54luq
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Shotgun Lillie | Rock'n'Bowl® de Lafayette
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

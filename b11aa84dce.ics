@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b11aa84dce@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261212T180000
+DTEND;TZID=America/Chicago:20261212T200000
+SUMMARY:Thrift It\, Wear It\, Rock It!
+LOCATION:DOF Cafe\, 409 Patterson St.\, Lafayette\, LA\, 409 Patterson St\,
+  Lafayette
+DESCRIPTION:🎄✨ I’VE GOT SOMETHING NEW FOR YOU! ✨🎄\nGet ready fo
+ r a little HOLIDAY FUN with a fashion twist! 🎁👗💃🏽\nIf you love
+  thrifting\, fashion\, finding a good bargain\, getting dressed up\, laugh
+ ing with the girls\, and making memories… this one is for YOU! 🛍️
+ ❤️\nCotton Creations is taking THRIFT SHOPPING TO THE RUNWAY!\n🔥 TH
+ RIFT IT • WEAR IT • ROCK IT! 🔥\nFind the treasure.\nStyle the look.
+ \nOwn the runway!\nWe're bringing together fashion\, creativity\, confiden
+ ce\, holiday fun\, music\, games\, prizes\, photos and GIRLFRIEND TIME for
+  a festive night that's about so much more than fashion!\n✨ 15 RUNWAY PA
+ RTICIPANT SPOTS ONLY!\n💰 $30 to participate\n📅 Saturday\, December 1
+ 2\, 2026\n⏰ 6:00 PM\n📍 DOF Cafe\n409 Patterson St.\, Lafayette\, LA\n
+ So grab your girls or guys\, find that fabulous thrifted treasure\, and ge
+ t ready to WEAR IT & ROCK IT! 👠🔥\n📲 Text Rene at 337/288-2664 for
+  more information and to register to participate.\n🎄 Let’s make this 
+ holiday season stylish\, fun and unforgettable!\nTHRIFT IT • WEAR IT •
+  ROCK IT!\n💕 More Than Fashion… It’s a Vibe!\n\nhttps://happeningne
+ xt.com/event/thrift-it-wear-it-rock-it-eid3a0e6hl4sv
+URL:https://happeningnext.com/event/thrift-it-wear-it-rock-it-eid3a0e6hl4sv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Thrift It\, Wear It\, Rock It!
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

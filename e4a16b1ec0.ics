@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e4a16b1ec0@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261120T200000
+DTEND;TZID=America/Chicago:20261120T230000
+SUMMARY:HWY 90 BAND WILL ROCK "THE RUINS"
+LOCATION:The Ruins\, 1919 Kaliste Saloom Rd Suite 303\, Lafayette
+DESCRIPTION:This Friday\, November 20\, 2026\,\nMusic starts at 8:00pm\nHig
+ hway 90 Band is bringing our 70's and 80's Rock show to the stage at The R
+ uins!!\nHope to see you there\n✌️n ❤️\nPS\, we now have T-Shirts f
+ or sale. $20 ea.\n\nhttps://happeningnext.com/event/hwy-90-band-will-rock-
+ andquotthe-ruinsandquot-eid3a0ebau76c
+URL:https://happeningnext.com/event/hwy-90-band-will-rock-andquotthe-ruinsa
+ ndquot-eid3a0ebau76c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:HWY 90 BAND WILL ROCK "THE RUINS"
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

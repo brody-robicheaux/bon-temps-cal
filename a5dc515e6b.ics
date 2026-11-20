@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a5dc515e6b@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261120T183000
+DTEND;TZID=America/Chicago:20261120T203000
+SUMMARY:Making Spirits Bright
+LOCATION:LARC's Acadian Village\, 200 Greenleaf Dr\, Lafayette
+DESCRIPTION:✨ Making Spirits Bright at LARC’s Acadian Village ✨\nKick
+  off the Christmas season with us at Making Spirits Bright\, an exclusive 
+ 21+ first look at Noël Acadien au Village! 🎄🥂\nBefore the gates off
+ icially open for the Christmas season\, spend the evening surrounded by th
+ e glow of thousands of Christmas lights while enjoying live music\, delici
+ ous food\, free cocktail tastings\, and plenty of holiday cheer.\n📅 Fri
+ day\, November 20\, 2026\n⏰ 6:30 PM – Midnight\n📍 LARC’s Acadian 
+ Village\n200 Greenleaf Dr.\, Lafayette\, LA 70506\n🔞 21+ Event\n✨ WHA
+ T TO EXPECT:\n🎄 An exclusive first look at Noël Acadien au Village\n
+ 🥂 FREE cocktail tastings\n🍽️ Food\n🎶 Live music\n✨ The Villag
+ e illuminated for Christmas\n📸 Beautiful holiday photo opportunities\n
+ 🎉 A festive\, adults-only night out\n🎟️ TICKETS\nIndividual Ticket
+  — $25\nReserved Table — $210\nWhether you’re planning a date night\
+ , girls’ night\, holiday outing with friends\, or just ready to get into
+  the Christmas spirit\, Making Spirits Bright is the perfect way to start 
+ the season.\nCome sip\, eat\, listen to great music\, stroll beneath the l
+ ights\, and experience a little Christmas magic before everyone else. ❤
+ ️🎄✨\nWhere the lights glow\, the drinks flow & the Christmas magic 
+ begins!\n📞 For more information: 337-981-2364\, option 7 or 8\nMore exc
+ iting details\, including our live entertainment and evening lineup\, will
+  be announced soon—stay tuned!\n\nhttps://happeningnext.com/event/making
+ -spirits-bright-eid3a0e4b6fkw
+URL:https://happeningnext.com/event/making-spirits-bright-eid3a0e4b6fkw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Making Spirits Bright
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

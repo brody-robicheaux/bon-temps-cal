@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:93736beee3@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261204T190000
+DTEND;TZID=America/Chicago:20261204T203000
+SUMMARY:Christmas by Candlelight: Glorious Season | Grantee Event
+LOCATION:Acadiana Center for the Arts
+DESCRIPTION:Chorale Acadienne presents Christmas by Candlelight: Glorious S
+ eason\, a joyous holiday celebration featuring an original holiday composi
+ tion by director Rusty Roden as well as selections from Handel’s Messiah
+ . Come and sing along with beloved carols\, and bring the whole family!\n\
+ nhttps://choraleacadienne.com/season?occurrence=2026-12-04
+URL:https://choraleacadienne.com/season?occurrence=2026-12-04
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Christmas by Candlelight: Glorious Season | Grantee Event
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:09ee279fba@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261203T160000
+DTEND;TZID=America/Chicago:20261203T200000
+SUMMARY:Christmas Market
+LOCATION:Moncus Park\, 2913 Johnston Street\, Lafayette
+DESCRIPTION:Christmas Market 🎄 Thursday\, Dec. 3 | 4 to 8 PM | Moncus Pa
+ rk Deck the halls (and your shopping bags)! The Lafayette Farmers & Artisa
+ ns Market’s annual Christmas Market is back\, and it’s the merriest ni
+ ght of the market year. Wander beneath the Market Oaks and through the new
+  Paul A. Doerle Sr. Farmers Market Pavilion while The Magnolia Sisters fil
+ l the night with live music. 🎶✨Dozens of local Market vendors will be
+  on hand with handmade\, homegrown\, made-in-Acadiana gifts for everyone o
+ n your list (and maybe a little something for yourself too 😉). Then str
+ ike your best holiday pose for a pic with Santa and Mrs. Claus! 🎅 Grab 
+ your crew\, bring your list\, and come get your jingle on! Learn more and 
+ see the vendor list at www.moncuspark.org/christmasmarket.\n\nhttps://monc
+ uspark.org/calendar-events/christmas-market-2026/
+URL:https://moncuspark.org/calendar-events/christmas-market-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Christmas Market
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

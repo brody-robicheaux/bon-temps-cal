@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e187bd1c8a@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261205T130000
+DTEND;TZID=America/Chicago:20261205T150000
+SUMMARY:Artist Talk: Kate Gordon
+LOCATION:Acadiana Center for the Arts\, 101 W Vermilion St\, Lafayette
+DESCRIPTION:Join AcA Visual Arts Director Jaik Faulk in conversation with e
+ xhibiting artist Kate Gordon. Kate Gordon’s studio practice focuses on p
+ ainting in the expanded field\, sourcing inspiration from pop-up books\, d
+ ioramas\, and collage. The dream imagery that Gordon mines aims to capture
+  the strangeness of the waking world\, which is often not as logical as it
+  might at first appear. Gordon has shown her paintings\, collages\, and vi
+ deo works nationally\; exhibitions include a site-specific installation 
+ “Alligator Naps” at the Hilliard Art Museum\, curation into the Weathe
+ rspoon Art Museum’s “Art on Paper” exhibition\, and an invitation to
+  create a public video installation at Block 2\, a visual platform for new
+  media artists in Raleigh\, NC. Most recent professional accomplishments i
+ nclude participation in Kolaj Institute’s Artist Residency in Scotland\,
+  curation into “Is This Too Much?”\, a maximalist exhibition at Le Mie
+ ux Galleries\, and inclusion in the “Louisiana Contemporary” exhibitio
+ n at the Ogden Museum of Southern Art. Gordon currently holds the position
+  of Associate Professor of Figure Drawing & Foundations at the University 
+ of Louisiana at Lafayette. She earned an M.F.A. from the University of Nor
+ th Carolina at Greensboro and a B.F.A. from Pratt Institute.\n\nhttps://ac
+ adianacenterforthearts.org/events/community-zine-2/?occurrence=2026-12-05
+URL:https://acadianacenterforthearts.org/events/community-zine-2/?occurrenc
+ e=2026-12-05
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Artist Talk: Kate Gordon
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

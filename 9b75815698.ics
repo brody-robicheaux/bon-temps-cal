@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9b75815698@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261205T210000
+DTEND;TZID=America/Chicago:20261206T020000
+SUMMARY:Whop Bezzy live in Concert Hosted by Scarface from Baddies & Mr.Cut
+  water
+LOCATION:GRANT ST DANCE HALL\, 113 W Grant St\, Lafayette
+DESCRIPTION:🔥💎 LAFAYETTE\, GET READY! THE BADDIES ARE TAKING OVER GRA
+ NT STREET! 💎🔥\n🚨 SATURDAY\, DECEMBER 5TH\, 2026! 🚨\nIt’s goi
+ ng DOWN at GRANT STREET with WHOP BEEZY in the building! 🎤🔥\n🎉 Ho
+ sted by VELL CUT WATER & SCARFACE!\nDj Rocky on the turntables\nLadies\, b
+ ring your girls! Fellas\, grab your crew! It’s time to pop bottles\, tur
+ n up\, and enjoy a night full of beautiful people\, grown vibes\, and unfo
+ rgettable energy! 🍾🥂\n📍 113 W. Grant St.\, Lafayette\, LA\n🍾 V
+ IP SECTIONS AVAILABLE!\n📲 Text 337-519-0668 or 337-967-5719\n🔥 DON
+ ’T HEAR ABOUT IT — BE ABOUT IT! 🔥\n🚂 ROUTE RUNNERS PROMOTION —
+  FOLLOW THE TRAIN!\n#Baddies #WhopBeezy #GrantStreet #LafayetteLouisiana #
+ RouteRunnersPromotion #FollowTheTrain #December5th #TheExperience\n\nhttps
+ ://happeningnext.com/event/whop-bezzy-live-in-concert-hosted-by-scarface-f
+ rom-baddies-andamp-mrcut-water-eid27punbglkmk
+URL:https://happeningnext.com/event/whop-bezzy-live-in-concert-hosted-by-sc
+ arface-from-baddies-andamp-mrcut-water-eid27punbglkmk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Whop Bezzy live in Concert Hosted by Scarface from Baddies & Mr
+ .Cut water
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

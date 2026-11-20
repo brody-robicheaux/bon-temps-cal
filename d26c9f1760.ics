@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d26c9f1760@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261129T140000
+DTEND;TZID=America/Chicago:20261129T160000
+SUMMARY:The Nutcracker Tea
+LOCATION:Petroleum Club of Lafayette\, 111 Heymann Blvd\, Lafayette
+DESCRIPTION:Join us for The Nutcracker Tea—a magical\, family-friendly af
+ ternoon designed to introduce young audiences to the wonder of the classic
+ al ballet The Nutcracker.\nPerfect for preschool and elementary-aged child
+ ren\, while welcoming guests of all ages\, this festive experience brings 
+ the beloved story to life as it is read aloud and dancers from Lafayette B
+ allet Theatre perform select variations from the full-length ballet. Young
+  guests will have the special opportunity to meet favorite Nutcracker char
+ acters—and even learn part of a variation themselves!\nThe afternoon inc
+ ludes a festive tea with savory bites and holiday sweets\, hands-on crafts
+ \, engaging activities\, and memorable photo opportunities with members of
+  the cast.\n\nhttps://happeningnext.com/event/the-nutcracker-tea-eid3a0e83
+ 2ket
+URL:https://happeningnext.com/event/the-nutcracker-tea-eid3a0e832ket
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Nutcracker Tea
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a3c02a4671@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261211T193000
+DTEND;TZID=America/Chicago:20261211T210000
+SUMMARY:Brian Posehn (Mandalorian\, Just Shoot Me\, Seinfeld\, The Big Bang
+  Theory)
+LOCATION:Club 337\, Doubletree-Lafayette\, 1521 W Pinhook Rd\, Lafayette
+DESCRIPTION:Friday\, Dec. 11th @ 7:30PM\nClub 337 1521 W Pinhook Rd\, Lafay
+ ette\, LA\nLafayette Comedy presents the return of BRIAN POSEHN (as seen o
+ n Mandalorian\, Just Shoot Me\, Seinfeld\, The Big Bang Theory) on Friday\
+ , Dec. 11th @ 7:30 PM at Club 337.\nTickets are on sale now:\nVIP (reserve
+ d seating in the first 3 rows\, center\, left\, and right of stage): $35 (
+ plus taxes/fees)\nGeneral Admission (entry & a seat): $30 (plus taxes/fees
+ )\nDoors open for 6:15 PM.\nAges 18+\nBrian Posehn has been busy for a whi
+ le. As a writer/actor/stand-up comic\, he doesn’t have a ton of downtime
+ . He just recorded his fourth hour-long stand-up special. He’s currently
+  co-creating and starring in an upcoming cartoon for Nickelodeon with Fall
+  Out Boy’s Joe Trohman. Brian was an NSA intern on TruTV’s Top Secret 
+ Videos. You can also catch Brian on the popular Disney Plus show The Manda
+ lorian\, the acclaimed Netflix show Lady Dynamite\, FX’s You’re The Wo
+ rst\, and in his recurring roles on The Big Bang Theory and New Girl. He w
+ as one of the stars of Comedy Central's popular show\, The Sarah Silverman
+  Program. He has also appeared on such seminal sitcoms as Seinfeld\, NewsR
+ adio\, Everybody Loves Raymond\, Friends\, The Neighborhood\, and a recurr
+ ing role on Just Shoot Me.\n\nIn the sketch comedy world\, he’s known as
+  one of the writers and performers on HBO's acclaimed Mr. Show\, in 2015 h
+ e co-produced Odenkirk and Cross’s return to sketch with the Netflix hit
+ \, With Bob and David. He was featured in the films Devil’s Rejects and 
+ The Five-Year Engagement. In 2015\, he starred in the dark\, indie comedy 
+ Uncle Nick.\nIn stand-up comedy\, he’s known as one of the original memb
+ ers of the Comedians of Comedy. He’s released two half-hour specials for
+  Comedy Central\, four comedy albums\, and three hour-long specials--The F
+ artist\, Criminally Posehn\, and 25 X 2.\n\nIn voice acting\, he’s done 
+ everything from Scooby Doo to a recent role on The Simpsons. He starred on
+  the animated shows Mission Hill and 3 South and has turned up in Adventur
+ e Time\, American Dad\, Bob’s Burgers\, and Steven Universe\, to name a 
+ few. His voice was featured in the 2017 DreamWorks animated comedy\, Capta
+ in Underpants.\n\nIn the last several years\, he’s also been able to pro
+ duce and host a popular D&D comedy podcast\, Nerd Poker\, and co-write 45 
+ issues of the best-selling Marvel comic book series Deadpool. In 2018\, he
+  released his first book\, Forever Nerdy. In 2019\, he completed a comedy 
+ metal album\, Grandpa Metal\, featuring metal legends from Anthrax\, Dethk
+ lok\, Slayer and Soundgarden.\n\nGrandpa Metal was released to rave review
+ s in the metal world in February of 2020. In May\, he was featured on Cele
+ brity Worst Cooks on Food Network. He currently has a weekly two-hour show
+  spinning his favorite metal songs on GimmeMetal.com. In 2021\, he plans t
+ o compete on American Ninja Warrior\, Top Chef\, and So You Think You Can 
+ Dance. After he breaks TMZ and the Internet\, when footage of him beating 
+ up a narwhal surfaces\, he plans to quit showbiz.\nUnless otherwise stated
+ \, please consider all of our shows as “adult subject matter.”\nNo ref
+ unds will be issued unless the show is canceled or rescheduled.\nNo third-
+ party tickets allowed (do not purchase from StubHub or other 3rd party sit
+ es)\nClub 337 is located inside the Doubletree Hotel located at 1521 W Pin
+ hook Rd\, Lafayette\, LA. (Free Parking)\nClub 337 has theater-style seati
+ ng as a first-come basis | Drinks can be purchased at the bar | Never a dr
+ ink minimum | 2 full bars with a restaurant on site.\n\nhttps://happeningn
+ ext.com/event/brian-posehn-mandalorian-just-shoot-me-seinfeld-the-big-bang
+ -theory-eid3a0dqs1cpw
+URL:https://happeningnext.com/event/brian-posehn-mandalorian-just-shoot-me-
+ seinfeld-the-big-bang-theory-eid3a0dqs1cpw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Brian Posehn (Mandalorian\, Just Shoot Me\, Seinfeld\, The Big 
+ Bang Theory)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

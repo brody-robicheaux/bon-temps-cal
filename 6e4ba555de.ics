@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6e4ba555de@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261121T170000
+DTEND;TZID=America/Chicago:20261121T190000
+SUMMARY:Ragin' Fighting Championship 7
+LOCATION:Heymann Performing Arts Center\, 1373 S College Rd\, Lafayette
+DESCRIPTION:ALL AGES NEED A TICKET\nExperience an action-packed night of li
+ ve combat sports featuring youth MMA\, rising amateur talent and professio
+ nal fighters from across Louisiana and beyond.\n\nhttps://www.heymanncente
+ r.com/events/2026/ragin-fighting-championship-7
+URL:https://www.heymanncenter.com/events/2026/ragin-fighting-championship-7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ragin' Fighting Championship 7
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

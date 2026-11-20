@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:af88db8b41@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261211T173000
+DTEND;TZID=America/Chicago:20261211T210000
+SUMMARY:Noël Acadien au Village
+LOCATION:LARC's Acadian Village\, 200 Greenleaf Dr\, Lafayette
+DESCRIPTION:Lafayette's big Christmas lights festival: about half a million
+  lights across the Acadian Village\, including the lit-up chapel\, plus ho
+ liday displays\, live music\, carnival rides\, local food\, photos with Sa
+ nta and the Christmas Store.\n\nTickets: $10 in advance at area ShopRite s
+ tores\, $11 online (plus a fee) or $12 at the gate. Kids 2 and under get i
+ n free.\n\nIt's a fundraiser for LARC\, a Lafayette nonprofit that support
+ s people with intellectual and developmental disabilities. Dates here are 
+ from LARC's 2026 announcements\; check the village's website or Facebook p
+ age for weather closures.\n\nhttps://acadianvillage.org/noel-acadien-au-vi
+ llage/
+URL:https://acadianvillage.org/noel-acadien-au-village/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Noël Acadien au Village
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

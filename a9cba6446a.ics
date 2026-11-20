@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a9cba6446a@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261218T180000
+DTEND;TZID=America/Chicago:20261218T210000
+SUMMARY:Papa Noel's VIP Party 2026
+LOCATION:Moncus Park\, 2913 Johnston Street\, Lafayette
+DESCRIPTION:Join us for a night of Christmas Magic!\nAbout this Event\nPapa
+  Noel's VIP Party\nJoin us for a special evening at Christmas in the Park 
+ presented by First Horizon Bank! We've created an exclusive holiday VIP ex
+ perience\, made magical by Darnall\, Sikes\, & Frederick CPA & Cetera on t
+ he first night of this festival holiday celebration\, Friday\, December 18
+ th.\nYour VIP access includes:\nComplimentary drinks\nPremium viewing area
+  for live music by The Skyliners Big Band Jazz\nThis festive experience is
+  perfect for all ages\, but space is limited.\nPlease reserve a ticket for
+  each member of your party (i.e. the Boudreaux family\, 2 adults + 2 kids 
+ = 4 tickets reserved . )\nCloser to the event date\, a Moncus Park Team Me
+ mber will be hand delivering your exact wristband count to the company off
+ ice you specified in your registration. This wristband will serve as your 
+ 'ticket' into the December 18th\, Papa Noel VIP Event.\nCome celebrate the
+  season in style at Moncus Park!\n\nhttps://happeningnext.com/event/papa-n
+ oels-vip-party-2026-eid1ef0l8b68lba
+URL:https://happeningnext.com/event/papa-noels-vip-party-2026-eid1ef0l8b68l
+ ba
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Papa Noel's VIP Party 2026
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

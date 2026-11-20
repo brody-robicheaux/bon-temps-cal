@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bc9822c977@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261223T110000
+DTEND;TZID=America/Chicago:20261223T130000
+SUMMARY:Ageless Healthcare 18th Annual Christmas Bash
+LOCATION:Martin Luther King Multipurpose Center\, 309 Cora St\, Lafayette
+DESCRIPTION:Christmas comes but once a year and this year it’s a party fo
+ r a life time! This year we are bringing the biggest Christmas bash to the
+  MLK center in Lafayette. Wednesday December 23rd. It’s Ageless Healthca
+ re’s Christmas Bash! Live in concert it’s Roi Chip Anthony! And Ladies
+  get ready to clock that tea with Kim Mccoy! And if you’re too blessed t
+ o be stressed\, make sure you’re in the building with David Sylvester! F
+ ree 50 inch TVs\, Recliners\, Prizes throughout the day! Plus in concert J
+ J Caillier plus Leah Simone. Mr. Hot Topic! And the legendary Patrick Henr
+ y! And Best of all\, It’s All Free to the Public. Bring your mom\, dad\,
+  grandma\, grandpa. DJ Bobby Caillier\, Superjock\, Soul Doctor! Free BBQ 
+ Dinners at Noon! From 11am to 4pm at the MLK Building! It’s Ageless Heal
+ thcare Christmas Bash! See you there!\n\nhttps://happeningnext.com/event/a
+ geless-healthcare-18th-annual-christmas-bash-eid3a0e6xf07q
+URL:https://happeningnext.com/event/ageless-healthcare-18th-annual-christma
+ s-bash-eid3a0e6xf07q
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ageless Healthcare 18th Annual Christmas Bash
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

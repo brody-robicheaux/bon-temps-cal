@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ab18e77306@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261128T080000
+DTEND;TZID=America/Chicago:20261128T120000
+SUMMARY:Lafayette Farmers & Artisans Market
+LOCATION:Moncus Park\, 2913 Johnston Street\, Lafayette
+DESCRIPTION:Lafayette Farmers & Artisans Market Every Saturday | 8:00 AM to
+  12:00 PM | Moncus Park | Rain or Shine There is no better way to start a 
+ Saturday in Acadiana. Every week\, the Lafayette Farmers and Artisans Mark
+ et transforms the heart of Moncus Park into a lively gathering place\, whe
+ re local farmers\, artisans\, and craftspeople come together to share the 
+ best of our region. Wander the rows and you will find tables overflowing w
+ ith just-picked produce\, local honey\, fresh flowers\, baked goods\, hand
+ made crafts\, and one-of-a-kind finds from the makers who pour their heart
+ s into them. Whether you come for the produce\, the people\, or simply the
+  joy of a morning outdoors\, the market is where Lafayette starts its week
+ end. Come hungry\, shop local\, and make a morning of it! Parking & Gettin
+ g There We guide thousands of visitors in and out every Saturday morning\,
+  so parking may take a few extra minutes during peak times\, but our team 
+ keeps things moving all morning! Our parking lot is $2 per hour\, or free 
+ for Moncus Park members. All proceeds support Moncus Park\, a nonprofit pa
+ rk conservancy. Please only park at Moncus Park\, towing is strictly enfor
+ ced by a third party in neighboring lots. Prefer to skip the parking altog
+ ether? Walking or biking in is always a breeze! Weekly Vendor Lineup Curio
+ us who's setting up shop this Saturday? Check the Lafayette Farmers & Arti
+ sans Market Facebook page the Friday before market day for the full vendor
+  list. Become a Vendor Interested in joining us as a farmer\, artisan\, or
+  maker? The Lafayette Farmers & Artisans Market is a producer-only market\
+ , meaning all products sold must be grown\, raised\, baked\, crafted\, or 
+ otherwise produced by the vendor. Reselling products made by someone else 
+ is not permitted. Vendor applications are accepted twice each year during 
+ the following application periods: January 1 - February 15 July 1 - August
+  15 The market currently hosts more than 150 vendors\, and many categories
+  are at capacity. At this time\, we are not accepting applications from mo
+ st non-farm-based vendors until the next application period. However\, we 
+ are always interested in hearing from local producers of fresh produce\, m
+ eat\, dairy\, and other farm-based products. Before applying\, please revi
+ ew our vendor categories and eligibility requirements in the Market Rules 
+ & Regulations. Questions can be directed to market@moncuspark.org. If you'
+ d like to learn more\, visit the market website: Market at Moncus Park Que
+ stions? Reach the market team anytime at market@moncuspark.org. To learn m
+ ore\, visit the market's website: marketatmoncuspark.com\n\nhttps://moncus
+ park.org/calendar-events/farmersmarket/
+URL:https://moncuspark.org/calendar-events/farmersmarket/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lafayette Farmers & Artisans Market
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

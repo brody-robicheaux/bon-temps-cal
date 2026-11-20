@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:74041e49a6@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261205T180000
+DTEND;TZID=America/Chicago:20261205T210000
+SUMMARY:Home for the Holidays with the Dopsie Family: Christmas Tree Concer
+ t
+LOCATION:Parc Sans Souci\, 201 Polk St
+DESCRIPTION:There's no place like Downtown for the holidays!\nJoin us on Sa
+ turday\, December 5th\, as we transform Parc Sans Souci into a festive win
+ ter wonderland for an evening of live music\, holiday cheer\, and the ligh
+ ting of Downtown Lafayette’s 25-foot Christmas tree!\nThis year’s Chri
+ stmas concert is extra special as we present Home for the Holidays with th
+ e Dopsie Family! For a one-of-a-kind holiday celebration\, we're bringing 
+ the Dopsie family together on stage for an unforgettable evening of music\
+ , family\, and Christmas magic with performances by Mike Dopsie & the Zyde
+ co Entourage and Rockin' Dopsie & the Zydeco Twisters!\nThe holiday fun do
+ esn't stop there! Enjoy a special appearance by the Grinch\, the iconic Co
+ ca-Cola Christmas truck and beloved Coca-Cola Polar Bear\, festive activit
+ ies with our Downtown Ambassadors\, and hands-on fun with CMA on the Go!\n
+ Gather your family and friends\, enjoy delicious food from local vendors\,
+  and celebrate the most wonderful time of the year with us in the heart of
+  Downtown Lafayette!\n📅 Saturday\, December 5th\n⏰ 6 PM – 9 PM\n
+ 📍 Parc Sans Souci | Downtown Lafayette\nFood Vendors:\nReggie's Soulfoo
+ d\nBoss Eatz\nDomochi Donuts\nDowntown’s Merry & Bright Holiday Experien
+ ce is presented by Lafayette Coca-Cola Bottling Company\, with support fro
+ m Lafayette Travel\, The Acadiana Advocate\, and Chase Tower.\nCome celebr
+ ate the season with us as we bring the community together for a Downtown h
+ oliday tradition filled with music\, memories\, and a little Christmas mag
+ ic!\n\nhttps://www.downtownlafayette.org/event/rockin-around-the-christmas
+ -tree-concert
+URL:https://www.downtownlafayette.org/event/rockin-around-the-christmas-tre
+ e-concert
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home for the Holidays with the Dopsie Family: Christmas Tree Co
+ ncert
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ce270e28d8@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261128T230000
+DTEND;TZID=America/Chicago:20261129T010000
+SUMMARY:Knives in the Champion
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:South Louisiana marsh-psych misfits\, Knives in the Champion fo
+ rmed in 2024 to melt their collectively favored genres into one roux. Afte
+ r 2 years of honing their creative efforts in the shadows\, the 4-piece in
+ troduced themselves with the release of their debut\, self-titled album (K
+ ITC) in August of 2026.  KITC’s sound reflects their inspiration from h
+ eavy-psych\, desert rock and math rock\, as well as traditional rock n’ 
+ roll from earlier decades.\n\nhttps://events.timely.fun/kw4jncf1/event/784
+ 85760/20261128230000
+URL:https://events.timely.fun/kw4jncf1/event/78485760/20261128230000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Knives in the Champion
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

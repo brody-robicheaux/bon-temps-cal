@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0e93be7752@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261212T100000
+DTEND;TZID=America/Chicago:20261212T120000
+SUMMARY:Family Nutcracker Painting Class
+LOCATION:Cake Society Studio • 1507 Kaliste Saloom Rd\, Suite B\, Lafay\,
+  1507 Kaliste Saloom Rd\, Lafayette
+DESCRIPTION:Who’s painting theirs hot pink? 🎨🎄\nJoin us for our Fam
+ ily Nutcracker Paint Class at Cake Society Studio! Come with a friend\, br
+ ing the family\, or grab a seat for yourself. Everyone gets their own 12-i
+ nch wooden nutcracker to paint and take home. Go classic Christmas or pick
+  the boldest colors on the table. We’ll guide you along the way and have
+  hot cocoa and coffee ready.\n📅 Saturday\, December 12 at 10 a.m.\n📍
+  Cake Society Studio • 1507 Kaliste Saloom Rd\, Suite B\, Lafayette\n
+ 🎟️ $35 per painter or $110 for four painters • All supplies include
+ d\nAll ages and skill levels are welcome. Children 12 and under must be ac
+ companied by a ticketed adult.\nReserve your seats at https://cakesocietys
+ tudio.com/classes/nutcracker-paint-party\n\nhttps://happeningnext.com/even
+ t/family-nutcracker-painting-class-eid3a0ebau7i5
+URL:https://happeningnext.com/event/family-nutcracker-painting-class-eid3a0
+ ebau7i5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Family Nutcracker Painting Class
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

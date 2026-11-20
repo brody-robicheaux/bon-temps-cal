@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:01b30bb3cf@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261120T163000
+DTEND;TZID=America/Chicago:20261120T173000
+SUMMARY:Guided Meditation - Jenni
+LOCATION:Paths to Restoration\, 107 Montrose Ave\, Lafayette
+DESCRIPTION:This class offers a guided experience to slow down\, quiet the 
+ mind\, and reconnect with yourself through breath\,\nreflection\, stillnes
+ s\, and nature-inspired meditation.\n\nhttps://happeningnext.com/event/gui
+ ded-meditation-jenni-eid3a0ebra8x1
+URL:https://happeningnext.com/event/guided-meditation-jenni-eid3a0ebra8x1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Guided Meditation - Jenni
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

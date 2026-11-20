@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:53d7dc403e@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261212T130000
+DTEND;TZID=America/Chicago:20261212T220000
+SUMMARY:Fall '26 End of Season Shows: Day 1
+LOCATION:Feed N Seed Lafayette\, 106 N Grant St\, Lafayette
+DESCRIPTION:An all ages event!\nSCHEDULE\nRock 101 (Wed/Fri)\, 1:00 PM - 2:
+ 00 PM | ROCK 101\nPop Punk & Emo\, 2:00 PM - 4:00 PM | PERFORMANCE PROGRAM
+ \nHair Metal\, 4:00 PM - 6:00 PM | PERFORMANCE PROGRAM\nBest of the 2000's
+ \, 6:00 PM - 8:00 PM | PERFORMANCE PROGRAM\nYacht Rock (Adult Band)\, 8:00
+  PM - 10:00 PM | ADULT PERFORMANCE PROGRAM\nLOCATION\nFeed N Seed | 106 N 
+ Grant St\, Lafayette\, LA 70501\nhttps://belleviehospitality.com/propertie
+ s/feed-n-seed\nTICKETS AT THE DOOR\n$10 cash only cover per person at the 
+ door. Tickets are not available in advance.\n\nABOUT ROCK 101\nRock 101 is
+  one of School of Rock Lafayette's top programs for kids and beginners. St
+ udents have one weekly group rehearsal where they learn to play classic ro
+ ck songs that have been simplified for beginner musicians. Additionally\, 
+ Rock 101 students in Lafayette have a weekly private music lesson with an 
+ instructor who helps them learn the concepts and skills behind their perfo
+ rmance songs.\nABOUT THE PERFORMANCE PROGRAM\nThe Performance Program at S
+ chool of Rock Lafayette is our hallmark music program\, where tens of thou
+ sands of students enroll each year. It consists of a weekly group rehearsa
+ l where kids and teens learn by playing rock music's most iconic songs wit
+ h a band composed of their peers. Students are assigned songs and parts th
+ at are tailored to them based on their age\, experience and ability to lea
+ rn new skills and concepts. Students then work through their parts in week
+ ly private music lessons\, refining the skills and concepts that those son
+ gs introduce. The goal of this curriculum is to prepare kids and teens for
+  live performances. Every few months\, School of Rock Lafayette Performanc
+ e Program students take the stage and play at local Lafayette music venues
+  in front of a live audience.\nABOUT THE ADULT BAND\nSchool of Rock Lafaye
+ tte's Adult Program is for students over 18 years old who are looking to e
+ ither improve their musical proficiency or pick up an instrument with no p
+ rior musical experience. As with most School of Rock music programs\, the 
+ Adult Program uses a performance-based music education approach. This mean
+ s the curriculum focuses on learning music concepts and applying them in a
+  live performance setting. Our Adult Music Program includes one weekly pri
+ vate music lesson and a weekly group rehearsal. Every student at School of
+  Rock Lafayette is placed in a band of fellow adults and then assigned spe
+ cific songs as a way of learning key music concepts and skills. Adult stud
+ ents then take the stage to play at a live show in Lafayette.\n\nhttps://h
+ appeningnext.com/event/fall-26-end-of-season-shows-day-1-eid3a0ea1rhq8
+URL:https://happeningnext.com/event/fall-26-end-of-season-shows-day-1-eid3a
+ 0ea1rhq8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fall '26 End of Season Shows: Day 1
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

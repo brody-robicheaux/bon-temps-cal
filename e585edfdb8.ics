@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e585edfdb8@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261206T150000
+DTEND;TZID=America/Chicago:20261206T170000
+SUMMARY:Between The Pages
+LOCATION:Synergy Metaphysical Shop\, 292 Ridge Rd\, Lafayette
+DESCRIPTION:📚 BETWEEN THE PAGES\nA Synergy Book Swap\nGot books on your 
+ shelf that you’ve loved\, finished\, or are simply ready to pass along? 
+ Bring them to Synergy and let them find their next reader.\nJoin us Sunday
+ \, December 6 at 3 PM for a FREE afternoon of books\, games\, laughs\, and
+  a little friendly competition.\nBring up to 5 gently used books in good c
+ ondition to add to our swap. Then we’ll play a few fun games to determin
+ e picking order as we make our way through the books. So this won’t be a
+  free-for-all around a table. Everyone will get their turn to browse\, cho
+ ose\, and hopefully discover something they wouldn’t have picked up othe
+ rwise.\nAll kinds of books are welcome: fiction\, fantasy\, romance\, myst
+ ery\, horror\, spirituality\, witchcraft\, mythology\, self-development\, 
+ poetry\, memoirs\, and more.\n📚 Bring 1–5 books\n🎲 We’ll play ga
+ mes to determine picking order\n📖 Choose new-to-you books to take home\
+ n✨ All genres welcome\n🤎 Completely FREE\nCome hang out\, meet other 
+ readers\, play with us\, and give a few old books a brand-new chapter.\nSu
+ nday\, December 6 • 3 PM\n📍 Synergy Metaphysical Shop\nFREE\nBring bo
+ oks you’ve loved. Leave with something new to love.\n\nhttps://happening
+ next.com/event/between-the-pages-eid3a0e6736r2
+URL:https://happeningnext.com/event/between-the-pages-eid3a0e6736r2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Between The Pages
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

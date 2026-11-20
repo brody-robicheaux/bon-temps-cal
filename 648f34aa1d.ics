@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:648f34aa1d@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261211T180000
+DTEND;TZID=America/Chicago:20261211T200000
+SUMMARY:Copy of Cypress Street Studios featuring Hijack The Float
+LOCATION:AOC Community Media\, 101 Jefferson Street\, Lafayette
+DESCRIPTION:CSS is an immersive training event where volunteers learn the a
+ rt of live show production\, focusing on camera operation and directing.\n
+ About this Event\nThreshold is an immersive training event where volunteer
+ s learn the art of live show production\, focusing on camera operation\, a
+ udio management\, and promotional photography.\nArrival time: 6 pm\nTraini
+ ng: 6 - 7 pm\nLIVE Show: 7 - 8 pm\n\nhttps://happeningnext.com/event/copy-
+ of-cypress-street-studios-featuring-hijack-the-float-eid1ef0l8mjlw2r
+URL:https://happeningnext.com/event/copy-of-cypress-street-studios-featurin
+ g-hijack-the-float-eid1ef0l8mjlw2r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Copy of Cypress Street Studios featuring Hijack The Float
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7e81f90333@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261219T180000
+DTEND;TZID=America/Chicago:20261219T200000
+SUMMARY:Crystal Christmas - Holiday Singing with Crystal Harp
+LOCATION:LARC's Acadian Village\, 200 Greenleaf Dr\, Lafayette
+DESCRIPTION:Crystal Christmas: An Immersive Holiday Sound Experience\nSatur
+ day\, December 19\, 2026 | 6:00–7:00 PM\nLARC’s Acadian Village Chapel
+  | Lafayette\, Louisiana\nhttps://acadianvillage.org/\nCelebrate the beaut
+ y and wonder of the Christmas season through an enchanting hour of music\,
+  featuring the luminous sounds of crystal singing bowls\, harp\, and the s
+ inging Mermaid Voices of Susan Grain\, Lori Henderson and Cindy Dressill.\
+ nCrystal Christmas weaves the Mermaid voices together with seasonal melodi
+ es\, layered soundscapes\, delicate harp melodies\, and the ethereal reson
+ ance of crystal bowls and crystal harp. This angelic crystallizing music i
+ s meant to uplift you in to pausing\, breathing and reconnecting with the 
+ wonder of the Season.\nJoin us inside the beautiful Acadian Village Chapel
+  dripping with twinkling lights!Crystal Christmas is a performance happeni
+ ng within the Chapel at Acadian Village.\nAll donations go to LARC’s mis
+ sion to help individuals with intellectual and developmental disabilities 
+ reach their goals of self-sufficiency\, quality of life and self-worth.\n
+ ✨ Saturday\, December 19\n✨ 6:00–7:00 PM\n✨ LARC’s Acadian Villa
+ ge Chapel\nhttps://acadianvillage.thundertix.com/events/273507\nWe look fo
+ rward to sharing this musical evening with you!\n\nhttps://happeningnext.c
+ om/event/crystal-christmas-holiday-singing-with-crystal-harp-eid3a0ebra69l
+URL:https://happeningnext.com/event/crystal-christmas-holiday-singing-with-
+ crystal-harp-eid3a0ebra69l
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Crystal Christmas - Holiday Singing with Crystal Harp
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

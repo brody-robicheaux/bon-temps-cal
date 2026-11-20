@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9925a69856@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261207T180000
+DTEND;TZID=America/Chicago:20261207T200000
+SUMMARY:2026 State of Homelessness Forum
+LOCATION:Lafayette Public Library\, Main Branch\, 301 W Congress St\, Lafay
+ ette
+DESCRIPTION:What does the latest data tell us about homelessness in Acadian
+ a? What's changing\, what's working\, and what comes next?\nJoin the Acadi
+ ana Regional Coalition on Homelessness & Housing (ARCH) for our fourth ann
+ ual State of Homelessness Forum on Monday\, December 7\, at 6 p.m. at the 
+ Lafayette Public Library – Main Branch.\nThis year's forum will move bey
+ ond the basics to take a closer look at:\n🔢The numbers - Current homele
+ ssness data\, regional trends\, and what they tell us about our community.
+ \n💪The work - New initiatives\, housing stabilization efforts\, emergin
+ g partnerships\, and lessons learned from an eventful year.\n🖼️The bi
+ gger picture - Housing needs across Acadiana\, the changing policy landsca
+ pe\, and opportunities for community involvement.\n⏭️What's next - The
+  challenges\, priorities\, and decisions that will shape our region's resp
+ onse in 2027.\nWe'll hear from local and statewide partners\, share update
+ s on ARCH's work\, and make time for questions from the community.\nThis g
+ athering also serves as ARCH's Annual Meeting.\nEvent Details:\nMonday\, D
+ ecember 7\, 2026 | 6 p.m.\nLafayette Public Library – Main Branch\n2nd F
+ loor Conference Room\n301 W. Congress Street\, Lafayette\nFREE and OPEN to
+  the public. Registration encouraged due to limited seating. Walk-ins welc
+ ome as space allows.\n\nhttps://happeningnext.com/event/2026-state-of-home
+ lessness-forum-eid3a0eae2jf6
+URL:https://happeningnext.com/event/2026-state-of-homelessness-forum-eid3a0
+ eae2jf6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:2026 State of Homelessness Forum
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

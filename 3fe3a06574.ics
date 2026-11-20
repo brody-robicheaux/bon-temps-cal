@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:3fe3a06574@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261209T193000
+DTEND;TZID=America/Chicago:20261209T213000
+SUMMARY:Silverbacks' Annual Improvised Holiday Show
+LOCATION:Cité des Arts\, 109 Vine St\, Lafayette
+DESCRIPTION:It’s nearly that time of year again! On *Wednesday*\, Decembe
+ r 9th\, Silverbacks Improv Theatre will interpret their signature improvis
+ ations through the lens of a brand new\, completely made up Holiday!\nFor 
+ this show\, each of the performers will be wearing a Holiday Sweater and i
+ nvite the audience to do the same. ANY Holiday themed items are welcome 
+ – the audience is invited to wear their finest Christmas\, Easter\, Mard
+ i Gras\, or even Groundhog Day sweaters to add to the fun.\nOur previously
+  invented and celebrated holidays are “Paper-Clip Appreciation Day” (2
+ 012)\, “Garden Gnome Day” (2013)\, “Leonardo DaVinci’s Mother’s 
+ Birthday” (2014)\, “Picasso-Palooza” (2015)\, “St. Lampshades Day
+ ” (2016)\, “Structural Support Day” (2017)\, and “Snowpocalypse: T
+ he Anniversary of that One Day It Snowed in Louisiana” (2018)\, "Aggress
+ ive Yoga Day" (2019)\, "Don't Fit Day" (2020)\, "Balloon Heritage Day" (20
+ 22)\, "Sunphobia Day" (2023)\, "Arbor Day II" (2024)\, and "Hydro-Celebrat
+ ion" (2025).\nWEDNESDAY\, December 9\, 2026\n7:30 pm at Cite des Arts\, MA
+ IN Stage\nTickets are $15 online or at the door!\n\nhttps://happeningnext.
+ com/event/silverbacks-annual-improvised-holiday-show-eid3a0ebmlpc7
+URL:https://happeningnext.com/event/silverbacks-annual-improvised-holiday-s
+ how-eid3a0ebmlpc7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Silverbacks' Annual Improvised Holiday Show
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

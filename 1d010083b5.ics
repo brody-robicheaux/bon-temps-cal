@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1d010083b5@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261218T200000
+DTEND;TZID=America/Chicago:20261218T220000
+SUMMARY:Mas Donkey
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:Mas Donkey\n\nStraight out of Lafayette\, Louisiana\, Mas Donke
+ y brings a fresh dose of funk with a sound built for good times\, deep gro
+ oves\, and moving the dance floor. Blending funk\, soul\, rock\, R&B\, and
+  a healthy dose of musical unpredictability\, Mas Donkey delivers a style 
+ that is equal parts funky\, playful\, and undeniably original.\n\nWith a g
+ rowing catalog of original music\, Mas Donkey has developed a sound that m
+ oves effortlessly between infectious rhythms\, soulful melodies\, catchy h
+ ooks\, and offbeat musical creativity. Tracks like 'Fresh Bowl of Funk\,' 
+ 'GURL\,' and 'Baby\, Put Yo Phone Down' showcase an artist who isn't afrai
+ d to have fun\, experiment with sounds\, and keep listeners guessing.\n\nR
+ ooted in the musical spirit of Acadiana but drawing from a much wider worl
+ d of funk and groove\, Mas Donkey brings personality and originality to ev
+ ery performance.\n\nIf you like your music funky\, your grooves deep\, and
+  your live shows full of surprises\, Mas Donkey is ready to funkify your n
+ ight!\n\nhttps://events.timely.fun/kw4jncf1/event/78517091/20261218200000
+URL:https://events.timely.fun/kw4jncf1/event/78517091/20261218200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mas Donkey
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

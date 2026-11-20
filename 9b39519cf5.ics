@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9b39519cf5@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261202T190000
+DTEND;TZID=America/Chicago:20261202T203000
+SUMMARY:Maria Bamford (Lady Dynamite\, The Comedians of Comedy\, Bob's Burg
+ ers)
+LOCATION:Club 337\, 1521 W Pinhook Rd\, Lafayette
+DESCRIPTION:Lafayette Comedy presents MARIA BAMFORD (Lady Dynamite\, The Co
+ medians of Comedy\, Bob's Burgers) on Wednesday\, Dec. 2 at 7:00 PM.\nDoor
+ s open at 6:30 PM\nTickets are on sale for $40 VIP (reserved seating in fi
+ rst 3 rows) or $30 General Admission (plus taxes/fees).\nMaria Bamford is 
+ revered for her deeply personal and experimental comedy about mental illne
+ ss. She’s the author of the New York Times bestselling memoir Sure\, I
+ ’ll Join Your Cult and is the star of four hour-long standup specials (L
+ ocal Act\, Weakness is the Brand\, Old Baby and Maria Bamford: the special
+ \, special\, special!) and the surreal\, semi-autobiographical Netflix com
+ edy series Lady Dynamite\, about a comedian who suffers a nervous breakdow
+ n. Maria was the first female comic to have two half-hour Comedy Central P
+ resents specials and starred alongside Patton Oswalt\, Zach Galifianakis a
+ nd Brian Posehn in The Comedians of Comedy. She also created and starred i
+ n the cult hit web series The Maria Bamford Show\, in which she plays all 
+ the characters.\nMaria is often recognized for her prolific voiceover work
+ \, including characters on Big Mouth and its spinoff Human Resources\, Hou
+ seBroken\, Teenage Euthanasia\,\nSanta\, Inc.\, Bob’s Burgers\, Bojack H
+ orseman\, Summer Camp Island\, Adventure Time\, Talking Tom and Friends\, 
+ Legend of Korra\, Puss in Boots\, CatDog and PBS’s Emmy-winning series W
+ ord Girl. She played DeBrie Bardeaux on Netflix’s Arrested Development a
+ nd recurred on the ABC hit series Fresh off the Boat. Other TV guest roles
+  include Night Court\, Life & Beth\, Portlandia\, Kenan\, Mr. Mayor\, and 
+ large recurring roles on Hulu’s Everything’s Gonna Be Okay\, and Showt
+ ime’s Flatbush Misdeameanors. Maria was also Emmy-nominated for her gues
+ t appearance on the Netflix children’s series Ask the StoryBots.\nMaria
+ ’s late-night appearances include The Late Show with Stephen Colbert\, L
+ ate Night with Seth Meyers\, CONAN\, The Late Late Show with James Corden 
+ and The Tonight Show. Her interview series What’s Your Ailment? deals wi
+ th the various mental struggles of celebrities and is available on the Top
+ ic streaming service. Her Audible Original You Are (A Comedy) Special is a
+  semi-mock instructional book for both standup and life.\nUnless otherwise
+  stated\, please consider all of our shows as “adult subject matter.”\
+ nNo refunds will be issued unless the show is canceled or rescheduled.\nCl
+ ub 337 is located inside the Doubletree Hotel located at 1521 W Pinhook Rd
+ \, Lafayette\, LA. (Free Parking)\nClub 337 has theater-style seating as a
+  first-come basis | Drinks can be purchased at the bar | 2 full bars with 
+ a restaurant on site.\n\nhttps://happeningnext.com/event/maria-bamford-lad
+ y-dynamite-the-comedians-of-comedy-bobs-burgers-eid3a0dwnu024
+URL:https://happeningnext.com/event/maria-bamford-lady-dynamite-the-comedia
+ ns-of-comedy-bobs-burgers-eid3a0dwnu024
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Maria Bamford (Lady Dynamite\, The Comedians of Comedy\, Bob's 
+ Burgers)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

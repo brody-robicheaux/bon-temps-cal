@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fd5875d152@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261209T180000
+DTEND;TZID=America/Chicago:20261209T200000
+SUMMARY:Artist Round Up: Dioramas
+LOCATION:Acadiana Center for the Arts\, 101 W Vermilion St\, Lafayette
+DESCRIPTION:AcA's Artist Roundups gather together artists and creatives for
+  a casual night of making connections while also making art. By bringing a
+ rtists of various backgrounds together\, Artist Roundups hope to encourage
+  dialogue and collaboration across artistic disciplines and create a share
+ d sense of community and belonging. This month\, learn from AcA exhibiting
+  artist Kate Gordon how to build small-scale collaged dioramas from painti
+ ngs and found magazine clippings. The workshop will encourage artists to t
+ hink spatially while using two-dimensional imagery. It will also offer the
+  concept of using dioramas as a means to visualize exhibition plans and ev
+ en curate spaces. Creatives of all levels and disciplines are encouraged t
+ o attend. Materials will be provided.\n\nhttps://acadianacenterforthearts.
+ org/events/artist-round-up-dioramas/?occurrence=2026-12-09
+URL:https://acadianacenterforthearts.org/events/artist-round-up-dioramas/?o
+ ccurrence=2026-12-09
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Artist Round Up: Dioramas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

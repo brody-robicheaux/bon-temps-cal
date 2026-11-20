@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b451979f30@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261206T100000
+DTEND;TZID=America/Chicago:20261206T160000
+SUMMARY:Teddy Bear Tea 2026
+LOCATION:Moncus Park\, 2913 Johnston Street\, Lafayette
+DESCRIPTION:Celebrate the season with a family-friendly holiday event full 
+ of sweet treats\, festive fun\, and unforgettable memories!\nAbout this Ev
+ ent\nTeddy Bear Tea: December 6\, 2026\nPresented by Roots Pediatric Denti
+ stry\nStep into a holiday full of sparkle and surprise at Moncus Park. Bri
+ ng the whole family for festive fun\, good food\, and a keepsake to treasu
+ re all season long.\nTwo Seatings Available\nMorning: 10:00 AM to 12:00 PM
+ \nAfternoon: 2:00 PM to 4:00 PM\nWhat's Included\nTeddy Bear Building (chi
+ ld tickets): Each child builds and takes home a brand-new cuddly friend. E
+ very teddy bear gets a checkup from our Elf of Good Health\, presented by 
+ Ochsner Lafayette General.\nMimosa Bar (adult tickets): Sip\, savor\, and 
+ toast the season. Presented by Southern OBGYN.\nGingerbread Men Decorating
+ : Hands-on holiday fun for all ages. Presented by The Little Needlepoint S
+ hop.\nReindeer Food Making: Presented by Camellia Orthodontics.\nKids Craf
+ ts\nPhotos with Santa\nBrunch Buffet: Seasonal bites from Zea's to enjoy t
+ ogether.\nTickets are sold per person and are required for both adults and
+  children.\n📍 Moncus Park\, 2913 Johnston Street\, Lafayette\n📅 Sund
+ ay\, December 6\, 2026\n🚗 Parking is reserved for ticket holders at the
+  Doerle Pavilion. Take the second right at the roundabout when you enter t
+ he park.\nSpace is limited and this event sells out quickly. Reserve your 
+ seats today.\nThank You to Our Sponsors\n✨ Roots Pediatric Dentistry\, P
+ resenting Sponsor\n✨ Ochsner Lafayette General\, Elf of Good Health\n✨
+  Southern OBGYN\, Mimosa Bar\n✨ Camellia Orthodontics\, Reindeer Food\n
+ ✨ The Little Needlepoint Shop\, Gingerbread Men\n✨ Acadiana Profile Ma
+ gazine\n\nhttps://happeningnext.com/event/teddy-bear-tea-2026-eid1ef0l8b6g
+ 65a
+URL:https://happeningnext.com/event/teddy-bear-tea-2026-eid1ef0l8b6g65a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Teddy Bear Tea 2026
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

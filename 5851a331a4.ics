@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5851a331a4@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261204T200000
+DTEND;TZID=America/Chicago:20261204T220000
+SUMMARY:Dom Francis
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:Some bands chase nostalgia. Dom Francis chases the feeling that
+  made rock & roll matter in the first place.\n\nBased in Austin\, Texas\, 
+ the band writes guitar-driven songs that blur the lines between rock\, cou
+ ntry\, blues\, soul\, and Americana without ever sounding like a throwback
+  act. Their music carries the grit of late-night bars\, open highways\, an
+ d dance halls—equal parts swagger and sincerity.\n\nOnstage\, Dom Franci
+ s favors momentum over spectacle. Their shows are loud\, loose\, and built
+  to keep people moving\, whether they're playing a neighborhood honky-tonk
+  or a packed club. It's a live band in the truest sense: no gimmicks\, no 
+ backing tracks\, just musicians feeding off the room and each other.\n\nAs
+  their audience continues to grow across Texas\, Dom Francis is proving th
+ ere's still a place for honest rock & roll—music that feels lived-in\, t
+ imeless\, and impossible to fake. After releasing his debut album “The W
+ anderer” in 2025\, Francis presents us with his sophomore rock-leaning 
+ “The State of Things”\n\nhttps://events.timely.fun/kw4jncf1/event/7850
+ 7327/20261204200000
+URL:https://events.timely.fun/kw4jncf1/event/78507327/20261204200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dom Francis
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

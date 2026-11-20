@@ -1,0 +1,36 @@
+name: Copy calendar files
+
+# Copies Bon Temps' per-event calendar files (docs/cal/*.ics) into this project, which GitHub
+# Pages serves at https://brody-robicheaux.github.io/bon-temps-cal/. The Bon Temps Home Screen
+# app links here because iPhone can't open calendar files inside the app's own window.
+on:
+  schedule:
+    - cron: "*/20 * * * *"   # every 20 minutes (GitHub may run it a few minutes late)
+  workflow_dispatch:          # "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy the latest calendar files from Bon Temps
+        run: |
+          git clone --quiet --depth 1 --filter=blob:none --sparse https://github.com/brody-robicheaux/bon-temps.git src
+          git -C src sparse-checkout set docs/cal
+          find . -maxdepth 1 -name '*.ics' -delete
+          cp src/docs/cal/*.ics .
+          rm -rf src
+          git config user.name "bon-temps-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- '*.ics'
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -q -m "Copy calendar files"
+          git push -q

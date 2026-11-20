@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:59f28890ec@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261121T163000
+DTEND;TZID=America/Chicago:20261231T230000
+SUMMARY:Miracle on Jefferson St
+LOCATION:Pamplona Tapas Bar & Restaurant\, 631 Jefferson Street\, Lafayette
+ \, 7050
+DESCRIPTION:The Pamplona you know and love\, jazzed up for the holidays wit
+ h a Christmas-themed pop-up featuring kitschy\, glowing holiday decoration
+ s\, specialty glassware\, and seasonal drinks.\n\nhttps://www.downtownlafa
+ yette.org/event/miracle-on-jefferson-st
+URL:https://www.downtownlafayette.org/event/miracle-on-jefferson-st
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Miracle on Jefferson St
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dc7ca8aa8d@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261121T150000
+DTEND;TZID=America/Chicago:20261121T170000
+SUMMARY:An Afternoon with Carrie Simon!
+LOCATION:Cavalier House Books\, 302A Jefferson St
+DESCRIPTION:Join us at CHB Lafayette on Nov. 21 at 3 p.m. for a Q+A and boo
+ k signing with Carrie Simon!\nCarrie will discuss her latest book\, The Gi
+ rl Who Ate Flowers\, in a moderated Q&A led by Rachel Comeaux Lanclos. The
+  Girl Who Ate Flowers is a story of the quiet town of Harvey\, Louisiana\,
+  when it was shattered by the disappearance and murder of twelve-year-old 
+ Susanne Lee. Years later\, the case remains unsolved when an unrelenting i
+ nvestigative journalist from The Manhattan Times\, arrives determined to u
+ ncover the truth. But in Harvey\, asking questions can be dangerous-and th
+ ose who dig too deep don't always make it out. Haunting\, atmospheric\, an
+ d impossible to put down\, *The Girl Who Ate Flowers* is a psychological t
+ hriller that grips readers to the final page-and just as the truth begins 
+ to surface\, a shocking revelation suggests that Susanne's death is only t
+ he beginning.\nRSVP for this afternoon with Carrie Simon through Bon Temps
+  Tix! Books will be available at the event!\n\nhttps://www.downtownlafayet
+ te.org/event/an-afternoon-with-carrie-simon
+URL:https://www.downtownlafayette.org/event/an-afternoon-with-carrie-simon
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:An Afternoon with Carrie Simon!
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

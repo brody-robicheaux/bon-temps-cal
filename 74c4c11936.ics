@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:74c4c11936@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270108T193000
+DTEND;TZID=America/Chicago:20270108T213000
+SUMMARY:50 1st Jokes - Comedians Tell Their First Jokes of the Year
+LOCATION:Club 337\, Hilton-Lafayette\, 1521 W Pinhook Rd\, Lafayette
+DESCRIPTION:50 1st Jokes - Comedians Tell Their First Jokes of the Year\nFr
+ iday January 8th\, 2027 - 7:30PM\nClub 337 1521 W Pinhook Rd\, Lafayette\,
+  LA\nLafayette Comedy presents 50 First Jokes! 50 comedians tell their fir
+ st joke of 2027!\nFRIDAY\, January 8\, 2027.\nThis show is FREE!!! Pay-wha
+ t-you-want tip jar at the door\, so get there early to secure a seat.\nYou
+  can donate at the door. However\, you do not need to grab a ticket if you
+  want to watch the show. Just show up.\n50 First Jokes occurs in cities th
+ roughout America\, including New York\, Los Angeles\, Denver\, Austin\, At
+ lanta\, and more.\nSanctioned by the creators of 50 First Jokes.\nDoors op
+ en at 7:00 p.m. Show starts at 7:30 p.m.\nAnyone is welcome to be part of 
+ the show\, whether it's your first time or your thousandth on stage.\nInte
+ rested in performing? Signup here: https://forms.gle/dnkCmRGQoasWMV6C6\nUn
+ less otherwise stated\, please consider all of our shows as “adult subje
+ ct matter.”\nNo refunds will be issued unless the show is canceled or re
+ scheduled.\nClub 337 is located inside the Doubletree Hotel located at 152
+ 1 W Pinhook Rd\, Lafayette\, LA. (Free Parking)\nClub 337 has theater-styl
+ e seating as a first-come basis | Drinks can be purchased at the bar | 2 f
+ ull bars with a restaurant on site.\n\nhttps://happeningnext.com/event/50-
+ 1st-jokes-comedians-tell-their-first-jokes-of-the-year-eid3a0e4cdmj3
+URL:https://happeningnext.com/event/50-1st-jokes-comedians-tell-their-first
+ -jokes-of-the-year-eid3a0e4cdmj3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:50 1st Jokes - Comedians Tell Their First Jokes of the Year
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

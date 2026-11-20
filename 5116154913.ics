@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5116154913@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261124T181500
+DTEND;TZID=America/Chicago:20261124T193000
+SUMMARY:November Book du Mois!
+LOCATION:Cavalier House Books\, 302A Jefferson St
+DESCRIPTION:CHB Lafayette is reading The Sentence by Louise Erdrich for its
+  November Book du Mois!\nWe’ll meet at 6:15 p.m. on Nov. 24 (a Tuesday!)
+  at the bookstore to discuss Erdrich’s novel!\nPop by the bookshop to ge
+ t your copy\, or order online!: The Sentence: A Novel\nSynopsis:\nLouise E
+ rdrich's latest novel\, The Sentence\, asks what we owe to the living\, th
+ e dead\, to the reader and to the book. A small independent bookstore in M
+ inneapolis is haunted from November 2019 to November 2020 by the store's m
+ ost annoying customer. Flora dies on All Souls' Day\, but she simply won't
+  leave the store. Tookie\, who has landed a job selling books after years 
+ of incarceration that she survived by reading "with murderous attention\,"
+  must solve the mystery of this haunting while at the same time trying to 
+ understand all that occurs in Minneapolis during a year of grief\, astonis
+ hment\, isolation\, and furious reckoning.\nBook du Mois is CHB Lafayette'
+ s monthly book club! A CHB Bookseller leads the discussion\, and we vote a
+ t our meetings for our upcoming monthly picks.\n\nhttps://www.downtownlafa
+ yette.org/event/november-book-du-mois
+URL:https://www.downtownlafayette.org/event/november-book-du-mois
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:November Book du Mois!
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

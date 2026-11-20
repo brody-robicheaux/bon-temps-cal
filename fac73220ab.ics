@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fac73220ab@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261128T190000
+DTEND;TZID=America/Chicago:20261128T210000
+SUMMARY:Grand Nathainiel
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:Grand Nathaniel\n\nHailing from Lafayette\, Louisiana\, Grand N
+ athaniel is the musical project of longtime Acadiana musician J. Burton\, 
+ a fixture in the local music scene for more than three decades.\n\nBlendin
+ g dreamy lo-fi pop\, synth-driven melodies\, alternative rock\, and nostal
+ gic electronic textures\, Grand Nathaniel creates music that feels both fa
+ miliar and otherworldly. Drawing inspiration from decades of pop\, rock\, 
+ and experimental music\, Burton crafts richly layered songs filled with at
+ mosphere\, imagination\, and a little mystery.\n\nA veteran of the Lafayet
+ te music scene\, Burton has explored a wide range of sounds through projec
+ ts including Dire Wood\, FIGHTs\, Talker\, and Grand Nathaniel & the Ghost
+ s. His solo work brings those musical experiences together in a distinctiv
+ e style he describes as fantasy-pop.\n\nWith releases including At the Lag
+ oon and Lonely Wanderer \, Grand Nathaniel continues to build an imaginati
+ ve musical world where nostalgic sounds meet fresh perspectives.\n\nFor fa
+ ns of thoughtful songwriting\, atmospheric pop\, and adventurous indie mus
+ ic\, Grand Nathaniel offers something a little different from the ordinary
+ .\n\nCome experience the sound and imagination of one of Lafayette's longt
+ ime independent musical voices.\n\nhttps://events.timely.fun/kw4jncf1/even
+ t/78485757/20261128190000
+URL:https://events.timely.fun/kw4jncf1/event/78485757/20261128190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Grand Nathainiel
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

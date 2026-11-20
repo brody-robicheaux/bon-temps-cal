@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:556b7c96a1@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270108T203000
+DTEND;TZID=America/Chicago:20270108T223000
+SUMMARY:Candlelight: Coldplay vs. Imagine Dragons
+LOCATION:Petroleum Club of Lafayette\, 111 Heymann Boulevard\, Lafayette//\
+ , Lafayette
+DESCRIPTION:⭐ Candlelight concerts bring the magic of a live\, multi-sens
+ ory musical experience to awe-inspiring locations like never seen before i
+ n Lafayette. Get your tickets now to discover the music of Coldplay vs. Im
+ agine Dragons at Petroleum Club of Lafayette under the gentle glow of cand
+ lelight. This is a tribute concert experience. It is not affiliated with\,
+  endorsed by\, or sponsored by the artist\, their estate\, or official rep
+ resentatives. General Info 📍 Venue: Petroleum Club of Lafayette 📅 Da
+ tes and times: select your dates/times directly in the ticket selector ⏳
+  Duration: 60 minutes. Doors open 60 minutes before the show. No entry onc
+ e it starts. 👤 Age requirement: 8 years old or older. Anyone under the 
+ age of 16 must be accompanied by an adult ♿ Accessibility: this venue is
+  ADA compliant ❓ View the FAQs for this event here 🪑 Seating is assig
+ ned on a first come first served basis in each zone 🕯️ If you would l
+ ike to book a private concert or buy regular tickets for a large group (+3
+ 0 people)\, click here 🎻 Check out all the Candlelight concerts in Lafa
+ yette 🎁 To treat your friends and family to a Candlelight gift card\, c
+ lick here Tentative Program Coldplay - Clocks Coldplay - Something Just Li
+ ke This Imagine Dragons - Radioactive Coldplay - Adventure of a Lifetime C
+ oldplay - Fix You Imagine Dragons - Eyes Closed Imagine Dragons - Nice to 
+ Meet You Coldplay - The Scientist Coldplay - feelslikeimfallinginlove Imag
+ ine Dragons - Follow You Imagine Dragons - Bad Liar Coldplay - Viva la Vid
+ a Imagine Dragons - Believer Coldplay - Sky Full of Stars Performers Liste
+ so String Quartet Seating Map\n\nhttps://happeningnext.com/event/candlelig
+ ht-coldplay-vs-imagine-dragons-eid1afw9nbs0gg
+URL:https://happeningnext.com/event/candlelight-coldplay-vs-imagine-dragons
+ -eid1afw9nbs0gg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Candlelight: Coldplay vs. Imagine Dragons
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1e8a1ca490@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261202T183000
+DTEND;TZID=America/Chicago:20261202T203000
+SUMMARY:Candle Night Holiday Concert
+LOCATION:University of Louisiana at Lafayette\; School of Music\; 601 East 
+ St Mary\, Lafayette\, LA\, United States\, Louisiana 70501\, 601 E St Mary
+  Blvd\, Lafayette
+DESCRIPTION:Go from Sneaux Day to Candle Night…\nJoin the School of Music
+  for CandleNight\, a festive holiday concert filled with the familiar soun
+ ds of the season and a little extra sparkle. Bring the whole family for an
+  evening of holiday favorites\, blending beloved traditions with fresh mus
+ ical moments\, featuring the UL Lafayette Big Band\, Trombone Choir\, Flut
+ e Choir\, Chamber Singers\, Vermilion Voix\, Chorale\, Percussion Ensemble
+  and much more.\nAll are welcome\, whether you’re making the School of M
+ usic’s CandleNight a new holiday tradition or returning to celebrate wit
+ h us year after year.\nWednesday\, December 2 | 6:30 p.m. | Angelle Hall\n
+ Free Admission\n\nhttps://happeningnext.com/event/candle-night-holiday-con
+ cert-eid3a0eae2jwv
+URL:https://happeningnext.com/event/candle-night-holiday-concert-eid3a0eae2
+ jwv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Candle Night Holiday Concert
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:3a80258181@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261212T173000
+DTEND;TZID=America/Chicago:20261212T193000
+SUMMARY:Energy Gala
+LOCATION:PC53 - Petroleum Club of Lafayette\, 111 Heymann Blvd\, Lafayette
+DESCRIPTION:The Lagcoe Energy Gala is an evening of celebration\, connectio
+ n\, and recognition! Join us for a night of great music\, dinner\, an enga
+ ging guest speaker\, and an awards ceremony honoring individuals and organ
+ izations making a difference in the energy industry.\nIt's an opportunity 
+ to come together\, celebrate our industry's achievements\, reconnect with 
+ colleagues\, and enjoy a memorable evening with the energy community.\n\nh
+ ttps://happeningnext.com/event/energy-gala-eid3a0ea1rbm6
+URL:https://happeningnext.com/event/energy-gala-eid3a0ea1rbm6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Energy Gala
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

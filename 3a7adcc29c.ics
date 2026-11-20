@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:3a7adcc29c@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261204T190000
+DTEND;TZID=America/Chicago:20261205T020000
+SUMMARY:FIRST FRIDAY LIVE HOLIDAY BASH!! #Sagittarius Edition
+LOCATION:The Brass Room\, 1302 Surrey St\, Lafayette
+DESCRIPTION:We’re Celebrating Sagittarius Season & Ending the year with a
+  bang for the Holiday edition of First Friday LIVE at THE BRASS ROOM!!\nRO
+ I “CHIP” will be live in the building with a few soulful special guest
+ s so don’t miss it!!\n#DjBigSam/ #DjMixology /#DjSpider/ #DjBabyBoy in t
+ he building !!\nSpecial guests #DemLigonBoiz #TheLejitBrothers & more!!\nG
+ et ya party tables/sections at (337)251-5686\n\nhttps://happeningnext.com/
+ event/first-friday-live-holiday-bash-sagittarius-edition-eid3a0ebw1uom
+URL:https://happeningnext.com/event/first-friday-live-holiday-bash-sagittar
+ ius-edition-eid3a0ebw1uom
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FIRST FRIDAY LIVE HOLIDAY BASH!! #Sagittarius Edition
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

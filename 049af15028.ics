@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:049af15028@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261213T130000
+DTEND;TZID=America/Chicago:20261213T180000
+SUMMARY:Fall '26 End of Season Shows: Day 2
+LOCATION:Feed N Seed Lafayette\, 106 N Grant St\, Lafayette
+DESCRIPTION:An all ages event!\nSCHEDULE\nRock 101 (Tues/Thurs)\, 1:00 PM -
+  2:00 PM | ROCK 101\nMichael Jackson vs Prince\, 2:00 PM - 4:00 PM | PERFO
+ RMANCE PROGRAM\nLed Zeppelin\, 4:00 PM - 6:00 PM | PERFORMANCE PROGRAM\n\n
+ LOCATION\nFeed N Seed | 106 N Grant Street\, Lafayette\, LA 70501\nhttps:/
+ /belleviehospitality.com/properties/feed-n-seed\nTICKETS AT THE DOOR\n$10 
+ cash only cover per person at the door. Tickets are not available in advan
+ ce.\nABOUT ROCK 101\nRock 101 is one of School of Rock Lafayette's top pro
+ grams for kids and beginners. Students have one weekly group rehearsal whe
+ re they learn to play classic rock songs that have been simplified for beg
+ inner musicians. Additionally\, Rock 101 students in Lafayette have a week
+ ly private music lesson with an instructor who helps them learn the concep
+ ts and skills behind their performance songs.\nABOUT THE PERFORMANCE PROGR
+ AM\nThe Performance Program at School of Rock Lafayette is our hallmark mu
+ sic program\, where tens of thousands of students enroll each year. It con
+ sists of a weekly group rehearsal where kids and teens learn by playing ro
+ ck music's most iconic songs with a band composed of their peers. Students
+  are assigned songs and parts that are tailored to them based on their age
+ \, experience and ability to learn new skills and concepts. Students then 
+ work through their parts in weekly private music lessons\, refining the sk
+ ills and concepts that those songs introduce. The goal of this curriculum 
+ is to prepare kids and teens for live performances. Every few months\, Sch
+ ool of Rock Lafayette Performance Program students take the stage and play
+  at local Lafayette music venues in front of a live audience.\n\nhttps://h
+ appeningnext.com/event/fall-26-end-of-season-shows-day-2-eid3a0ea9em56
+URL:https://happeningnext.com/event/fall-26-end-of-season-shows-day-2-eid3a
+ 0ea9em56
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fall '26 End of Season Shows: Day 2
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

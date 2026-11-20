@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7cf1eda817@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261205T180000
+DTEND;TZID=America/Chicago:20261205T200000
+SUMMARY:Divers Destination Who-Ville Underwater
+LOCATION:Diver's Destination of Louisiana\, 201 Guilbeau Rd\, Lafayette
+DESCRIPTION:🎄🤿 WHO’S READY TO PARTY\, WHOVILLE STYLE?! 💚✨\nOur
+  Whoville Underwater Christmas Party is coming to Diver’s Destination\, 
+ and we’re ready for a night FULL of fun!\n📅 December 5th\n⏰ 6 PM–
+ until!\nIf you’ve ever been to one of our parties\, you already KNOW how
+  much fun we have! 🥳 If you’ve never joined us\, THIS is your chance!
+  Bring your friends\, meet our dive tribe\, and celebrate with us!\n🎶 L
+ IVE MUSIC\n🎟️ RAFFLES\n🎁 AWESOME DIVE GEAR GIVEAWAYS\n🎅💚 Who
+ ville hair\, Grinch gear\, ugly Christmas sweaters—the more festive\, th
+ e better! We’d LOVE to see you dress up and join the theme\, but costume
+ s are completely optional. Come as you are and be ready for a great time!\
+ nTag your party crew and start planning those outfits! 🎄👇\n\nhttps:/
+ /happeningnext.com/event/divers-destination-who-ville-underwater-eid3a0e9u
+ twia
+URL:https://happeningnext.com/event/divers-destination-who-ville-underwater
+ -eid3a0e9utwia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Divers Destination Who-Ville Underwater
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

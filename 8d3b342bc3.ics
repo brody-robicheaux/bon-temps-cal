@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8d3b342bc3@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261220T180000
+DTEND;TZID=America/Chicago:20261220T200000
+SUMMARY:Amis Du Teche
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:Amis du Teche\n\nRooted in the rich musical traditions of South
+  Louisiana\, Amis du Teche celebrates the sounds\, culture\, and heritage 
+ of Acadiana through the timeless spirit of Cajun music. Drawing inspiratio
+ n from the communities along the Teche\, the band embraces the melodies\, 
+ rhythms\, and storytelling that have made Louisiana music such a treasured
+  part of the region's identity.\n\nWith a love for traditional sounds and 
+ the lively spirit of a good Louisiana dancehall\, Amis du Teche brings mus
+ ic made for two-stepping\, waltzing\, and gathering with friends. Their mu
+ sic honors the generations of musicians who came before them while keeping
+  the Cajun tradition alive for new audiences.\n\nWhether you're a lifelong
+  Cajun music fan or simply looking for an authentic taste of South Louisia
+ na\, Amis du Teche brings the kind of music that makes you want to stay fo
+ r one more dance.\n\nCome celebrate the music\, culture\, and spirit of Ac
+ adiana with Amis du Teche!\n\nhttps://events.timely.fun/kw4jncf1/event/785
+ 17097/20261220180000
+URL:https://events.timely.fun/kw4jncf1/event/78517097/20261220180000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amis Du Teche
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

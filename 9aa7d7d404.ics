@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9aa7d7d404@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261204T100000
+DTEND;TZID=America/Chicago:20261206T100000
+SUMMARY:The Real Story of Christmas
+LOCATION:Crossroads Church\, 150 Verona Dr\, Lafayette
+DESCRIPTION:🎄 The Real Story of Christmas is Back—and Better Than Ever
+ ! 🎄\nJoin us for a Broadway-style musical experience that brings some o
+ f the most beloved Christmas stories to life—each one pointing back to t
+ he true meaning of Christmas!\n📅 Show Dates:\nFriday\, December 5 — 7
+  PM\nSaturday\, December 6 — 1 PM | 4 PM | 7 PM\nSunday\, December 7 —
+  10 AM | 1 PM | 4 PM\n🎟️ Admission:\nFree General Admission\nReserved
+  Seating — $10 per seat\nhttps://cclftla.booktix.com/\nDon’t miss this
+  unforgettable Christmas celebration for the whole family!\n\nhttps://happ
+ eningnext.com/event/the-real-story-of-christmas-eid3a0e9kbxkv
+URL:https://happeningnext.com/event/the-real-story-of-christmas-eid3a0e9kbx
+ kv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Real Story of Christmas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

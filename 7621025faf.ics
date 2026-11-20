@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7621025faf@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270113T190000
+DTEND;TZID=America/Chicago:20270113T210000
+SUMMARY:Harlem Globetrotters: Rivalry Tour Presented By Sprite
+LOCATION:Lafayette Cajundome\, 444 Cajundome Blvd\, Lafayette
+DESCRIPTION:Information\nHave the Harlem Globetrotters finally met their ma
+ tch? The Washington Generals and new lineup of rivals step onto the court 
+ - hungry for a win\, and out to prove it! The Harlem Globetrotters - the t
+ eam that invented basketball culture - bring the Rivalry Tour to your city
+  as part of their 2027 world tour\, with a roster of stars who turn every 
+ possession into showtime\, quarter after quarter. This is a new experience
+  - you're not just watching\, you're part of it. You could get pulled onto
+  the court. Join the squad. Own the jumbotron.. Because anything can happe
+ n at a Globetrotters game. A free\, all-new pre-game party kicks off the m
+ oment doors open\, packed with new surprises for longtime fans and first-t
+ ime families. This is Globetrotters joy - electric\, and built for YOU! Th
+ e rivalry is theirs. The thrill is yours. Get your tickets now.\n\nNearby 
+ Attractions Harlem Globetrotters has 238 upcoming events.\n\nNote:\nA warn
+ ing to any fans with light sensitivity that strobing effects will be used 
+ during light shows within the Harlem Globetrotters game. By purchasing thi
+ s ticket\, you give permission to use your likeness\nSeatmap\nhttps://maps
+ api.tmol.io/maps/geometry/3/event/1B006512AFDAAA20/staticImage?type=png&sy
+ stemId=HOST\n\nhttps://happeningnext.com/event/harlem-globetrotters-rivalr
+ y-tour-presented-by-sprite-eid3fk95ge0g2
+URL:https://happeningnext.com/event/harlem-globetrotters-rivalry-tour-prese
+ nted-by-sprite-eid3fk95ge0g2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Harlem Globetrotters: Rivalry Tour Presented By Sprite
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

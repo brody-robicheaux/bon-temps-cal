@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c245d51c14@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261220T150000
+DTEND;TZID=America/Chicago:20261220T170000
+SUMMARY:Winter Light: A Cathedral Christmas | Lafayette
+LOCATION:Cathedral of St. John the Evangelist\, 914 St John St\, Lafayette
+DESCRIPTION:Two historic Louisiana cathedrals and a Christmas story unlike 
+ any we've told before. ⛪️\nJoin Nova Luminae Choral Ensemble at the Ca
+ thedral of St. John the Evangelist in Lafayette for WINTER LIGHT: A Cathed
+ ral Christmas\, part of our 2026 Christmas Concert Series! 🌟\nFollowing
+  the Nativity story through some of the most beautiful sacred choral music
+  written across the centuries\, this special program brings the story of C
+ hristmas to life within the walls of one of Louisiana's historic cathedral
+ s.\n"A light still shines in the darkness." 🌟\nIn the final days before
+  Christmas\, we invite you and your loved ones to gather with us at the Ca
+ thedral of St. John the Evangelist to share in the peace and wonder of the
+  season\, away from the holiday rush.\n🩷 LAFAYETTE\nSunday\, December 2
+ 0\, 2026 | 3:00 PM\nCathedral of St. John the Evangelist\n914 St. John Str
+ eet\nLafayette\, LA 70501\n✨ Free and open to the public!\nWe hope you'l
+ l join us and share in the light this music brings as we journey toward Ch
+ ristmas. ⛪️\n\nhttps://happeningnext.com/event/winter-light-a-cathedra
+ l-christmas-lafayette-eid3a0e6hla6k
+URL:https://happeningnext.com/event/winter-light-a-cathedral-christmas-lafa
+ yette-eid3a0e6hla6k
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Winter Light: A Cathedral Christmas | Lafayette
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

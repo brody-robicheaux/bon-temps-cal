@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9612c19e6c@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261209T173000
+DTEND;TZID=America/Chicago:20261209T183000
+SUMMARY:Line Dance Class & Holiday Social
+LOCATION:GoodWolf Power Yoga / Pilates Reformer Studio\, 1921 Kaliste Saloo
+ m Rd\, Ste 208A\, Lafayette
+DESCRIPTION:🎄💃 LET’S LINE DANCE & CELEBRATE! 🐺\nGoodWolf Power Y
+ oga / Pilates Reformer Studio is wrapping up an incredible 2026 with a lit
+ tle dancing\, laughter\, and holiday cheer! ❤️\nJoin us for a Line Dan
+ ce Class & Holiday Social with Britlyn Delahoussaye!\n📅 Wednesday\, Dec
+ ember 9th\n⏰ 5:30–6:30 PM\n📍 GoodWolf Power Yoga / Pilates Reformer
+  Studio\nThis is our way of saying THANK YOU for making 2026 such a wonder
+ ful year at GoodWolf! We appreciate our amazing community and can’t wait
+  to celebrate with you!\nAnd here’s something exciting… 🤠\nWe’re 
+ bringing LINE DANCING to GoodWolf TWICE A MONTH in 2027! 🎉\nCome get a 
+ little sneak peek of what’s ahead!\n✨ No line dancing experience? No p
+ roblem!\n👟 Wear comfortable clothing and shoes you can easily move and 
+ dance in.\n🥂 Light refreshments will be served!\nBring your friends\, y
+ our holiday spirit\, and your dancing feet! Whether you’re a seasoned da
+ ncer or have two left feet\, come join the fun!\nLet’s dance our way int
+ o 2027\, GoodWolf style! 🐺🩶💃\n#GoodWolf #yogastudio #pilatesstudi
+ o\n#LineDancing #HolidaySocial #GoodWolfCommunity #LafayetteLA\n\nhttps://
+ happeningnext.com/event/line-dance-class-andamp-holiday-social-eid3a0ebmlr
+ u4
+URL:https://happeningnext.com/event/line-dance-class-andamp-holiday-social-
+ eid3a0ebmlru4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Line Dance Class & Holiday Social
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bee7490a72@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261205T230000
+DTEND;TZID=America/Chicago:20261206T010000
+SUMMARY:The Links
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:The Links\n\nStraight out of Lafayette\, Louisiana\, The Links 
+ bring a fresh and distinctive sound to the South Louisiana music scene\, b
+ lending psychedelic rock\, surf-inspired guitars\, and the infectious melo
+ dies of Brit-pop.\n\nWith a sound that feels equal parts nostalgic and mod
+ ern\, The Links create an atmosphere filled with shimmering guitar tones\,
+  catchy hooks\, hazy psychedelic textures\, and alternative rock energy. D
+ rawing from the spirit of British pop and the sun-soaked sounds of surf ro
+ ck\, the band delivers a musical experience that stands apart from the ord
+ inary.\n\nRooted in Acadiana but reaching beyond regional boundaries\, The
+  Links bring an adventurous approach to independent rock\, combining melod
+ ic songwriting with a sound that's both laid-back and electrifying.\n\nWhe
+ ther you're a fan of psychedelic rock\, indie pop\, surf music\, or just g
+ reat live guitar-driven music\, The Links offer something worth discoverin
+ g.\n\nhttps://events.timely.fun/kw4jncf1/event/78512332/20261205230000
+URL:https://events.timely.fun/kw4jncf1/event/78512332/20261205230000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Links
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

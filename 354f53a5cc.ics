@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:354f53a5cc@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261217T100000
+DTEND;TZID=America/Chicago:20261217T110000
+SUMMARY:Sparkle & Drip Gingerbread House Decorating
+LOCATION:4422 Ambassador Caffery Pkwy\, Lafayette
+DESCRIPTION:Get ready to bring your creativity to life at Sparkle & Drip! J
+ oin us for a fun-filled DIY experience where we'll transform cardboard gin
+ gerbread houses into festive works of art. From glitter and glam to ribbon
+ s\, rhinestones\, bows\, and all things sweet\, you'll have everything you
+  need to create a one-of-a-kind gingerbread masterpiece!\nNo baking requir
+ ed — just bring your imagination and get ready to decorate\, sparkle\, a
+ nd drip in holiday style!\nCome create\, connect\, and add a little extra 
+ sweetness to the season. ✨🎄\nBecause gingerbread deserves a little GL
+ AM! 🍭\n\nhttps://happeningnext.com/event/sparkle-andamp-drip-gingerbrea
+ d-house-decorating-eid3a0ebau70g
+URL:https://happeningnext.com/event/sparkle-andamp-drip-gingerbread-house-d
+ ecorating-eid3a0ebau70g
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sparkle & Drip Gingerbread House Decorating
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

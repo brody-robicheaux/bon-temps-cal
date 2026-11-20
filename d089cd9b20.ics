@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d089cd9b20@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261209T083000
+DTEND;TZID=America/Chicago:20261209T103000
+SUMMARY:Mahj & Music
+LOCATION:PC53 - Petroleum Club of Lafayette\, 111 Heymann Blvd\, Lafayette
+DESCRIPTION:A Mahjong Tournament Benefiting the Acadiana Symphony Orchestra
+ \nGather your mahjong friends and join us for a fabulous day of tiles\, fr
+ iendly competition\, and giving back!\nHosted by the Acadiana Symphony Wom
+ en’s League\, Mahj & Music brings together mahjong enthusiasts for a day
+  of spirited play\, delicious food\, exciting prizes\, and community—all
+  in support of the Acadiana Symphony Orchestra.\nWhether you're playing to
+  win or simply enjoying a day around the table with friends\, you'll have 
+ the opportunity to compete for wonderful prizes\, browse our silent auctio
+ n\, and support the music and educational programs that enrich our Acadian
+ a community.\n\nhttps://happeningnext.com/event/mahj-andamp-music-eid3a0eb
+ g3x40
+URL:https://happeningnext.com/event/mahj-andamp-music-eid3a0ebg3x40
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mahj & Music
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:714c48f9cf@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261205T170000
+DTEND;TZID=America/Chicago:20261205T200000
+SUMMARY:Fightingville Holiday Stroll
+LOCATION:Starts at Black Cafe\, 518 S Pierce St #100\, Lafayette
+DESCRIPTION:The Fightingville Holiday Stroll is BACK! Join us for a festive
+  evening of holiday lights\, live performances\, local art\, food\, and ne
+ ighborhood fun throughout historic Fightingville!\n​\n🎄 SATURDAY\, DE
+ CEMBER 5 | 5–8 PM\n📍 STARTS AT BLACK CAFÉ | 518 S. Pierce St.\n🎟
+ ️ FREE & OPEN TO ALL!\n​\n☕ 5 PM: Check in at Black Café for compli
+ mentary hot chocolate and live chalk art with Stop & Chalk!\n​\n✨ 5:30
+  PM: Stroll through the neighborhood with festive stops\, performances\, a
+ nd creative surprises along the way!\n​\n🍽️ FINAL STOP: Basin Arts 
+ for gumbo and merriment!\n​\n❤️ COMMUNITY PARTNERS: La Place Coterie
+ \, Fightingville Fresh Market\, TownFolk's Victory Garden\, Frenchy's Hous
+ e of Vintage\, Black Café\, Downtown Convention Center\, and Revived Desi
+ gns.\n​\nMade possible with support from the Louisiana Division of the A
+ rts' Louisiana Project Grant\, facilitated by the Acadiana Center for the 
+ Arts.\n\nhttps://www.downtownlafayette.org/event/fightingville-holiday-str
+ oll
+URL:https://www.downtownlafayette.org/event/fightingville-holiday-stroll
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fightingville Holiday Stroll
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

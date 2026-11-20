@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7fb3b67b7b@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261217T200000
+DTEND;TZID=America/Chicago:20261217T220000
+SUMMARY:Nether Hour
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:Down in the heart of Austin\, TX\, where the music runs thicker
+  than the heat\, there's a band that's been making some serious noise. The
+ y call themselves Nether Hour \, and they've been turning every dive bar a
+ nd backroad juke joint into a full-blown musical revival. The band is a tr
+ io of unapologetic rebels\, each one a powerhouse of sonic defiance. Bobby
+  Flaco delivers gritty vocals and razor-sharp guitar riffs\, while Bishop 
+ unleashes searing lead guitar and mandolin work\, with Bercy laying down b
+ ass lines that slam right into your gut. Nether Hour is a relentless sonic
+  melting pot\, fusing the swampy grooves of Louisiana with Texas-sized dos
+ es of funk\, blues\, soul\, and rock 'n' roll.\n\nhttps://events.timely.fu
+ n/kw4jncf1/event/78505125/20261217200000
+URL:https://events.timely.fun/kw4jncf1/event/78505125/20261217200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nether Hour
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

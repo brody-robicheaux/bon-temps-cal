@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:027117f638@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261121T100000
+DTEND;TZID=America/Chicago:20261121T160000
+SUMMARY:Native American Culture Day -- FREE Festival
+LOCATION:Vermilionville\, 300 Fisher Rd\, Lafayette
+DESCRIPTION:Native American Culture Day is slated for Saturday\, November 2
+ 1\, 2026 10 AM – 4 PM at Vermilionville. Admission is free. For more inf
+ ormation call 337-233-4077 or visit www.vermilionville.org.\n\nhttps://hap
+ peningnext.com/event/native-american-culture-day-free-festival-eid3a0e7lff
+ p9
+URL:https://happeningnext.com/event/native-american-culture-day-free-festiv
+ al-eid3a0e7lffp9
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Native American Culture Day -- FREE Festival
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

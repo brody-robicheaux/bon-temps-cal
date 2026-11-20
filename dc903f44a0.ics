@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dc903f44a0@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261213T110000
+DTEND;TZID=America/Chicago:20261213T130000
+SUMMARY:River Ranch HOA Christmas Gumbo
+LOCATION:POUR Restaurant & Bar\, 1 Degaulle Square\, Lafayette
+DESCRIPTION:Get ready to spice up your holiday with some tasty gumbo and go
+ od vibes at the River Ranch HOA bash!\nAbout this Event\n\nRiver Ranch HOA
+  Christmas Gumbo Date & Time: December 13\, 2026 at 11:00 AM (Central Stan
+ dard Time)\nVenue: POUR Restaurant & Bar\nGet ready for a festive feast fe
+ aturing Christmas Gumbo and delicious potato salad that will make your tas
+ te buds dance like holiday elves!\nBring your jumping shoes for some fun j
+ umps —because nothing says Christmas like bouncing around with joy.\nDon
+ ’t forget to capture the magic with photos with Santa —perfect for you
+ r holiday cards or just to prove you were on the nice list.\nJoin us for f
+ ood\, fun\, and festive memories at POUR Restaurant & Bar. Santa’s waiti
+ ng!\n\nhttps://happeningnext.com/event/river-ranch-hoa-christmas-gumbo-eid
+ 1ef0l8x2sdjr
+URL:https://happeningnext.com/event/river-ranch-hoa-christmas-gumbo-eid1ef0
+ l8x2sdjr
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:River Ranch HOA Christmas Gumbo
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

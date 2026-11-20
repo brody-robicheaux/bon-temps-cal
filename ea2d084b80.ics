@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ea2d084b80@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261120T100000
+DTEND;TZID=America/Chicago:20261120T120000
+SUMMARY:Lafayette Holiday Market - Lafayette LA
+LOCATION:CAJUNDOME Convention Center\, Cajundome Convention Center\, 444 Ca
+ jundome Blvd\, Lafayette
+DESCRIPTION:🎄 Lafayette Holiday Market 🎄\nA Christmas Shopping Experi
+ ence You Won’t Want to Miss\nKick off the holiday season at the Lafayett
+ e Holiday Market\, a festive three-day Christmas shopping event featuring 
+ a carefully curated mix of boutique brands\, specialty retailers\, artisan
+ s\, and holiday favorites—all under one roof.\nShop unique gifts\, seaso
+ nal décor\, fashion\, jewelry\, gourmet treats\, and more while enjoying 
+ the warm\, cheerful spirit of the holidays. Whether you’re checking off 
+ your Christmas list or simply soaking in the festive atmosphere\, this is 
+ the perfect way to celebrate the season with friends and family.\n🎁 Wha
+ t to Expect:\n✨ One-of-a-kind holiday gifts\n✨ Boutique & specialty ve
+ ndors\n✨ Festive Christmas atmosphere\n✨ Perfect shopping experience f
+ or all ages\nMake it a holiday tradition and join us for a weekend full of
+  shopping\, cheer\, and Christmas magic in Lafayette!\n👉 Mark “Going\
+ ,” invite your friends\, and watch for ticket promos\, vendor spotlights
+ \, and special holiday surprises.\nTickets available now!\n#LafayetteHolid
+ ayMarket #ChristmasShopping #HolidayMarket #ShopSmall #HolidayTraditions #
+ AEM #LHM\n\nhttps://happeningnext.com/event/lafayette-holiday-market-lafay
+ ette-la-eid3a0de8jcf5
+URL:https://happeningnext.com/event/lafayette-holiday-market-lafayette-la-e
+ id3a0de8jcf5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lafayette Holiday Market - Lafayette LA
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

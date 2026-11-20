@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bec4d0f2df@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261121T200000
+DTEND;TZID=America/Chicago:20261121T220000
+SUMMARY:Michael Juan Nunez and the Blue Orchestra
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:Michael Juan Nunez is a Louisiana-born blues guitarist and voca
+ list whose music is deeply rooted in the rich musical traditions of his ho
+ me state. Growing up in Lafayette\, Nunez was surrounded by the sounds of 
+ Cajun\, Zydeco\, rock\, and country music\, which he absorbed from his par
+ ents and the vibrant local scene. As a child\, he spent countless nights l
+ istening to the rhythmic pulse of Cajun and Creole music\, experiences tha
+ t would later shape his distinctive style.\n\nNunez’s career developed a
+ s he immersed himself in the blues\, blending southern rock and roots infl
+ uences with the soulful storytelling characteristic of Louisiana music. Hi
+ s performances are marked by heartfelt vocals and powerful guitar work\, r
+ esonating with audiences through a fusion of deep southern blues\, rock\, 
+ and roots music. Over the years\, he has become known for his energetic li
+ ve shows and his ability to weave together traditional and contemporary so
+ unds\, earning recognition as a powerhouse in the Louisiana blues scene.\n
+ \nNunez’s legacy lies in his commitment to preserving and evolving the m
+ usical heritage of Louisiana. By drawing from the region’s diverse genre
+ s and infusing his own creative spirit\, he has contributed to the ongoing
+  evolution of blues and southern rock\, inspiring both audiences and fello
+ w musicians with his authentic approach and passionate performances.\n\nht
+ tps://events.timely.fun/kw4jncf1/event/78485754/20261121200000
+URL:https://events.timely.fun/kw4jncf1/event/78485754/20261121200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Michael Juan Nunez and the Blue Orchestra
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

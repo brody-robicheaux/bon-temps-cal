@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b9a57018c7@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261211T173000
+DTEND;TZID=America/Chicago:20261211T193000
+SUMMARY:2026 Diocesan Celebration of Our Lady of Guadalupe
+LOCATION:Cathedral of St. John the Evangelist\, 914 St John St\, Lafayette
+DESCRIPTION:Join us for a special celebration honoring the Feast Day of Our
+  Lady of Guadalupe on December 11 at the Cathedral of St. John the Evangel
+ ist in Lafayette. The evening will begin with a bilingual recitation of th
+ e Rosary at 5:30 PM in the Cathedral Carmel School Yard Pavilion\, followe
+ d by a procession outside the Cathedral at 6:00 PM. A bilingual Mass will 
+ take place inside the Cathedral at 6:30 PM\, concluding with a reception a
+ t 7:30 PM. The Diocese of Lafayette's Office of Hispanic Ministry proudly 
+ sponsors this public event. All are welcome!\n\nhttps://happeningnext.com/
+ event/2026-diocesan-celebration-of-our-lady-of-guadalupe-eid3a0eali0vf
+URL:https://happeningnext.com/event/2026-diocesan-celebration-of-our-lady-o
+ f-guadalupe-eid3a0eali0vf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:2026 Diocesan Celebration of Our Lady of Guadalupe
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

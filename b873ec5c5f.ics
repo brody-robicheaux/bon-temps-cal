@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b873ec5c5f@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261126T070000
+DTEND;TZID=America/Chicago:20261126T070100
+SUMMARY:Thankful Thursdays
+LOCATION:111 Rena Drive\, Lafayette
+DESCRIPTION:We are thankful for you! Join us for Thankful Thursdays every T
+ hursday in November. 14% off ALL groceries with your Sandra’s blue bag! 
+ Stock up for Thanksgiving with the BEST prices in town. Don’t have a blu
+ e bag? Grab one for only $3 and save all year long. Added November bonus
+ … 7% off all groceries every single day with your blue bag!\n\nhttps://h
+ appeningnext.com/event/thankful-thursdays-eid3a0ebw1v8c
+URL:https://happeningnext.com/event/thankful-thursdays-eid3a0ebw1v8c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Thankful Thursdays
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

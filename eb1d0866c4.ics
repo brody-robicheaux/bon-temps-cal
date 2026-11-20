@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:eb1d0866c4@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261127T230000
+DTEND;TZID=America/Chicago:20261128T010000
+SUMMARY:$ideQue$t
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:SideQuest LA\n\nTwo powerhouse Louisiana musicians\, one shared
+  love of great music. SideQuest LA brings together vocalist\, songwriter\,
+  and drummer Gino V. and guitarist\, vocalist\, and songwriter Zach Edward
+ s for a musical collaboration that refuses to stay in one lane.\n\nRooted 
+ in the sounds of South Louisiana but reaching well beyond its musical bord
+ ers\, SideQuest blends soul\, blues\, R&B\, funk\, hip-hop\, and good old-
+ fashioned rock and roll. The duo combines original songwriting with unexpe
+ cted takes on some of their favorite songs\, creating a show that is as ve
+ rsatile as it is entertaining.\n\nGino V.\, born and raised in Delcambre\,
+  Louisiana\, is a seasoned musician known for his commanding vocals\, deep
+  grooves\, and dynamic musicianship. He has performed with some of Acadian
+ a's respected artists and notably played drums for Louisiana music legend 
+ Wayne Toups.\n\nZach Edwards adds his own distinctive guitar work\, vocals
+ \, and songwriting to the mix\, bringing together the blues\, rock\, and r
+ oots influences that make the SideQuest sound uniquely their own.\n\nWheth
+ er delivering soulful originals\, stretching out on a blues-rock groove\, 
+ or putting their own spin on familiar favorites\, SideQuest LA brings plen
+ ty of musical firepower and personality to the stage.\n\nExpect big groove
+ s\, soulful vocals\, killer guitar work\, and a little bit of everything. 
+ SideQuest is anything but an ordinary night of live music.\n\nhttps://even
+ ts.timely.fun/kw4jncf1/event/78504058/20261127230000
+URL:https://events.timely.fun/kw4jncf1/event/78504058/20261127230000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:$ideQue$t
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

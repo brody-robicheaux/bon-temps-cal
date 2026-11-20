@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:385ed7fe1a@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261211T200000
+DTEND;TZID=America/Chicago:20261211T220000
+SUMMARY:Louisiana Surf Department
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:The Louisiana Surf Department is a swampadelic-country-rock ban
+ d founded January 1\, 2024 in Austin\, Texas. On lead vocals and electric 
+ guitar\, John Core of Crowley\, Louisiana is truly the core of this music.
+  He has carried most all of these songs for a long time on his journey to 
+ now – and has courageously brought this band together to help bring his 
+ songs to the world. Brian Bounds\, hailing from north Texas\, sits behind 
+ the drum kit and supports with backup vocals. Brian met John in Sedona\, A
+ Z in 2020.  After a chance reunion in Louisiana months later\, their frie
+ ndship was concretized in their first jam session. New-found little brothe
+ r Markus “Shudawgy” Williams\, originally from Tennessee\, would not y
+ et join the band\, but first\, invite a perfect stranger he saw on instagr
+ am into the fold. Enter James T. Carter\, also from North Texas\, on the b
+ ass guitar and backing vocals. James showed up to the house to jam\, and t
+ he rest is history. James’ addition would solidify the trio\, and Januar
+ y 1st\, 2024 would mark their first organized rehearsal. After a year of d
+ igging into the project\, Markus would reappear on the scene\, this time w
+ ith the intention of moving to Austin. “Young Man” as he is sometimes 
+ called\, showed up\, and kept showing up\, and became a clear fourth membe
+ r of the team. Not just for his world class guitar and musicality\, but al
+ so for his world renowned hang. \n\nMark your calendars! Louisiana Surf D
+ epartment is rolling back into the Blue Moon Saloon on Friday\, December 1
+ 1! 🎸🤘 Don’t miss out on this special night of live music\, good vi
+ bes\, and a whole lot of fun! 🍻\n\n🗓️ Friday\, December 11\n📍 B
+ lue Moon Saloon\n\n🚗💨 DON’T WANT TO DRIVE HOME? WE’VE GOT YOU CO
+ VERED! 🛏️🌙\n\nGet the FULL Blue Moon experience! Book a room with 
+ us and receive FREE ENTRY TO THE SALOON + A FREE DRINK! 🍹🎟️ Make a
+  night of it and enjoy the music without worrying about the drive home!\n\
+ n👉 Visit www.BlueMoonPresents.com to learn more and book your stay!\n\n
+ Grab your crew\, come catch some waves of sound\, and make it a night to r
+ emember! 🌊🎶🔥\n\nhttps://events.timely.fun/kw4jncf1/event/78496111
+ /20261211200000
+URL:https://events.timely.fun/kw4jncf1/event/78496111/20261211200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Louisiana Surf Department
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

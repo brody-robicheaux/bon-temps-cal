@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a713981777@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270102T210000
+DTEND;TZID=America/Chicago:20270102T230000
+SUMMARY:Wayne Toups | Rock'n'Bowl® de Lafayette
+LOCATION:Rock'n'Bowl de Lafayette\, 905 Jefferson St\, Lafayette
+DESCRIPTION:Zydecajun night in Lafayette! Wayne Toups brings the Zydecajun 
+ to Rock'n'Bowl® de Lafayette on Saturday\, January 2 at 9:00 PM. Come dan
+ ce with us\, y'all!\n\nhttps://happeningnext.com/event/wayne-toups-rocknbo
+ wl-de-lafayette-eid3a0eb8s9bi
+URL:https://happeningnext.com/event/wayne-toups-rocknbowl-de-lafayette-eid3
+ a0eb8s9bi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Wayne Toups | Rock'n'Bowl® de Lafayette
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

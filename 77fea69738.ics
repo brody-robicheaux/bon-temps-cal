@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:77fea69738@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261126T090000
+DTEND;TZID=America/Chicago:20261126T110000
+SUMMARY:JPJ Memorial Turkey Trot
+LOCATION:Moncus Park\, 2913 Johnston Street\, Lafayette
+DESCRIPTION:*This is an externally hosted event produced by JPJ Memorial.* 
+ Join us for the 5th Annual JPJ Memorial 1-mile Turkey Trot! The event will
+  be held at 9am on Thanksgiving morning at Moncus Park in memory of Jean P
+ aul Judice. Jean Paul believed that his message of loving our world began 
+ with family and friends\; but\, he hoped that by spreading a message of un
+ conditional love among his closest relationships\, change would be rippled
+  across the universe. He knew that every person mattered and he loved them
+  unconditionally. This year we are raising funds for St. Joseph Diner. The
+  diner has served meals to those experiencing hunger and food insecurity s
+ ince 1983. This race is the perfect setting to come together to show grati
+ tude with your community. Learn more and register here: JPJ MEMORIAL TURKE
+ Y TROT\n\nhttps://moncuspark.org/calendar-events/jpj-memorial-turkey-trot-
+ 2026/
+URL:https://moncuspark.org/calendar-events/jpj-memorial-turkey-trot-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:JPJ Memorial Turkey Trot
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

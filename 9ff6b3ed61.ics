@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9ff6b3ed61@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261218T180000
+DTEND;TZID=America/Chicago:20261218T210000
+SUMMARY:Christmas in the Park
+LOCATION:Moncus Park\, 2913 Johnston St\, Lafayette
+DESCRIPTION:🎄✨THREE NIGHTS. ONE PARK. SO MUCH HOLIDAY CHEER!✨🎄\n\
+ nChristmas in the Park\, presented by First Horizon Bank\, is BACK Decembe
+ r 18–20 from 6:00-9:00PM each night\, and we’re turning Moncus Park in
+ to a holiday wonderland!\n\nGather your friends\, bring the family\, and g
+ et ready for a weekend filled with twinkling lights\, live music\, festive
+  treats\, and plenty of reasons to make a night of it. Best of all? Admiss
+ ion is FREE!\n\n🎅 HERE’S WHAT’S WAITING FOR YOU:\n\n✨ Twinkly lig
+ hts throughout the Park\n🎶 Live music all weekend long\n🛍️ Merry M
+ arket\, a Christmas market featuring local artisans\n❄️ Sneauxville\, 
+ with FREE ice sledding down the hill\n🎁 Santa’s Workshop with crafts 
+ from the Children's Museum of Acadiana\n💌 Letters to Santa\n📸 Photos
+  with Santa\n🧱 Building Block Zone for creative little builders\n🍫 S
+ ’mores\, hot cocoa\, mocktails\, and holiday treats\n🍴 Food Truck All
+ ey featuring more than a dozen food trucks\n🚂 Christmas Train rides\n
+ 🎪 FREE fun jumps\n🫧 Bubble Bus\n🎄 Dedicated Sensory Zone\n\n🎶 
+ THE ENTERTAINMENT LINEUP\n\n~ Friday\, December 18: The Skyliners Big Band
+  brings the swing with an 18-piece band!\n~ Saturday\, December 19: Corey 
+ Ledet & Black Magic take the stage with special guests Gracie Babineaux\, 
+ Louie Michot\, Mike Dopsie\, and Nathan Williams.\n~ Sunday\, December 20:
+  Enjoy a Christmas movie on the big screen with the Lafayette Shrimpettes 
+ and New Natives Brass Band roaming the park!\n\n🚗 PARKING & SHUTTLE INF
+ ORMATION 🚎\nAdmission is free for everyone! On-site parking is $20\, wi
+ th proceeds supporting Moncus Park’s operations\, maintenance\, and gard
+ ens.\n\nPrefer to skip the parking fee? Free parking and shuttle service w
+ ill be available at Blackham Coliseum\, located at 2330 Johnston Street. S
+ huttles begin at 5 PM each evening and are ADA-friendly.\n\n📍 MONCUS PA
+ RK\n2913 Johnston Street\, Lafayette\, LA 70503\n📆 December 18\, 19 & 2
+ 0\, 6:00-9:00PM each night\n\n🎁 A FEW THINGS TO KNOW\n• The event tak
+ es place rain or shine.\n• Wear comfortable shoes and dress in layers fo
+ r an evening outdoors.\n• Leave pets at home so they can enjoy a quieter
+  night while you enjoy the festivities.\n• Please leave your ice chests 
+ at home & support our local vendors & beer tents.\n• No tickets are requ
+ ired. Just bring your holiday spirit!\n\n✨ Mark your calendars\, invite 
+ your crew\, and get ready for three nights of holiday fun at Moncus Park!\
+ n\n🎄 CHRISTMAS IN THE PARK IS MADE POSSIBLE BY OUR INCREDIBLE SPONSORS!
+ 🎄\n\nA huge thank-you to our Presenting Sponsor\, First Horizon Bank\, 
+ and all the generous sponsors who help bring this holiday tradition to lif
+ e for our community.\n\nEvent & Attraction Sponsors: The Patrick Reische G
+ ray Memorial Fund\, Nube 9\, Love Our Schools\, William C. Schumacher Fami
+ ly Foundation\, Doug Ashy\, Whataburger\, Rader Solutions\, Southern Air\,
+  Shockwave Generators\, FMOL Our Lady of Lourdes\, Acadiana Fun Jumps\, Mr
+ . Bubbles Auto Spa\, VieMed\, Darnall Sikes & Frederick\, Cetera\, Party C
+ entral\, LFT Fiber\, and Cajun Carts.\n\nEntertainment Sponsor: Acadiana B
+ ottling Company\n\nFree Shuttle Sponsor: Service Chevrolet Cadillac\, with
+  rides by Hotard Coaches\n\nMocktail Sponsor: Service Chevrolet Cadillac\n
+ \nMedia Sponsors: Town Planner\, The Current\, The Acadiana Advocate\, and
+  Cumulus Media\n\nWe’re grateful to every sponsor who helps make Christm
+ as in the Park a memorable celebration for Acadiana. Thank you for support
+ ing Moncus Park and bringing holiday cheer to our community! ❤️\n\nhtt
+ ps://happeningnext.com/event/christmas-in-the-park-eid3a0e6dcc9w
+URL:https://happeningnext.com/event/christmas-in-the-park-eid3a0e6dcc9w
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Christmas in the Park
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

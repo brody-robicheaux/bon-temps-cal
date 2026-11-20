@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c1e5c2ada1@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261205T100000
+DTEND;TZID=America/Chicago:20261205T140000
+SUMMARY:Bubble and Brims: Holiday Sip and Shop
+LOCATION:Envious Events\, LLC-Lafayette\, 4304 Moss Street\, Lafayette
+DESCRIPTION:🥂✨ Bubbles & Brims: A Holiday Sip & Shop 🎄\nCelebrate t
+ he season with Créole Brims Custom Hat Company at an elegant holiday shop
+ ping experience filled with Southern charm\, festive sips\, and beautiful 
+ finds!\nGather your friends and enjoy a thoughtfully curated selection of 
+ unique vendors\, the signature Créole Brims Custom Hat Bar\, complimentar
+ y Mimosa Hour\, and light refreshments while you shop.\nWhether you’re s
+ earching for the perfect holiday gift or treating yourself to something sp
+ ecial\, come sip\, shop\, and celebrate the season with us!\n📅 Saturday
+ \, December 5\, 2026\n⏰ 10 AM – 2 PM\n📍 Envious Events\, LLC\n4304 
+ Moss Street\, Lafayette\, LA 70507\n🥂 Complimentary Mimosa Hour: 10–1
+ 1:30 AM\nLight refreshments while supplies last\nDoor prize drawings\nFree
+  admission | Open to the public\nBring your friends\, enjoy a little holid
+ ay cheer\, and make Bubbles & Brims part of your holiday traditions!\nShop
+ . Sip. Connect. Celebrate.\n\nhttps://happeningnext.com/event/bubble-and-b
+ rims-holiday-sip-and-shop-eid3a0e6u1qnc
+URL:https://happeningnext.com/event/bubble-and-brims-holiday-sip-and-shop-e
+ id3a0e6u1qnc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bubble and Brims: Holiday Sip and Shop
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

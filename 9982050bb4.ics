@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9982050bb4@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270108T033000
+DTEND;TZID=America/Chicago:20270108T053000
+SUMMARY:Mid Winter Fair Rodeo
+LOCATION:Blackham Coliseum\, 2330 Johnston Street\, Lafayette
+DESCRIPTION:📍 Venue: Blackham Coliseum\n🏠 Address: 2330 Johnston Stre
+ et\, Lafayette\, LA 70506\n🌆 City: Lafayette\n📍 Location: 30.21\, -9
+ 2.03✨ Embark on an extraordinary journey at Mid Winter Fair Rodeo \, whe
+ re every moment promises to be unforgettable! 🌟 Imagine of transforming
+  Blackham Coliseum in the heart of Lafayette \, LA into a realm of endless
+  possibilities. 📅 Join us on January 8th\, 2027 at 03:30 AM for an expe
+ rience that will challenge your imagination and exceed your expectations. 
+ 🎯 This carefully curated event combines the finest elements of entertai
+ nment\, innovation\, and community spirit. Whether you're an adventure see
+ ker\, culture enthusiast\, or someone looking for unique experiences\, thi
+ s event offers something special for everyone. 🎊 Don't miss this chance
+  to be part of something extraordinary!\n\nhttps://happeningnext.com/event
+ /mid-winter-fair-rodeo-eid1invtd16o7v
+URL:https://happeningnext.com/event/mid-winter-fair-rodeo-eid1invtd16o7v
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mid Winter Fair Rodeo
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

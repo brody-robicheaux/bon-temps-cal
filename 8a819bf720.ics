@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8a819bf720@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261206T150000
+DTEND;TZID=America/Chicago:20261206T163000
+SUMMARY:Reiki Sound Journey - Allison
+LOCATION:Paths to Restoration\, 107 Montrose Ave\, Lafayette
+DESCRIPTION:A deeply restorative experience combining gentle energy work\, 
+ breath\, and sound.\nThis immersive journey begins with hands-on Reiki and
+  calming breathwork to help you settle into a state of relaxation\, presen
+ ce\, and connection. As you begin to unwind\, you'll be guided into a full
+  Sound Journey featuring singing bowls\, gongs\, and other therapeutic sou
+ nd instruments.\nAs resonant tones surround you\, the experience invites d
+ eep rest\, mindfulness\, and inner reflection. The combination of Reiki an
+ d sound creates a peaceful space to release tension\, reconnect with yours
+ elf\, and cultivate a greater sense of balance and calm.\nWhether you're n
+ ew to Reiki and sound journeys or already have a personal practice\, this 
+ experience offers a welcoming opportunity to slow down\, breathe\, and rec
+ eive.\nCome as you are. Allow yourself time to rest\, reconnect\, and rest
+ ore.\n\nhttps://happeningnext.com/event/reiki-sound-journey-allison-eid3a0
+ e7lfwv7
+URL:https://happeningnext.com/event/reiki-sound-journey-allison-eid3a0e7lfw
+ v7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reiki Sound Journey - Allison
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

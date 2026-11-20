@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bcb604c719@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261210T163000
+DTEND;TZID=America/Chicago:20261210T193000
+SUMMARY:The American Creed in Words and Images
+LOCATION:Acadiana Center for the Arts\, 101 W. Vermilion St\, Lafayette
+DESCRIPTION:For teachers of 6–12 grade\nAmerica’s 250th anniversary is 
+ an ideal time to reflect on and explore the American Creed\, what economis
+ t Gunnar Myrdal refers to as “ (what) Americans of all national origins\
+ , classes\, regions\, creeds\, and colors\, have . . . in common: a social
+  ethos\, a political creed.” Since 2018\, students around the country ha
+ ve been discussing American Creed videos (streaming on PBS LearningMedia) 
+ in class\, with curricular support from the National Writing Project. Stud
+ ents have also been invited to create and share their own stories and refl
+ ections in photos\, captions and/or essays via KQED’s national Youth Med
+ ia Challenge publishing platform. This workshop supports adding Louisiana 
+ voices\, which have been largely missing\, to this nationwide initiative. 
+ Let’s get Acadiana students published!\nTwo National Writing Project Tea
+ cher Consultants\, Lafayette Parish School System middle school teachers w
+ ho have recently incorporated these exercises with their students\, and th
+ e American Creed in Louisiana project lead\, will guide middle and high sc
+ hool teachers through using photopoetry\, a combination of art and literat
+ ure that expresses feelings and emotions through both words and images. Pa
+ rticipants will learn to guide students to create their own photopoems tha
+ t capture the limitless potential and challenges of our American Creed.\nN
+ o prior poetry or photography experience is required to participate. Bring
+  your pens and phones and immerse yourself in easily adaptable exercises t
+ hat can immediately be incorporated into classrooms to engage students in 
+ exploring these important foundational ideas of our nation in creative way
+ s.\nABOUT THE PRESENTERS\nToby Daspit is Professor of Education and Emerit
+ us Consultant with the National Writing Project of Acadiana at the Univers
+ ity of Louisiana at Lafayette. He is the Project Lead for American Creed i
+ n Louisiana\, funded by the National Writing Project. Toby has nearly four
+  decades of experience as a middle\, high school\, and university educator
+ . He is the founder of the Improving the Blank Page Youth Writing Program 
+ and is a featured poet for the 2026 Festival of Words.\nEmily Weber is a m
+ iddle school English Language Arts teacher at Edgar Martin Middle School i
+ n Lafayette Parish. She is currently pursuing a Master’s degree in Educa
+ tional Leadership at the University of Louisiana Monroe. Emily’s classro
+ om is built around the belief that every student has a story worth telling
+ . She has a particular passion for creative writing and strives to help st
+ udents discover that writing is not just an academic skill but a powerful 
+ way to communicate\, reflect\, and connect with the world around them. Emi
+ ly is a National Writing Project Teacher Consultant.\nKerrie Skerrett teac
+ hes gifted 6th grade English Language Arts at Edgar Martin Middle School a
+ nd is entering her 14th year as an educator\, with experience teaching in 
+ both general education and gifted settings. She is a graduate of both ULL 
+ and ULM. Kerrie\, a National Writing Project Teacher Consultant\, is invol
+ ved in the American Creed Project because she is passionate about giving s
+ tudents opportunities to engage in authentic writing and make meaningful c
+ onnections to the world around them.\n\nhttps://happeningnext.com/event/th
+ e-american-creed-in-words-and-images-eid3a0e7lfooe
+URL:https://happeningnext.com/event/the-american-creed-in-words-and-images-
+ eid3a0e7lfooe
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The American Creed in Words and Images
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

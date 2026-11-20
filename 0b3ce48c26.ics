@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0b3ce48c26@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261212T163000
+DTEND;TZID=America/Chicago:20261212T183000
+SUMMARY:Artist Talk: Artists’ Alliance & Tattooed Walls
+LOCATION:Acadiana Center for the Arts\, 101 W Vermilion St\, Lafayette
+DESCRIPTION:Join former members of the Artists' Alliance as they perform a 
+ demonstration of one of their most famous art formats: Tattooed Walls. Thr
+ ough the use of an overhead projector\, Tattooed Walls turns visual artmak
+ ing into a shifting performance piece that transforms in real time. As bui
+ lding sized images take shape\, warp\, and disappear\, musicians and dance
+ rs respond in kind\, creating a jazz-like improvisational experience that 
+ defies disciplinary boundaries. After the performance\, our artists will j
+ oin AcA Visual Arts Director Jaik Faulk in a discussion of their inspirati
+ ons and process\, as well as the history and legacy of the Tattoed Walls f
+ orm.\n\nhttps://acadianacenterforthearts.org/events/artists-alliance-and-t
+ attooed-walls/?occurrence=2026-12-12
+URL:https://acadianacenterforthearts.org/events/artists-alliance-and-tattoo
+ ed-walls/?occurrence=2026-12-12
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Artist Talk: Artists’ Alliance & Tattooed Walls
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

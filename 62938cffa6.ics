@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:62938cffa6@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261216T173000
+DTEND;TZID=America/Chicago:20261216T203000
+SUMMARY:CGI Social Club Holiday Party
+LOCATION:Moncus Park\, 2913 Johnston Street\, Lafayette
+DESCRIPTION:Get ready to mix\, mingle\, and celebrate the holidays with the
+  CGI crew in a chill\, festive vibe!\nAbout this Event\nJoin us for a fest
+ ive celebration with food & drinks and a fun photo booth to capture the ho
+ liday spirit!\nPartner plus one are both invited to bring a gift for The G
+ reat Gift Exchange —let’s make this holiday party unforgettable togeth
+ er!\n\nhttps://happeningnext.com/event/cgi-social-club-holiday-party-eid1e
+ f0l9dol2or
+URL:https://happeningnext.com/event/cgi-social-club-holiday-party-eid1ef0l9
+ dol2or
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CGI Social Club Holiday Party
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

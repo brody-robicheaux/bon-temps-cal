@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:3362e41b0c@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261212T000000
+DTEND;TZID=America/Chicago:20261212T020000
+SUMMARY:Silhouette Artist coming to Melodi's
+LOCATION:2811 Johnston St\, Lafayette
+DESCRIPTION:After nearly TWO YEARS\, our beloved Silhouette Artist is comin
+ g back Saturday\, December 12! 🎄\nIn just 5 minutes per child\, he crea
+ tes a timeless keepsake that will be treasured for generations. What a bea
+ utiful Christmas gift for grandparents and loved ones! 🎁\nWe don't know
+  when he'll be back again\, so don't miss this special opportunity!\n❤
+ ️ Sign-up here or click on the link on our website homepage: https://www
+ .signupgenius.com/go/melodisbabykidtween\nFacebook now limits our free lin
+ ks to 2 per month! Find everything on our website. 💕\n@followers\n\nhtt
+ ps://happeningnext.com/event/silhouette-artist-coming-to-melodis-eid3a0ebm
+ lrx3
+URL:https://happeningnext.com/event/silhouette-artist-coming-to-melodis-eid
+ 3a0ebmlrx3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Silhouette Artist coming to Melodi's
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bc757569f1@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261205T103000
+DTEND;TZID=America/Chicago:20261205T133000
+SUMMARY:Les Mains Guidees - Santons de Provence
+LOCATION:Vermilionville\, 300 Fisher Rd\, Lafayette
+DESCRIPTION:In the Provence region of France\, families celebrated the Yule
+  season by displaying the nativity scene — and they got the idea of incl
+ uding their townsfolk in the figures present at the adoration of the infan
+ t Jesus — thus were created the “little Saints” of Provence — Les 
+ Santons de Provence. This workshop with artist Kate Ferry will let you cre
+ ate your own little saints out of Sculpy\, fired and painted to include in
+  your family’s creche\, or display as part of your holiday decor! $10 pe
+ r participant\, Register and get tickets below.\nhttps://square.link/u/Ff2
+ jmloB\nThis Workshop is supported by a grant from the Louisiana Division o
+ f the Arts\, Office of Cultural Development\, Department of Culture\, Recr
+ eation and Tourism\, in cooperation with the Louisiana State Arts Council\
+ , as administered by the Acadiana Center for the Arts. Funding has also be
+ en provided bythe National Endowment for the Arts.\n\nhttps://happeningnex
+ t.com/event/les-mains-guidees-santons-de-provence-eid3a0eb21vn6
+URL:https://happeningnext.com/event/les-mains-guidees-santons-de-provence-e
+ id3a0eb21vn6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Les Mains Guidees - Santons de Provence
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

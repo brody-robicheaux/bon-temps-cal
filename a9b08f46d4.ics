@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a9b08f46d4@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261127T190000
+DTEND;TZID=America/Chicago:20261127T210000
+SUMMARY:Troy Richard
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:Hailing from Lafayette\, Louisiana\, and rooted deep in Cajun c
+ ulture\, Troy Richard serves up his own unique blend of musical gumbo. Bri
+ nging together a rich mix of sounds\, influences\, and Louisiana flavor\, 
+ Troy delivers a solo performance that is as authentic and soulful as the r
+ oots he comes from.\n\nBest known as a member of The Richard Revue\, Troy 
+ steps out on his own to showcase his musical versatility and personality i
+ n a more intimate setting. With a sound steeped in South Louisiana traditi
+ on and a style all his own\, he brings a little something for everyone.\n\
+ nFrom the heart of Acadiana to the stage\, Troy Richard brings the flavor\
+ , the soul\, and the spirit of Louisiana to every performance. Come hungry
+  for some good music and get ready for a musical gumbo like no other!\n\nh
+ ttps://events.timely.fun/kw4jncf1/event/78504055/20261127190000
+URL:https://events.timely.fun/kw4jncf1/event/78504055/20261127190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Troy Richard
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

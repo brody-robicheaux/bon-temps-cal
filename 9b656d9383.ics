@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9b656d9383@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261213T170000
+DTEND;TZID=America/Chicago:20261214T173000
+SUMMARY:Magical Christmas Party
+LOCATION:City Club at River Ranch\, 1100 Camellia Blvd\, Lafayette
+DESCRIPTION:This year\, our 'Magical Christmas Party' brings the the spirit
+  of the holidays to life\, filling your holiday with wonder and timeless m
+ agic. Enjoy a delightful buffet as little ones capture picture-perfect mom
+ ents with Santa\, thanks to our professional photographer! Join Mrs. Claus
+  for enchanting tales and carols\, create masterpieces in the craft room\,
+  and warm up at our festive hot cocoa bar. The event takes place from 5:30
+  to 7:30 pm.\nPricing:\n✨ Kids 11 & under: $28\n✨ Adults: $38\n✨ Chi
+ ldren 3 & under: Free\nReserve your table at 337-216-6507. Celebrate Chris
+ tmas in true Nutcracker style at City Club!\n\nhttps://happeningnext.com/e
+ vent/magical-christmas-party-eid3a0ebh1wqi
+URL:https://happeningnext.com/event/magical-christmas-party-eid3a0ebh1wqi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Magical Christmas Party
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

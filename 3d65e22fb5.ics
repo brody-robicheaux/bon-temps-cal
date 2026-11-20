@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:3d65e22fb5@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270109T170000
+DTEND;TZID=America/Chicago:20270109T210000
+SUMMARY:January ArtWalk
+LOCATION:Downtown Lafayette
+DESCRIPTION:ArtWalk showcases the creative side of Downtown Lafayette’s c
+ ultural district. Museums\, independent galleries\, studios\, craft stores
+  and art houses of Downtown all participate in the monthly showcase of Aca
+ diana’s artistic talent. Those who come will leave inspired as they expl
+ ore the Downtown cultural district.\n​\nArtWalk takes place every second
+  Saturday of the month—rain or shine. There is no one organization respo
+ nsible for planning the activities. Instead\, each museum\, gallery\, or s
+ tudio hosts their own unique event\, featuring local artists and performer
+ s. Follow the official ArtWalk Lafayette Facebook Page to stay informed on
+  monthly events.\nBecome a Vendor\nWe are excited to be partnering with La
+ fayette Arts & Fleas for our events to highlight local talent! Additionall
+ y\, we are always looking to bring new artisans and vendors to Downtown fo
+ r ArtWalk or other various events and activities hosted by Downtown Lafaye
+ tte.\nEmail lafartsfleas@gmail.com to become a vendor for future ArtWalks.
+ \n\nhttps://www.downtownlafayette.org/event/january-artwalk
+URL:https://www.downtownlafayette.org/event/january-artwalk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:January ArtWalk
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

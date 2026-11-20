@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1ea0ddf1ff@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261128T150000
+DTEND;TZID=America/Chicago:20261128T170000
+SUMMARY:Elise Riley Band
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:Elise Riley\n\nCarrying on a proud Louisiana musical legacy whi
+ le bringing her own energy and personality to the stage\, Elise Riley is p
+ art of a new generation keeping Cajun music alive and moving forward.\n\nB
+ orn and raised in Lafayette\, Louisiana\, Elise grew up surrounded by the 
+ sounds and traditions of Cajun music. With legendary Louisiana musician St
+ eve Riley as her father and musician Chris Stafford as her brother\, music
+  has always been a central part of her life.\n\nA talented drummer\, vocal
+ ist\, and multi-instrumentalist\, Elise has developed her own voice in the
+  South Louisiana music scene. She co-leads Chère Élise\, a Lafayette-bas
+ ed Cajun band that brings together traditional Cajun sounds and fresh musi
+ cal influences. She also performs with Prends Courage\, continuing to expl
+ ore and celebrate the region's rich musical heritage.\n\nWhether behind th
+ e drums or stepping forward as a vocalist\, Elise brings infectious energy
+ \, musicianship\, and a genuine appreciation for the music that shaped her
+ .\n\nRooted in tradition but never afraid to make it her own\, Elise Riley
+  represents the next generation of Louisiana musicians carrying Cajun musi
+ c into the future.\n\nhttps://events.timely.fun/kw4jncf1/event/78504582/20
+ 261128150000
+URL:https://events.timely.fun/kw4jncf1/event/78504582/20261128150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Elise Riley Band
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:074fbb368e@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Christmas at The Bayou Christmas Concert
+LOCATION:The Bayou Church\, 2234 Kaliste Saloom Rd\, Lafayette
+DESCRIPTION:Christmas at The Bayou We invite you to join us for any of the 
+ following opportunities for you\, your family\, and friends to connect\, f
+ ind meaning\, and celebrate the birth of Jesus throughout December. Christ
+ mas Concert Friday\, December 13 | 7:00pm Saturday\, December 14 | 3:00pm\
+ , 5:00pm Sunday\, December 15 | 1:00pm\, 3:00pm\, 5:00pm Sunday\, December
+  15 | 5:00pm | Online (Facebook or YouTube) Reserve Your Tickets We invite
+  you and all of Acadiana to experience the sounds of the season at our ann
+ ual Christmas concert. This festive event has something for the whole fami
+ ly to enjoy. We will transport you to a Christmas wonderland as we set the
+  tone for this joyful season through music\, community\, and fun surprises
+  for all ages. Our pastor will share a brief message about the hope that w
+ as born on Christmas for all to receive. There is no childcare as we encou
+ rage you to enjoy the concert as a family. Please join us for this family-
+ friendly event! To ensure the best experience for all\, we're asking you t
+ o reserve a FREE ticket for everyone in your family who will be attending.
+  We will not be offering normal Sunday services on December 15 ... come an
+ d enjoy the concert! We will also stream the concert via our Facebook page
+  and our YouTube channel on Sunday\, December 15\, at 5:00pm. Afterwards\,
+  the concert will be available to watch at your convenience online.\n\nhtt
+ ps://www.lafayettetravel.com/event/christmas-at-the-bayou-christmas-concer
+ t/45864/
+URL:https://www.lafayettetravel.com/event/christmas-at-the-bayou-christmas-
+ concert/45864/
+END:VEVENT
+END:VCALENDAR

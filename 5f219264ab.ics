@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5f219264ab@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261212T080000
+DTEND;TZID=America/Chicago:20261212T100000
+SUMMARY:Vermilion River Run 10 Miler & 5 Mile
+LOCATION:Picard Park\, 130 Park Ln\, Lafayette
+DESCRIPTION:Vermilion River Run 10 Miler\nSaturday\, December 12\, 2026 | 8
+ :00 AM | Picard Park\, Milton\, Louisiana\nThe Vermilion River Run is the 
+ final race of the Triple Crown Challenge — and it’s strategically plac
+ ed on the calendar before many spring marathons and half marathons. At 10 
+ miles\, it’s the perfect distance to fit right into your training build-
+ up. The event is held at the scenic Picard Park in Milton\, Louisiana.\nRa
+ ce Options:\n10 Mile: Full course from start to finish\n5 Mile Option: Run
+ ners turn around at 2.5 miles and follow the same route back to the finish
+ \nNote: There are no cash awards for the 5 Mile option. The top 5 male and
+  top 5 female finishers will receive an award.\nTriple Crown Registration 
+ & Swag Eligibility:\nRegister for all three Triple Crown races together to
+  qualify for exclusive Cajun Road Runners swag!\nIf you initially register
+ ed for races individually and would like to switch to the Triple Crown pac
+ kage\, please notify us by October 24\, 2026 to guarantee your swag. Tripl
+ e Crown registrations made after October 24th may not include swag.\nPrici
+ ng:\nThrough July 14: $55\nJuly 15 – October 14: $60\nOctober 15 – Dec
+ ember 10: $65\nPacket Pick-Up & Race Day: $70\nOnline registration closes 
+ December 12\, 2026 at 7:00 AM. Race day registration is available\, but sh
+ irt sizes are limited and not guaranteed.\nRegister by November 12\, 2026 
+ to be guaranteed a shirt in your size. There will be no reorders or reprin
+ ts.\nCRRC Club members save an additional $5. Not valid for the virtual op
+ tion.\nPacket Pick-Up:\nFriday\, December 11\, 2026: Adopted Dog Brewing f
+ rom 12:30 PM - 5:30 PM\nRace Morning: Picard Park\, 6:30 AM – 7:30 AM\nW
+ e strongly encourage you to pick up your packet on Friday so race morning 
+ runs smoothly for everyone. We do not mail swag you must pick it up in per
+ son.\nAwards 10 Miler:\nTop 3 Overall Male & Female: Cash prize\nTop 3 in 
+ Each Age Group: Award\nAge groups: 12 & Under\, 13–19\, 20–29\, 30–3
+ 9\, 40–49\, 50–59\, 60+. Additional groups added in 10-year increments
+  as needed.\n5 Mile Option: Top 5 Male & Top 5 Female: Award (no cash priz
+ es)\nRace Day Parking:\nLimited parking is available at Picard Park\, 130 
+ Park Lane\, Milton\, LA. For runner safety\, you will not be able to exit 
+ the parking lot until the road has reopened. Please plan accordingly.\n\nh
+ ttps://happeningnext.com/event/vermilion-river-run-10-miler-andamp-5-mile-
+ eid3a0dnwh39q
+URL:https://happeningnext.com/event/vermilion-river-run-10-miler-andamp-5-m
+ ile-eid3a0dnwh39q
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vermilion River Run 10 Miler & 5 Mile
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

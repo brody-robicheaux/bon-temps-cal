@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1f8d089080@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261130T180000
+DTEND;TZID=America/Chicago:20261130T200000
+SUMMARY:Life Skills Cafe' - NOVEMBER
+LOCATION:Children's Museum of Acadiana\, 201 E Congress St\, Lafayette
+DESCRIPTION:🔥🚒 LIFE SKILLS CAFÉ: PRACTICE SAFETY THROUGH FUN! 🎨
+ 🧯\nWho says learning about fire safety can't be CREATIVE\, COLORFUL\, a
+ nd FUN?! Join us for November's Functional Life Skills Café as we turn im
+ portant safety lessons into hands-on activities\, art projects\, and excit
+ ing adventures! ❤️\nThis month\, we're becoming FIRE SAFETY DETECTIVES
+ ! 🔍🔥\nHere's what's in store:\n🔎 Fire Safety Scavenger Hunt: Sear
+ ch for and identify important fire safety items and features.\n🏡 Build 
+ Your Own Safe Space: Create an art project showing safe exits\, smoke alar
+ ms\, and designated family meeting spots.\n🎨 Flames of Safety: Get crea
+ tive with colorful mixed-media artwork featuring important fire safety mes
+ sages.\n🚒 What Would You Do? Practice real-life fire safety scenarios a
+ nd learn how to make safe choices during an emergency.\n🦸 My Safety Sup
+ erpower: Wrap up with a fun activity celebrating all the new safety skills
+  we've learned!\nThis isn't just an art class—it's an opportunity to pra
+ ctice important life skills\, build confidence\, and learn how to stay saf
+ e in an emergency. And the best part? We get to CREATE while we LEARN!\n
+ 📅 Monday\, November 30\, 2026\n⏰ 6:00–7:30 PM\n📍 Children's Muse
+ um of Acadiana\n👥 Ages 8+ (including adults!)\n💙 Our Functional Life
+  Skills Café is designed for individuals of all exceptionalities. We beli
+ eve everyone deserves opportunities to learn practical skills\, build inde
+ pendence\, and gain confidence in a fun and supportive environment.\nCome 
+ ready to explore\, create\, discover\, and become a Fire Safety Superhero!
+  🦸‍♀️🔥\nLearn • Practice • Create • Grow\nRegistration i
+ s required. We can't wait to see you there! ❤️\n\nhttps://happeningnex
+ t.com/event/life-skills-cafe-november-eid3a0e9rc3pf
+URL:https://happeningnext.com/event/life-skills-cafe-november-eid3a0e9rc3pf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Life Skills Cafe' - NOVEMBER
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

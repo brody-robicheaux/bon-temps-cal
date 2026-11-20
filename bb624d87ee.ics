@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bb624d87ee@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261223T193000
+DTEND;TZID=America/Chicago:20261223T213000
+SUMMARY:Mannheim Steamroller Christmas at Heymann Performing Arts Center
+LOCATION:Heymann Performing Arts Center\, 1373 S. College Rd\, Lafayette
+DESCRIPTION:THE ULTIMATE HOLIDAY TRADITION\nMANNHEIM STEAMROLLER CHRISTMAS 
+ by Chip Davis has been America’s favorite holiday tradition for over 35 
+ years! Grammy Award winner Chip Davis has created a show that features Man
+ nheim Steamroller Christmas classics in the distinctive Mannheim sound. Th
+ e program includes dazzling multimedia effects performed in an intimate se
+ tting. Experience the magic as the spirit of the season comes alive with t
+ he signature sound of Mannheim Steamroller.\n\nhttps://happeningnext.com/e
+ vent/mannheim-steamroller-christmas-at-heymann-performing-arts-center-eid1
+ 5hwiflcn4e
+URL:https://happeningnext.com/event/mannheim-steamroller-christmas-at-heyma
+ nn-performing-arts-center-eid15hwiflcn4e
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mannheim Steamroller Christmas at Heymann Performing Arts Cente
+ r
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

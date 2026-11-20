@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ee6ab68ecb@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270109T190000
+DTEND;TZID=America/Chicago:20270109T220000
+SUMMARY:3rd Annual Lovers Or Friends: 50 Shades of Red
+LOCATION:The Wilyard\, 710 Jefferson Boulevard\, Lafayette
+DESCRIPTION:Celebrate love\, friendship\, and every shade in between at our
+  3rd Annual Lovers Or Friends: 50 Shades of Red!\nAbout this Event\n\n3rd 
+ Annual Lovers Or Friends: 50 Shades of Red Get ready for a night that’s 
+ all about new connections and dope vibes ! Join us at The Wilyard on Janua
+ ry 9\, 2027 at 7:00 PM for an unforgettable evening filled with good food 
+ & drinks and unique memories .\nWhether you’re coming with your lover or
+  your best friend\, this event promises fresh experiences every year to ke
+ ep you on your toes. So bring your style\, your appetite\, and your good e
+ nergy—because this is where love\, friendship\, and fun collide in 50 sh
+ ades of red!\n\nhttps://www.youtube.com/shorts/Nsy3vUpeIdg\n\nhttps://happ
+ eningnext.com/event/3rd-annual-lovers-or-friends-50-shades-of-red-eid1ef0l
+ 9gcgn1r
+URL:https://happeningnext.com/event/3rd-annual-lovers-or-friends-50-shades-
+ of-red-eid1ef0l9gcgn1r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:3rd Annual Lovers Or Friends: 50 Shades of Red
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

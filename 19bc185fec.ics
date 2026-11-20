@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:19bc185fec@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261120T183000
+DTEND;TZID=America/Chicago:20261120T200000
+SUMMARY:Immersive Sound Bath w/ Violin & Handpan - Sara & Ryan
+LOCATION:Paths to Restoration\, 107 Montrose Ave\, Lafayette
+DESCRIPTION:Step away from the noise of everyday life and enter a space des
+ igned for deep rest\, reflection\, and relaxation.\nOur Immersive Sound Ba
+ th invites you to settle into stillness as the resonant tones of crystal s
+ inging bowls\, metal instruments\, and other therapeutic sound tools creat
+ e a calming soundscape around you. As you rest comfortably\, the vibration
+ s and layered sounds encourage mindfulness\, relaxation\, and a deeper con
+ nection with yourself.\nHeld within our peaceful forest room\, this experi
+ ence surrounds you with the calming presence of nature while providing a c
+ omfortable environment to fully unwind. Bolsters\, blankets\, and mats are
+  available to support your body so you can simply arrive\, get comfortable
+ \, and let yourself rest.\nA sound bath can be a deeply personal experienc
+ e. Some participants find moments of quiet reflection\, others experience 
+ a sense of emotional release\, and many leave feeling grounded\, refreshed
+ \, and restored.\nNo experience is necessary. Come as you are. Allow yours
+ elf the space to pause\, breathe\, and reconnect.\n\nhttps://happeningnext
+ .com/event/immersive-sound-bath-w-violin-andamp-handpan-sara-andamp-ryan-e
+ id3a0eb79l3m
+URL:https://happeningnext.com/event/immersive-sound-bath-w-violin-andamp-ha
+ ndpan-sara-andamp-ryan-eid3a0eb79l3m
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Immersive Sound Bath w/ Violin & Handpan - Sara & Ryan
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

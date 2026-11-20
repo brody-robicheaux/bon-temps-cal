@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0a849420bd@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261213T100000
+DTEND;TZID=America/Chicago:20261213T130000
+SUMMARY:Champions Course 5K
+LOCATION:Moncus Park\, 2913 Johnston St\, Lafayette
+DESCRIPTION:🏃‍♀️ RUN WHERE THE CHAMPIONS RAN! 🏃‍♂️\n\nThe
+  day after some of the country’s best young runners compete for national
+  titles at Moncus Park\, it’s YOUR turn to take on the course! 🏅\n\nJ
+ oin us on Sunday\, December 13\, at 10 AM for the Champions Course 5K\, a 
+ one-of-a-kind cross-country experience on the same course used for the 202
+ 6 USATF National Junior Olympic Cross Country Championships on December 12
+ .\n\nWhether you’re chasing a personal best\, jogging with friends\, or 
+ taking a leisurely stroll beneath the oaks\, everyone is welcome. You’ll
+  get to experience the championship course for yourself and cross the same
+  finish line as the champions!\n\nEVENT DETAILS:\n📅 Sunday\, December 1
+ 3\, 2026\n⏰ Race starts at 10 AM\n📍 Moncus Park | 2913 Johnston Stree
+ t\, Lafayette\, LA\n💲 $40 registration includes race entry and an offic
+ ial event shirt\n\n🔥 WARM UP WITH US!\nSupported by Southern Air and Sh
+ ockwave Generators\, our Warm-Up Zone will be the perfect place to shake o
+ ff the December chill\, stretch out\, and cheer on fellow participants bef
+ ore and after the race.\n\n👟 A FEW THINGS TO KNOW\n• This is a cross-
+ country 5K on grass and trails\, so plan your footwear accordingly.\n• D
+ ress in layers for a December morning outdoors.\n• Packet pickup will be
+  at the Doerle Pavilion on Wednesday\, December 9 from 6-7:30PM\n• Race-
+ day parking details will be shared with registered participants closer to 
+ race day.\n• Walkers are welcome! Go at whatever pace feels right for yo
+ u.\n\nBest of all\, your registration supports Moncus Park’s mission as 
+ a nonprofit conservancy\, helping care for the trails\, trees\, and open s
+ paces that make our Park special.\n\nReady to run where the champions ran?
+  Register today!\n\nhttps://happeningnext.com/event/champions-course-5k-ei
+ d3a0e6dcclt
+URL:https://happeningnext.com/event/champions-course-5k-eid3a0e6dcclt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Champions Course 5K
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

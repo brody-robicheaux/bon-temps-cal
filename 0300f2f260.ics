@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0300f2f260@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261128T080000
+DTEND;TZID=America/Chicago:20261128T084500
+SUMMARY:lululemon X Hype Haus Pop-Up
+LOCATION:lululemon\, 4419 Ambassador Caffery Parkway\, Lafayette
+DESCRIPTION:Hype Haus Pop-Up is an in-person hangout packed with fresh vibe
+ s\, cool finds\, and good times.\nAbout this Event\nCome hang out in-store
+  at Hype Haus Pop-Up!\n\nJoin Lafayette native\, lululemon ambassador\, an
+ d founder of Hype Haus Fitness in New Orleans and Baton Rouge\, Sara\, for
+  a high energy\, music driven mat class at lululemon Lafayette November 28
+ th at 8am.\n\nThis full body workout combines rhythmic movement\, strength
+  exercises\, and resistance band work for a low impact experience that bri
+ ngs the burn and challenges you from head to toe.\n\nExpect great music\, 
+ feel good movement\, and the kind of workout that leaves you feeling stron
+ ger\, empowered\, and wanting more. All fitness levels welcome!\n\nhttps:/
+ /happeningnext.com/event/lululemon-x-hype-haus-pop-up-eid1ef0l9ip4aoa
+URL:https://happeningnext.com/event/lululemon-x-hype-haus-pop-up-eid1ef0l9i
+ p4aoa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:lululemon X Hype Haus Pop-Up
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

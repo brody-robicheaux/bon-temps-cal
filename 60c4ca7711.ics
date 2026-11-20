@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:60c4ca7711@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261128T210000
+DTEND;TZID=America/Chicago:20261128T230000
+SUMMARY:Brass Bed
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:Brass Bed\n\nEmerging from Lafayette\, Louisiana\, Brass Bed ha
+ s spent years carving out a distinctive place in the independent music sce
+ ne with a sound that blends psychedelic rock\, power pop\, indie rock\, an
+ d adventurous songwriting.\n\nFormed in 2004\, the band built a reputation
+  for crafting catchy melodies wrapped in swirling guitars\, analog synthes
+ izers\, fuzz\, and expansive psychedelic textures. Drawing inspiration fro
+ m artists like The Beatles\, The Beach Boys\, Big Star\, and classic alter
+ native rock\, Brass Bed balances infectious pop sensibilities with an unpr
+ edictable\, experimental edge.\n\nThe band earned critical acclaim with al
+ bums including Melt White (2010)\, The Secret Will Keep You (2013)\, and I
+ n the Yellow Leaf (2016). Their music has taken them beyond Louisiana\, in
+ cluding a memorable appearance on NPR's Tiny Desk Concert series.\n\nFeatu
+ ring longtime members Jonny Campos\, Peter DeHart\, and Christiaan Mader\,
+  Brass Bed returned with new music in 2025\, bringing fresh energy and sha
+ rper songwriting to their signature sound.\n\nWith deep roots in Acadiana 
+ and a sound that reaches far beyond regional boundaries\, Brass Bed delive
+ rs a live experience full of shimmering melodies\, gritty guitars\, psyche
+ delic exploration\, and good old-fashioned rock and roll.\n\nhttps://event
+ s.timely.fun/kw4jncf1/event/78485759/20261128210000
+URL:https://events.timely.fun/kw4jncf1/event/78485759/20261128210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Brass Bed
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

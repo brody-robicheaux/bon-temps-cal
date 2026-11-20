@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:438977dcc9@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261121T150000
+DTEND;TZID=America/Chicago:20261121T170000
+SUMMARY:Full STEAM Ahead
+LOCATION:Lafayette\, Louisiana\, Lafayette
+DESCRIPTION:🚂 ALL ABOARD! FULL STEAM AHEAD! 🎉\nSmall Minds\, Big Disc
+ overies!\nBrilliant Minds Academy is celebrating 5 YEARS of learning\, gro
+ wing\, and making memories—and we want YOU to celebrate with us! 💛\nC
+ alling all past and present BMA students\, families\, and staff! You are p
+ art of our story\, and we would love to welcome you back. New families\, f
+ riends\, and our community are invited\, too!\n✨ Explore our discovery s
+ tops:\n🔬 Science Station\n🤖 Technology Junction—robotic mouse fun\
+ n🏗️ Engineering Express\n🎨 Art Depot\n🔢 Math Junction\n📚 Lit
+ eracy Landing—books and reading\n🧁 Celebration Station—Food and Tre
+ ats\n📝 All Aboard BMA!—learn about daycare enrollment\nCome discover\
+ , create\, reconnect\, and celebrate five brilliant years with us!\n📅 N
+ ovember 21\n⏰ 1:00–4:00 PM\n📍 1500 South Orange Street\, Lafayette\
+ , LA\n🎟️ FREE community event!\n💙 Once a Brilliant Mind\, Always a
+  Brilliant Mind—Welcome Back Aboard!\nTag a BMA family and share this fl
+ yer. Let’s fill this celebration with familiar faces and new friends! 
+ 🚂✨\n#FullSTEAMAhead #BrilliantMindsAcademy #BMA5YearCelebration\n\nht
+ tps://happeningnext.com/event/full-steam-ahead-eid3a0e832hc9
+URL:https://happeningnext.com/event/full-steam-ahead-eid3a0e832hc9
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Full STEAM Ahead
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

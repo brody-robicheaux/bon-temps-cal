@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:216fa05720@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261204T140000
+DTEND;TZID=America/Chicago:20261206T140000
+SUMMARY:🦌 Rudolph the Red-Nosed Reindeer JR. 🎄
+LOCATION:Wonderland Performing Arts\, 2807 Johnston St\, Lafayette
+DESCRIPTION:🦌Rudolph the Red-Nosed Reindeer JR. 🎄\nGet ready for a ma
+ gical holiday adventure with Wonderland Performing Arts!\nJoin Rudolph as 
+ he sets off on a journey to find where he truly belongs! Along the way\, h
+ e meets some unforgettable misfits\, discovers the importance of friendshi
+ p and acceptance\, and learns that being different might just be what save
+ s Christmas! ❤️\nCome celebrate the magic of the season as our talente
+ d young performers bring this beloved Christmas classic to life on stage! 
+ 🎭❄️\n🎭 4 SHOWTIMES:\n* Friday\, 12/4 at 7 PM\n* Saturday\, 12/5 
+ at 2 PM & 7 PM\n* Sunday\, 12/6 at 2 PM\n📍 Wonderland Performing Arts\n
+ 2807 Johnston Street\, Lafayette\, LA\n🎅 A heartwarming holiday adventu
+ re for the whole family!\n🎟️ Get your tickets now before they’re go
+ ne!\n\nhttps://happeningnext.com/event/rudolph-the-red-nosed-reindeer-jr-e
+ id3a0ebg3xun
+URL:https://happeningnext.com/event/rudolph-the-red-nosed-reindeer-jr-eid3a
+ 0ebg3xun
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🦌 Rudolph the Red-Nosed Reindeer JR. 🎄
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

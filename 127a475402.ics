@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:127a475402@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270112T090000
+DTEND;TZID=America/Chicago:20270112T120000
+SUMMARY:Lafayette | Million Meals for MLK Packing Party
+LOCATION:Martin Luther King Recreation Center\, 309 Cora Street\, Lafayette
+DESCRIPTION:Join volunteers across Louisiana for a Million Meals for MLK Pa
+ cking Party and help support our food banks and families across our state.
+ \nAbout this Event\nMillion Meals for MLK is a statewide initiative bringi
+ ng people and organizations together to help replenish Louisiana’s food 
+ banks following the holiday season and strengthen access to food for famil
+ ies in need.\nAt each packing party\, volunteers will work side by side to
+  prepare and pack food for distribution through Louisiana’s food bank ne
+ twork. Every hour of service helps make a difference\, bringing us closer 
+ to our shared goal of providing one million meals across the state.\n\nWHA
+ T TO EXPECT\nDuring your volunteer shift\, you will:\n* Help pack and orga
+ nize food for distribution to communities across Louisiana.\n* Work alongs
+ ide fellow volunteers\, community organizations\, and local partners.\n* C
+ ontribute to a statewide effort to support Louisiana’s food banks and th
+ e families they serve.\n\nWHAT TO WEAR & BRING\nPlease wear comfortable cl
+ othing and closed-toe shoes suitable for a volunteer packing environment. 
+ All necessary packing supplies will be provided.\nPlease note: Specific in
+ structions\, age requirements\, and additional event details may vary by l
+ ocation. Be sure to review your event information before arriving.\n\nYOUR
+  IMPACT\nOne hour of service helps provide 10 meals.\nBy giving just a lit
+ tle of your time\, you're helping make a meaningful difference for familie
+ s across Louisiana. Every box packed and every volunteer hour contributed 
+ helps strengthen our local food banks and brings us one step closer to our
+  goal of one million meals.\n\nWe can't wait to see you!\n\nhttps://happen
+ ingnext.com/event/lafayette-million-meals-for-mlk-packing-party-eid1ef0l91
+ dwvbr
+URL:https://happeningnext.com/event/lafayette-million-meals-for-mlk-packing
+ -party-eid1ef0l91dwvbr
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lafayette | Million Meals for MLK Packing Party
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

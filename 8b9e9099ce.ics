@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8b9e9099ce@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261227T180000
+DTEND;TZID=America/Chicago:20261227T200000
+SUMMARY:BAG O' BANDS 3000
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:🔥 BAG O’ BANDS 3000 🔥\nA MID-90s SCENE REVIVAL IS COMIN
+ G!\n\nThe bands are back\, the memories are real\, and Lafayette Rock City
+  is ready to turn it up! 🤘\n\nOn December 27th\, 2026 \, October Ground
+ fly returns to Lafayette Rock City for a reunion show GALORE at Blue Moon 
+ Saloon!\n\nWe're bringing together a killer lineup of familiar faces\, old
+ -school sounds\, and local music history:\n\n🎸 OCTOBER GROUNDFLY\n🍒 
+ HEK-ATOMIC CHERRIES\n🎶 RARE AVIS\n🔥 SLOBOT\n⚡ SURVIVING COPIES (fo
+ rmerly Dirt Franklin)\n🤘 GRAND NATHANIEL\n\nThis is more than a show. I
+ t's a reunion\, a celebration of the mid-90s Lafayette music scene\, and a
+  chance to see some familiar names share the stage again!\n\n📅 Sunday\,
+  December 27\, 2026\n📍 Blue Moon Saloon\n🎟️ Come be part of the re
+ union!\n\nCall up your old bandmates\, round up your crew\, and get ready 
+ to relive a little Lafayette rock history.\n\nBAG O’ BANDS 3000 — ONLY
+  AT BLUE MOON SALOON! 🌙🤘\n\nhttps://events.timely.fun/kw4jncf1/event
+ /78517105/20261227180000
+URL:https://events.timely.fun/kw4jncf1/event/78517105/20261227180000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BAG O' BANDS 3000
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9442c5320d@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261204T220000
+DTEND;TZID=America/Chicago:20261205T000000
+SUMMARY:Lost Bayou Ramblers
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:The Grammy award winning Lost Bayou Ramblers’ evolution as a
+  perversely progressive band rooted in Cajun traditions continues to excit
+ e\, challenge\, and redefine both genre expectations as well as cultural p
+ reconceptions. Founded in 1999 by brothers Andre and Louis Michot\, the la
+ st 5 years have brought LBR a feature on Jack White’s American Epic\, sc
+ ore contributions to the Oscar nominated film Beasts of the Southern Wild\
+ , a Grammy award for their latest album 'Kalenda' and tours with both Arc
+ ade Fire and the Violent Femmes. Lost Bayou Ramblers stands at the cross
+ currents of Louisiana culture by inhabiting the gray area between Cajun an
+ d Creole\, convention and innovation\, mystery and a revelation\, experime
+ nting and growing the show to what it's become today: an eclectic mix of m
+ odern sounds and rhythms with ancient Cajun melodies and lyrics.  World C
+ afé says “The Grammy-winning group plays a revved-up version of Cajun 
+ music\, shot through with punk energy and psychedelic fuzz.”\n\nhttps://
+ events.timely.fun/kw4jncf1/event/78485762/20261204220000
+URL:https://events.timely.fun/kw4jncf1/event/78485762/20261204220000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lost Bayou Ramblers
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1139f5bade@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261201T180000
+DTEND;TZID=America/Chicago:20261201T200000
+SUMMARY:Acadiana Talent presnts Storytellers Open Mic Night hosted by Jason
+  Harrington
+LOCATION:Blue Moon Saloon and Guest House\, 215 East Convent Street\, Lafay
+ ette
+DESCRIPTION:🎤 STORYTELLER’S OPEN MIC NIGHT 🎶\n\nJoin us Tuesday\, D
+ ecember 1st at Blue Moon Saloon for a night of original songs\, great stor
+ ies\, and good vibes!\n\nPresented by Acadiana Talent \, hosted by Jason H
+ arrington \, featuring special guest Heather Re! 🔥\n\nWhether you're re
+ ady to share your songs with the crowd or just want to kick back and enjoy
+  some live music\, there's a place for you here!\n\n🎸 SIGN-UP: 6:00 PM\
+ n🎶 MUSIC STARTS: 6:30 PM\n🍻 BAR OPENS EARLY: 5:00 PM\n🥃 HAPPY HOU
+ R: 5–8 PM\n🎟️ COVER: Just $5!\n\nBring your guitar\, bring your fri
+ ends\, share your stories\, and come be part of the music. Or grab a drink
+ \, find a seat\, and vibe with us!\n\nhttps://events.timely.fun/kw4jncf1/e
+ vent/78486934/20261201180000
+URL:https://events.timely.fun/kw4jncf1/event/78486934/20261201180000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Acadiana Talent presnts Storytellers Open Mic Night hosted by J
+ ason Harrington
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

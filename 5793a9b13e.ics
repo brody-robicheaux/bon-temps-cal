@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5793a9b13e@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Hilliard Society Holiday Party
+LOCATION:Hilliard Art Museum\, 710 E St Mary Blvd\, Lafayette
+DESCRIPTION:Become a Hilliard Society Member and receive an invitation to t
+ his exclusive annual holiday experience. Visit the Membership page to join
+  and explore all membership benefits.\n\nhttps://hilliardartmuseum.org/eve
+ nt/hilliard-society-holiday-party-2/
+URL:https://hilliardartmuseum.org/event/hilliard-society-holiday-party-2/
+END:VEVENT
+END:VCALENDAR

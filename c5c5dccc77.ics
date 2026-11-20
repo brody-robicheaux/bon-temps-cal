@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c5c5dccc77@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261203T000000
+DTEND;TZID=America/Chicago:20261203T113000
+SUMMARY:Coffee with the Wedding Krewe | Lafayette\, LA (December 2026)
+LOCATION:118 W Vermilion St\, Lafayette
+DESCRIPTION:JOIN US AT SOJOURN TEA SHOP FOR THE VERY FIRST LAFAYETTE WEDDIN
+ G KREWE MEET UP!\nCome spend the morning with NOW Weddings and your fellow
+  Lafayette-area wedding professionals at Sojourn Tea Shop!\nAs we wrap up 
+ the year\, take a little break from the holiday hustle and spend some time
+  with the people who make weddings happen.\nOur Wedding Krewe Meetups are 
+ a chance to step away from the emails\, timelines\, and to-do lists for a 
+ bit and actually connect with your local wedding community.\nMeet someone 
+ new\, reconnect with industry friends\, swap ideas\, and enjoy a relaxed m
+ orning together. A little holiday cheer is always welcome\, too! 🎄\nBri
+ ng your business cards and invite a friend! We'll have our Wedding Krewe p
+ rize drawing during the meetup\, so make sure to drop your card in for a c
+ hance to win.\nWhether you're already part of the NOW Weddings Wedding Kre
+ we or you're curious about the community and want to get to know us\, you'
+ re welcome to join us.\nThe meetup is free to attend\, but we ask that you
+  support our host with a food or beverage purchase while you're there. Gra
+ b a cup of tea or a bite\, stay for a while\, and get to know some of the 
+ people who make our local wedding community what it is.\nWedding Krewe mem
+ bers + non-members are welcome.\n\nhttps://happeningnext.com/event/coffee-
+ with-the-wedding-krewe-lafayette-la-december-2026-eid3a0ebra60q
+URL:https://happeningnext.com/event/coffee-with-the-wedding-krewe-lafayette
+ -la-december-2026-eid3a0ebra60q
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Coffee with the Wedding Krewe | Lafayette\, LA (December 2026)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
