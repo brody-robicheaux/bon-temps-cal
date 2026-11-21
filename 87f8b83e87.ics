@@ -23,14 +23,14 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:87f8b83e87@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261120T090000
+DTSTART;TZID=America/Chicago:20261121T090000
 DTEND;TZID=America/Chicago:20261223T170000
 SUMMARY:Sebastian Lodrige: Burden | Artificial & Natural
 LOCATION:Acadiana Center for the Arts
 DESCRIPTION:https://acadianacenterforthearts.org/sebastian-lodrige/?occurre
- nce=2026-11-20
+ nce=2026-11-21
 URL:https://acadianacenterforthearts.org/sebastian-lodrige/?occurrence=2026
- -11-20
+ -11-21
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Sebastian Lodrige: Burden | Artificial & Natural
