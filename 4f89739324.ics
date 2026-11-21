@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4f89739324@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261209T120000
+DTEND;TZID=America/Chicago:20261209T140000
+SUMMARY:USA Boxing National Championships
+LOCATION:Cajundome\, 444 Cajundome Blvd\, Lafayette
+DESCRIPTION:2026 USA Boxing National Championships & Professional Pathway T
+ ournament CAJUNDOME\nPublic Admission Daily December 7-12\, 2026\, Startin
+ g at 11 AM\nSession 1: 12 PM (Box Office Opens at 11 AM)\nSession 2: 6 PM\
+ nFinals will take place on Saturday\, December 12\, 2026\nChildren 7 & Un
+ der Free Admission\nTicket Information\nDecember 7th - 12th: Daily General
+  Admission tickets are $25 each and available for purchase at the CAJUNDOM
+ E Box Office only.\n\nhttps://www.cajundome.com/events/detail/usa-boxing-2
+ 026
+URL:https://www.cajundome.com/events/detail/usa-boxing-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:USA Boxing National Championships
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

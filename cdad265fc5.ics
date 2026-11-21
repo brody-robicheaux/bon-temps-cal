@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cdad265fc5@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261205T130000
+DTEND;TZID=America/Chicago:20261205T140000
+SUMMARY:Live at the Public Library -- Holiday Music Concert
+LOCATION:South Regional Library
+DESCRIPTION:SATURDAY - DECEMBER 5TH\n\n1:00PM - 2:00PM\n\nTake a moment awa
+ y from the busy hustle & bustle of Christmas shopping to come enjoy live h
+ oliday music. There will be piano\, keyboard\, guitar\, banjo\, bass\, dru
+ ms and (of course) singing as we play traditional and popular tunes. "The 
+ best way to spread Christmas cheer is singing loud for all to hear." -Budd
+ y the Elf.\n\nNOTE: All ages welcome. We ask that parents with young child
+ ren respect the musicians & other patrons' experience by stepping out if c
+ hildren become disruptive at the program. Thank you for your understanding
+  & consideration!\n\nhttps://lafayettela.libcal.com/event/17662759
+URL:https://lafayettela.libcal.com/event/17662759
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Live at the Public Library -- Holiday Music Concert
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

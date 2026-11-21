@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0cd33390cf@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261211T153000
+DTEND;TZID=America/Chicago:20261211T163000
+SUMMARY:Holiday Chocolate Tasting
+LOCATION:East Regional Library
+DESCRIPTION:Help decide East Regional's favorite type of chocolate. Visit t
+ he branch to sample a variety of chocolates\, then vote for the one you th
+ ink is best. While supplies last.\n\nAges 12-18\n\nNo registration require
+ d.\n\nhttps://lafayettela.libcal.com/event/17555232
+URL:https://lafayettela.libcal.com/event/17555232
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holiday Chocolate Tasting
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
