@@ -21,20 +21,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:6e4ba555de@bontemps
+UID:30d898d097@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261121T170000
-DTEND;TZID=America/Chicago:20261121T190000
-SUMMARY:Ragin' Fighting Championship 7
+DTSTART;TZID=America/Chicago:20270120T193000
+DTEND;TZID=America/Chicago:20270120T213000
+SUMMARY:Liverpool Legends
 LOCATION:Heymann Performing Arts Center\, 1373 S College Rd\, Lafayette
-DESCRIPTION:ALL AGES NEED A TICKET\nExperience an action-packed night of li
- ve combat sports featuring youth MMA\, rising amateur talent and professio
- nal fighters from across Louisiana and beyond.\n\nhttps://www.heymanncente
- r.com/events/2026/ragin-fighting-championship-7
-URL:https://www.heymanncenter.com/events/2026/ragin-fighting-championship-7
+DESCRIPTION:ALL AGES NEED A TICKET\nThe Beatles Biggest Hits performed LIVE
+  with show narration by Louise Harrison. Don’t miss this unforgettable e
+ vening celebrating the band that changed music history!\n\nhttps://www.hey
+ manncenter.com/events/2027/liverpool-legends
+URL:https://www.heymanncenter.com/events/2027/liverpool-legends
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Ragin' Fighting Championship 7
+DESCRIPTION:Liverpool Legends
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
