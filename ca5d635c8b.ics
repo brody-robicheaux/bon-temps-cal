@@ -21,19 +21,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:85a4b80637@bontemps
+UID:ca5d635c8b@bontemps
 DTSTAMP:20260101T000000Z
 DTSTART;TZID=America/Chicago:20261227T170000
 DTEND;TZID=America/Chicago:20261227T190000
-SUMMARY:Chubby Carrier & Bayou Swamp Band
-LOCATION:Rock'n'Bowl® de Lafayette\, 905 Jefferson St\, Lafayette
-DESCRIPTION:Zydeco Sunday!\n\nhttps://www.rocknbowl.com/events/chubby-carri
- er-bayou-swamp-band-12-27-26
-URL:https://www.rocknbowl.com/events/chubby-carrier-bayou-swamp-band-12-27-
- 26
+SUMMARY:Chubby Carrier & Bayou Swamp Band | Rock'n'Bowl® de Lafayette
+LOCATION:Rock'n'Bowl de Lafayette\, 905 Jefferson St\, Lafayette
+DESCRIPTION:Zydeco Sunday!\n\nhttps://happeningnext.com/event/chubby-carrie
+ r-andamp-bayou-swamp-band-rocknbowl-de-lafayette-eid3a0ec65q1q
+URL:https://happeningnext.com/event/chubby-carrier-andamp-bayou-swamp-band-
+ rocknbowl-de-lafayette-eid3a0ec65q1q
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Chubby Carrier & Bayou Swamp Band
+DESCRIPTION:Chubby Carrier & Bayou Swamp Band | Rock'n'Bowl® de Lafayette
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT

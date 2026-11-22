@@ -27,10 +27,13 @@ DTSTART;TZID=America/Chicago:20261217T180000
 DTEND;TZID=America/Chicago:20261217T210000
 SUMMARY:6th Annual Christmas Caroling with Wilson Savoy
 LOCATION:Hideaway on Lee\, 407 Lee Ave\, Lafayette
-DESCRIPTION:https://www.hideawayonlee.com/events/6th-annual-christmas-carol
- ing-with-wilson-savoy
-URL:https://www.hideawayonlee.com/events/6th-annual-christmas-caroling-with
- -wilson-savoy
+DESCRIPTION:EARLY and free show starting off with a group caroling then we'
+ ll invite a singer or groups of singers to sing their faves (like a live k
+ araoke with Wilson on piano) - special guests musicians to join\n\nhttps:/
+ /happeningnext.com/event/6th-annual-christmas-caroling-with-wilson-savoy-e
+ id3a0ec642qm
+URL:https://happeningnext.com/event/6th-annual-christmas-caroling-with-wils
+ on-savoy-eid3a0ec642qm
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:6th Annual Christmas Caroling with Wilson Savoy
