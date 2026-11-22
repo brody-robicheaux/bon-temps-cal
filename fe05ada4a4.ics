@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fe05ada4a4@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261204T180000
+DTEND;TZID=America/Chicago:20261204T210000
+SUMMARY:River Ranch HOA Christmas Cocktail Party
+LOCATION:POUR Restaurant & Bar\, 1 Degaulle Square\, Lafayette
+DESCRIPTION:Dress like Christmas for a casual\, fun River Ranch HOA gatheri
+ ng with cocktails\, light snacks\, and live Christmas tunes for friends an
+ d fami\nAbout this Event\n\nRiver Ranch HOA Christmas Cocktail Party Date 
+ & Time: December 4\, 2026 at 6:00 PM (Central Time)\nVenue: POUR Restauran
+ t & Bar\nGet ready to deck the halls and your outfit! We invite you to jin
+ gle all the way to a festive evening filled with cocktails\, delicious foo
+ d\, and live music . It’s the perfect recipe to sleigh your holiday spir
+ it and have a merry good time with your neighbors. Don your most dazzling 
+ Christmas attire and join us for a night that’s sure to be tree-mendousl
+ y fun!\n\nhttps://happeningnext.com/event/river-ranch-hoa-christmas-cockta
+ il-party-eid1ef0l8wvvlha
+URL:https://happeningnext.com/event/river-ranch-hoa-christmas-cocktail-part
+ y-eid1ef0l8wvvlha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:River Ranch HOA Christmas Cocktail Party
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
