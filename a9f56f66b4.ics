@@ -21,21 +21,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:e510e14f94@bontemps
+UID:a9f56f66b4@bontemps
 DTSTAMP:20260101T000000Z
 DTSTART;TZID=America/Chicago:20261121T210000
 DTEND;TZID=America/Chicago:20261121T230000
-SUMMARY:Spank the Monkey | Rock'n'Bowl® de Lafayette
-LOCATION:Rock'n'Bowl de Lafayette\, 905 Jefferson St\, Lafayette
+SUMMARY:Rock-n-Bowl de Lafayette SPANK with School of Rock Lafayette
+LOCATION:Rock 'n' Bowl de Lafayette\, 905 Jefferson St\, Lafayette
 DESCRIPTION:Turn it up\, Lafayette! Spank the Monkey\, the 90's rock band\,
   rocks Rock'n'Bowl® de Lafayette on Saturday\, November 21 at 9:00 PM. Br
- ing your crew and rock out all night!\n\nhttps://happeningnext.com/event/s
- pank-the-monkey-rocknbowl-de-lafayette-eid3a0ebj589l
-URL:https://happeningnext.com/event/spank-the-monkey-rocknbowl-de-lafayette
- -eid3a0ebj589l
+ ing your crew and rock out all night!\n\nhttps://happeningnext.com/event/r
+ ock-n-bowl-de-lafayette-spank-with-school-of-rock-lafayette-eid3a0ea1rbv4
+URL:https://happeningnext.com/event/rock-n-bowl-de-lafayette-spank-with-sch
+ ool-of-rock-lafayette-eid3a0ea1rbv4
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Spank the Monkey | Rock'n'Bowl® de Lafayette
+DESCRIPTION:Rock-n-Bowl de Lafayette SPANK with School of Rock Lafayette
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT

@@ -21,18 +21,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:6f39470b37@bontemps
+UID:05bc7975aa@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261121T090000
-DTEND;TZID=America/Chicago:20261121T170000
-SUMMARY:Kate Gordon: Tender Terrain
-LOCATION:Acadiana Center for the Arts
-DESCRIPTION:https://acadianacenterforthearts.org/kate-gordon/?occurrence=20
- 26-11-21
-URL:https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-21
+DTSTART;TZID=America/Chicago:20261216T190000
+DTEND;TZID=America/Chicago:20261216T210000
+SUMMARY:Trivia Night with Jay Steiner
+LOCATION:Hideaway on Lee\, 407 Lee Ave\, Lafayette
+DESCRIPTION:https://www.hideawayonlee.com/events/xe75yzxtxzfmkl4-y83kt-ckpf
+ l-mfjmk
+URL:https://www.hideawayonlee.com/events/xe75yzxtxzfmkl4-y83kt-ckpfl-mfjmk
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Kate Gordon: Tender Terrain
+DESCRIPTION:Trivia Night with Jay Steiner
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
