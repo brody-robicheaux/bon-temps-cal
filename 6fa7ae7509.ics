@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6fa7ae7509@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261219T140000
+DTEND;TZID=America/Chicago:20261219T160000
+SUMMARY:S.T.A.R.S. (Siblings Talk About Real Stuff)
+LOCATION:TheraCare Music Therapy of Lafayette\, 1424 St John St\, Lafayette
+DESCRIPTION:🌟 S.T.A.R.S. – Siblings Talk About Real Stuff 🌟\n💛Jo
+ in us for our monthly S.T.A.R.S. meeting as we dive into FUN Through music
+ \, games\, art\, and conversation\, siblings will explore the power of gra
+ titude in a fun and supportive space designed just for them. 💬🎨🎶\
+ n\n📅 Date: November 21st\n🕑 Time: 2:00 – 3:00 PM\n📍 TheraCare M
+ usic Therapy Center\nThis free event is open to siblings ages 5–17 of in
+ dividuals with disabilities. Don’t miss out — come share\, connect\, a
+ nd celebrate gratitude together! 💖\n\nhttps://happeningnext.com/event/s
+ tars-siblings-talk-about-real-stuff-eid3a0ecbdvtj
+URL:https://happeningnext.com/event/stars-siblings-talk-about-real-stuff-ei
+ d3a0ecbdvtj
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:S.T.A.R.S. (Siblings Talk About Real Stuff)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

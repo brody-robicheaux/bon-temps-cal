@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1a8f172a93@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261128T200000
+DTEND;TZID=America/Chicago:20261128T220000
+SUMMARY:Marley's Ghost (West Coast/Cali/Washington)
+LOCATION:Hideaway on Lee\, 407 Lee Ave\, Lafayette
+DESCRIPTION:As most people will tell you\, there’s an undeniable connecti
+ on between versatility and variation. Suffice it to say that each depends 
+ on the other. In the case of Seattle-based Marley’s Ghost\, that eclecti
+ c energy has resulted in a broad repertoire that has defied any ability to
+  tag them to any one particular genre. Their dozen albums to date— like 
+ the output of The Band— survey a broad scope of Americana and acoustic m
+ usic in general\, refusing to confine them to any singular niche.\n“It i
+ s\, and always has been\, about the music\,” bassist\, fiddler\, guitari
+ st\, singer and chief songwriter Dan Wheetman insists. “That’s what’
+ s kept this band going for so long. It’s always been about digging a lit
+ tle deeper\, honing our skills and celebrating the entire playing process.
+  That drives us forward.”\nWith their current album\, the aptly named Tr
+ avelin’ Shoes\, Marley’s Ghost veers towards a path that doesn’t det
+ ract from that overarched umbrella\, but instead helps define it further. 
+ Produced by acclaimed virtuoso Larry Campbell (Bob Dylan\, Levon Helm)\, w
+ ho was previously behind the boards for The Woodstock Sessions\, their hig
+ hly acclaimed 2016 album\, Travelin’ Shoes is a joyous and surprisingly 
+ diverse set of songs\, a celebratory salute to the finest traditions of Am
+ erican music.\n\nhttps://happeningnext.com/event/marleys-ghost-west-coast-
+ cali-washington-eid3a0ecbdvql
+URL:https://happeningnext.com/event/marleys-ghost-west-coast-cali-washingto
+ n-eid3a0ecbdvql
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Marley's Ghost (West Coast/Cali/Washington)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
