@@ -21,20 +21,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:408d01003f@bontemps
+UID:8631dbaf0b@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261122T140000
-DTEND;TZID=America/Chicago:20261122T160000
-SUMMARY:Othello by William Shakespeare
-LOCATION:Cité des Arts\, 109 Vine St\, Lafayette
-DESCRIPTION:The fourth play in the Cite des Arts 2026 theater season\n\nhtt
- ps://www.citedesarts.org/events/othello-by-william-shakespeare-2026-11-22-
- 14-00
-URL:https://www.citedesarts.org/events/othello-by-william-shakespeare-2026-
- 11-22-14-00
+DTSTART;TZID=America/Chicago:20270121T173000
+DTEND;TZID=America/Chicago:20270121T193000
+SUMMARY:GOODWOLF 200hr RYT Yoga Teacher Training
+LOCATION:GoodWolf Power Yoga / Pilates Reformer Studio\, 1921 Kaliste Saloo
+ m Rd\, Lafayette
+DESCRIPTION:https://happeningnext.com/event/goodwolf-200hr-ryt-yoga-teacher
+ -training-eid3a0ebra3h8
+URL:https://happeningnext.com/event/goodwolf-200hr-ryt-yoga-teacher-trainin
+ g-eid3a0ebra3h8
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Othello by William Shakespeare
+DESCRIPTION:GOODWOLF 200hr RYT Yoga Teacher Training
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
