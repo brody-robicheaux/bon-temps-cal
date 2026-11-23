@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1888e105c5@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261213T153000
+DTEND;TZID=America/Chicago:20261213T173000
+SUMMARY:Sounds of the Season
+LOCATION:Lafayette High School\, 3000 W Congress St\, Lafayette
+DESCRIPTION:Join us for our FREE Christmas concert on December 13th at 3:30
+ pm in Lafayette High's Scotty Walker Auditorium. Santa will be making an a
+ ppearance\, too!\n\nWe invite you to join us in donning our best ugly swea
+ ters to ring in the season!\n\nhttps://happeningnext.com/event/sounds-of-t
+ he-season-eid3a0ec643v4
+URL:https://happeningnext.com/event/sounds-of-the-season-eid3a0ec643v4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sounds of the Season
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

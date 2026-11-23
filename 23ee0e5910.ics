@@ -21,20 +21,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:7dcde58ea8@bontemps
+UID:23ee0e5910@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261203T190000
-DTEND;TZID=America/Chicago:20261203T210000
-SUMMARY:A Cajun Night Before Christmas
-LOCATION:Heymann Performing Arts Center\, 1373 S College Rd\, Lafayette
-DESCRIPTION:AGES 2 AND UP NEED A TICKET\nExperience the magic of Louisiana'
- s most beloved Christmas tale\n\nhttps://www.heymanncenter.com/events/2025
- /a-cajun-night-before-christmas
-URL:https://www.heymanncenter.com/events/2025/a-cajun-night-before-christma
- s
+DTSTART;TZID=America/Chicago:20261124T090000
+DTEND;TZID=America/Chicago:20261124T170000
+SUMMARY:Kate Gordon: Tender Terrain
+LOCATION:Acadiana Center for the Arts
+DESCRIPTION:https://acadianacenterforthearts.org/kate-gordon/?occurrence=20
+ 26-11-24
+URL:https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-24
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:A Cajun Night Before Christmas
+DESCRIPTION:Kate Gordon: Tender Terrain
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
