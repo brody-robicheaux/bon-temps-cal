@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c5a0413100@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261202T170000
+DTEND;TZID=America/Chicago:20261202T200000
+SUMMARY:Museum Makers: Portraits in Blue — An Introduction to Cyanotype P
+ hotography
+LOCATION:Hilliard Art Museum\, 710 E St Mary Blvd\, Lafayette
+DESCRIPTION:Discover one of photography’s oldest printing processes\, led
+  by James Billeaudeau. In this hands-on workshop\, participants will expl
+ ore the art of cyanotype\, a historic photographic technique known for its
+  rich blue tones. Each participant will have their portrait taken and lear
+ n how to transform it into a one-of-a-kind cyanotype print using light-sen
+ sitive paper and UV light. No photography experience is necessary\, and ev
+ eryone will leave with a handmade photographic portrait of their own.\n\nM
+ ember Rate: $60 per person\n\nNon-Member Rate: $75 per person\n\nAdvance r
+ egistration is required\, as space is limited.\n\nhttps://hilliardartmuseu
+ m.org/event/museum-makers-portraits-in-blue-an-introduction-to-cyanotype-p
+ hotography/
+URL:https://hilliardartmuseum.org/event/museum-makers-portraits-in-blue-an-
+ introduction-to-cyanotype-photography/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Museum Makers: Portraits in Blue — An Introduction to Cyanoty
+ pe Photography
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
