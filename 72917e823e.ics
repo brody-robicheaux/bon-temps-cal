@@ -21,15 +21,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:feb721947e@bontemps
+UID:72917e823e@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261123
-SUMMARY:White Boy Wasted : Project X Edition
-LOCATION:GRANT ST DANCE HALL\, 113 West Grant Street\, Lafayette
-DESCRIPTION:https://happeningnext.com/event/white-boy-wasted-project-x-edit
- ion-eid1ef0l9brnoxr
-URL:https://happeningnext.com/event/white-boy-wasted-project-x-edition-eid1
- ef0l9brnoxr
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Community Thanksgiving Dinner – Free Meal & Delivery Available
+LOCATION:Caffe Cottage\, 1013 E St Mary Blvd\, Lafayette
+DESCRIPTION:https://happeningnext.com/event/community-thanksgiving-dinner-
+ –-free-meal-andamp-delivery-available-eid3a0ec6qba0
+URL:https://happeningnext.com/event/community-thanksgiving-dinner-–-free-
+ meal-andamp-delivery-available-eid3a0ec6qba0
 END:VEVENT
 END:VCALENDAR

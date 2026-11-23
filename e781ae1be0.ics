@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e781ae1be0@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261212T210000
+DTEND;TZID=America/Chicago:20261212T230000
+SUMMARY:Nik-L Beer | Rock'n'Bowl® de Lafayette
+LOCATION:Rock'n'Bowl de Lafayette\, 905 Jefferson St\, Lafayette
+DESCRIPTION:Pop the top on Saturday night! Nik-L Beer\, the party band\, ta
+ kes over Rock'n'Bowl® de Lafayette on Saturday\, December 12. Bring your 
+ crew and party with us!\n\nhttps://happeningnext.com/event/nik-l-beer-rock
+ nbowl-de-lafayette-eid3a0ec65q56
+URL:https://happeningnext.com/event/nik-l-beer-rocknbowl-de-lafayette-eid3a
+ 0ec65q56
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nik-L Beer | Rock'n'Bowl® de Lafayette
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
