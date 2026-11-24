@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0f66dfb07c@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270122T180000
+DTEND;TZID=America/Chicago:20270122T200000
+SUMMARY:Candlelight: Tribute to Adele
+LOCATION:Petroleum Club of Lafayette\, 111 Heymann Boulevard\, Lafayette//\
+ , Lafayette
+DESCRIPTION:⭐ Candlelight concerts bring the magic of a live\, multi-sens
+ ory musical experience to awe-inspiring locations like never seen before i
+ n Lafayette. Get your tickets now to relive the music of Adele at Petroleu
+ m Club of Lafayette under the gentle glow of candlelight. This is a tribut
+ e concert experience. It is not affiliated with\, endorsed by\, or sponsor
+ ed by the artist\, their estate\, or official representatives. General Inf
+ o 📍 Venue: Petroleum Club of Lafayette 📅 Dates and times: select you
+ r dates/times directly in the ticket selector ⏳ Duration: 60 minutes. Do
+ ors open 60 minutes before the show. No entry once it starts. 👤 Age req
+ uirement: 8 years old or older. Anyone under the age of 16 must be accompa
+ nied by an adult ♿ Accessibility: this venue is ADA compliant ❓ View t
+ he FAQs for this event here 🪑 Seating is assigned on a first come first
+  served basis in each zone 🕯️ If you would like to book a private con
+ cert or buy regular tickets for a large group (+30 people)\, click here 
+ 🎻 Check out all the Candlelight concerts in Lafayette 🎁 To treat you
+ r friends and family to a Candlelight gift card\, click here Tentative Pro
+ gram Hello Rumour Has It Make You Feel My Love Water Under the Bridge Oh M
+ y God Someone Like You Send My Love (To Your New Lover) Chasing Pavements 
+ Skyfall When We Were Young Set Fire to the Rain Easy On Me Rolling in the 
+ Deep Performers Listeso String Quartet Seating Map\n\nhttps://happeningnex
+ t.com/event/candlelight-tribute-to-adele-eid1afw9hhchcg
+URL:https://happeningnext.com/event/candlelight-tribute-to-adele-eid1afw9hh
+ chcg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Candlelight: Tribute to Adele
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

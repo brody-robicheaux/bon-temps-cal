@@ -23,14 +23,14 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:c7f5af1cb0@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261123T090000
+DTSTART;TZID=America/Chicago:20261124T090000
 DTEND;TZID=America/Chicago:20261128T170000
 SUMMARY:Philip Gould: A Selection of Works
 LOCATION:Acadiana Center for the Arts
 DESCRIPTION:https://acadianacenterforthearts.org/philip-gould-2026?occurren
- ce=2026-11-23
+ ce=2026-11-24
 URL:https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-
- 11-23
+ 11-24
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Philip Gould: A Selection of Works

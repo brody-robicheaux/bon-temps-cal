@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7e2a6c7da8@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270122T203000
+DTEND;TZID=America/Chicago:20270122T223000
+SUMMARY:Candlelight: Tribute to British Rock Legends | Lafayette
+LOCATION:PC53 - Petroleum Club of Lafayette\, 111 Heymann Blvd\, Lafayette
+DESCRIPTION:👉 Tickets https://tinyurl.com/cndl8-tribute-to-queen-and-20\
+ n⭐ Candlelight concerts bring the magic of a live\, multi-sensory musica
+ l experience to awe-inspiring locations like never seen before in Lafayett
+ e. Get your tickets now to discover the music of Queen and The Beatles at 
+ Petroleum Club of Lafayette under the gentle glow of candlelight.\nThis is
+  a tribute concert experience. It is not affiliated with\, endorsed by\, o
+ r sponsored by the artist\, their estate\, or official representatives.\nG
+ eneral Info\n📍 Venue: Petroleum Club of Lafayette\n📅 Dates and times
+ : select your dates/times directly in the ticket selector\n⏳ Duration: 6
+ 0 minutes. Doors open 60 minutes before the show. No entry once it starts.
+ \n👤 Age requirement: 8 years old or older. Anyone under the age of 16 m
+ ust be accompanied by an adult\n♿ Accessibility: this venue is ADA compl
+ iant\n🪑 Seating is assigned on a first come first served basis in each 
+ zone\nTentative Program\n• Here Comes the Sun - The Beatles\n• Blackbi
+ rd - The Beatles\n• Help! - The Beatles\n• Come Together - The Beatles
+ \n• Yesterday - The Beatles\n• All You Need Is Love - The Beatles\n•
+  Love of My Life - Queen\n• Another One Bites the Dust - Queen\n• I Wa
+ nt to Break Free - Queen\n• We Are the Champions - Queen\n• We Will Ro
+ ck You - Queen\n• Radio Ga-Ga - Queen\n• Bohemian Rhapsody - Queen\nPe
+ rformers\n• Listeso String Quartet\n📣 Please share this event with yo
+ ur friends! 🎶👫\n\nhttps://happeningnext.com/event/candlelight-tribut
+ e-to-british-rock-legends-lafayette-eid3a0dvplpwt
+URL:https://happeningnext.com/event/candlelight-tribute-to-british-rock-leg
+ ends-lafayette-eid3a0dvplpwt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Candlelight: Tribute to British Rock Legends | Lafayette
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
