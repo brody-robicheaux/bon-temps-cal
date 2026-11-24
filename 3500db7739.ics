@@ -27,9 +27,10 @@ DTSTART;TZID=America/Chicago:20261204T200000
 DTEND;TZID=America/Chicago:20261204T220000
 SUMMARY:Nik Parr & The Selfless Lovers
 LOCATION:Hideaway on Lee\, 407 Lee Ave\, Lafayette
-DESCRIPTION:https://www.hideawayonlee.com/events/nik-parr-the-selfless-love
- rs-1
-URL:https://www.hideawayonlee.com/events/nik-parr-the-selfless-lovers-1
+DESCRIPTION:Nik Parr & The Selfless Lovers\n\nhttps://happeningnext.com/eve
+ nt/nik-parr-andamp-the-selfless-lovers-eid3a0eci7ghp
+URL:https://happeningnext.com/event/nik-parr-andamp-the-selfless-lovers-eid
+ 3a0eci7ghp
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Nik Parr & The Selfless Lovers
