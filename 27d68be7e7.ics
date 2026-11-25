@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:27d68be7e7@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261205T100000
+DTEND;TZID=America/Chicago:20261205T120000
+SUMMARY:Holiday Card Art
+LOCATION:Johnston St\, Lafayette\, LA\, United States\, 100 Broadmoor Blvd\
+ , Lafayette
+DESCRIPTION:Get creative and make your own holiday cards. We will cover sim
+ ple layouts\, lettering and decoration using card stock and acrylic marker
+ s. Suitable for beginners. Participants bring their own card stock and acr
+ ylic markers. Please note: the host is not trained to provide specialised 
+ support for students with additional needs.\n\nhttps://happeningnext.com/e
+ vent/holiday-card-art-eid3a0ecnpq2n
+URL:https://happeningnext.com/event/holiday-card-art-eid3a0ecnpq2n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holiday Card Art
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
