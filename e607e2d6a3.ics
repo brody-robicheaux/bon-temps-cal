@@ -23,14 +23,14 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:e607e2d6a3@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261124T090000
+DTSTART;TZID=America/Chicago:20261125T090000
 DTEND;TZID=America/Chicago:20270227T170000
 SUMMARY:Valcour Records | 20 Years
 LOCATION:Acadiana Center for the Arts
 DESCRIPTION:https://acadianacenterforthearts.org/valcour-records?occurrence
- =2026-11-24
+ =2026-11-25
 URL:https://acadianacenterforthearts.org/valcour-records?occurrence=2026-11
- -24
+ -25
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Valcour Records | 20 Years

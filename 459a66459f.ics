@@ -21,17 +21,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:5547485764@bontemps
+UID:459a66459f@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261124T193000
-DTEND;TZID=America/Chicago:20261124T213000
-SUMMARY:Ragin' Cajuns Men's Basketball vs Louisiana Christian
-LOCATION:Cajundome\, 444 Cajundome Blvd\, Lafayette
-DESCRIPTION:https://ragincajuns.com/calendar.aspx?game_id=15531&sport_id=6
-URL:https://ragincajuns.com/calendar.aspx?game_id=15531&sport_id=6
+DTSTART;TZID=America/Chicago:20270123T110000
+DTEND;TZID=America/Chicago:20270123T130000
+SUMMARY:Carencro Mardi Gras Parade
+LOCATION:City of Carencro\, 721 W Butcher Switch Rd\, Carencro
+DESCRIPTION:Starts at Carencro High ends by Carencro Community Center. 10 a
+ .m. CarencroParade.com.\n\nhttps://www.lafayettetravel.com/event/carencro-
+ mardi-gras-parade/46345/
+URL:https://www.lafayettetravel.com/event/carencro-mardi-gras-parade/46345/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Ragin' Cajuns Men's Basketball vs Louisiana Christian
+DESCRIPTION:Carencro Mardi Gras Parade
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT

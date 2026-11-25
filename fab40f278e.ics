@@ -21,17 +21,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:721b3fc2ad@bontemps
+UID:fab40f278e@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261124T170000
-DTEND;TZID=America/Chicago:20261124T190000
-SUMMARY:Ragin' Cajuns Women's Basketball vs Nicholls
+DTSTART;TZID=America/Chicago:20270123T160000
+DTEND;TZID=America/Chicago:20270123T180000
+SUMMARY:Ragin' Cajuns Men's Basketball vs Troy - Love Our Schools Day | Kid
+ 's Day
 LOCATION:Cajundome\, 444 Cajundome Blvd\, Lafayette
-DESCRIPTION:https://ragincajuns.com/calendar.aspx?game_id=15514&sport_id=10
-URL:https://ragincajuns.com/calendar.aspx?game_id=15514&sport_id=10
+DESCRIPTION:https://ragincajuns.com/calendar.aspx?game_id=15468&sport_id=6
+URL:https://ragincajuns.com/calendar.aspx?game_id=15468&sport_id=6
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Ragin' Cajuns Women's Basketball vs Nicholls
+DESCRIPTION:Ragin' Cajuns Men's Basketball vs Troy - Love Our Schools Day |
+  Kid's Day
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT

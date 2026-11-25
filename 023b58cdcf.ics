@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:023b58cdcf@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270123T100000
+DTEND;TZID=America/Chicago:20270123T170000
+SUMMARY:Mardi Gras Sip & Thrift
+LOCATION:Acadiana Mall\, 5725 Johnston St\, Lafayette
+DESCRIPTION:MARDI GRAS SIP & THRIFT!\nSaturday\, January 23 | 10 AM – 5 P
+ M | $55 per person\nLaissez les bons temps rouler! Grab your thrift bestie
+ s and join us for a Mardi Gras-themed day of shopping\, sipping\, music\, 
+ and supporting local small businesses!\nOUR SHOPPING STOPS:\nOldies But Go
+ odies\nThe Purple Lemon\nMore stores to be announced!\nWHAT'S INCLUDED:\nR
+ ound-trip charter bus transportation\, goodie bags\, onboard restroom\, st
+ orage for purchases\, and plenty of fun! Feel free to bring your favorite 
+ beverages and snacks!\nPARKING & DEPARTURE:\nAcadiana Mall – Dillard's e
+ ntrance closest to the food court. Please arrive early for check-in. The t
+ our runs from 10 AM – 5 PM.\nMUSIC DISCLAIMER:\nWe love loud music and a
+  good time! Our DJ takes requests and attempts to play edited versions\, b
+ ut some songs may contain explicit language.\nNEW BAG POLICY:\nOnly clear 
+ bags or small stadium-sized purses are permitted inside stores. Don't have
+  one? No worries! You can leave your purse on the bus and bring just your 
+ wallet.\nTICKET POLICY:\nALL SALES ARE FINAL. NO REFUNDS\, EXCHANGES\, OR 
+ DATE CHANGES. Please verify your availability before purchasing.\nOnly 56 
+ seats available\, and our tours sell out FAST!\nGrab your ticket\, wear yo
+ ur purple\, green\, and gold\, and get ready to SIP\, THRIFT & LET THE GOO
+ D TIMES ROLL!\n\nhttps://happeningnext.com/event/mardi-gras-sip-andamp-thr
+ ift-eid3a0e8fsktm
+URL:https://happeningnext.com/event/mardi-gras-sip-andamp-thrift-eid3a0e8fs
+ ktm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mardi Gras Sip & Thrift
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

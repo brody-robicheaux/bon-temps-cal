@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:09b19323c4@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270123T100000
+DTEND;TZID=America/Chicago:20270124T180000
+SUMMARY:Painting Classes Lafayette: Ceramic Plates & Bowls
+LOCATION:Holiday Inn & Suites Lafayette North by IHG\, 2219 Northwest Evang
+ eline Thruway\, Lafayette
+DESCRIPTION:Lafayette ceramic paint classes offer a unique experience. Book
+  Now on Eventbrite!\nAbout this Event\nExplore your artistic abilities at 
+ the Art Masterclass in Tyler !\n\nReady to unleash your creativity? Reserv
+ e your spot for our upcoming Ceramic Paint workshop. Engage in a unique ex
+ perience filled with creation\, laughter\, sipping\, and enjoyment!\n\nNo 
+ Prior Experience Required: Whether you're a seasoned painter or a complete
+  beginner\, everyone is welcome to join the fun. Our expert instructors wi
+ ll lead you through each step\, ensuring you produce a masterpiece you can
+  be proud of\, regardless of your skill level.\n\nAn Ideal Evening Out: Se
+ arching for a distinctive date night or an unforgettable outing with frien
+ ds? Our Ceramic Paint workshops offer the perfect setting. Revel in good c
+ ompany\,and leave with a beautiful painting crafted by you!\nBook Now on E
+ ventbrite!\n\nhttps://happeningnext.com/event/painting-classes-lafayette-c
+ eramic-plates-andamp-bowls-eid1ef0l9i8q6wa
+URL:https://happeningnext.com/event/painting-classes-lafayette-ceramic-plat
+ es-andamp-bowls-eid1ef0l9i8q6wa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Painting Classes Lafayette: Ceramic Plates & Bowls
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

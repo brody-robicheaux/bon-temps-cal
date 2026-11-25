@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f53746c40d@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270123T100000
+DTEND;TZID=America/Chicago:20270124T180000
+SUMMARY:Mosaic Art Classes Lafayette: Turkish Lamp Workshop
+LOCATION:Holiday Inn & Suites Lafayette North by IHG\, 2219 NW Evangeline T
+ hruway\, Lafayette//\, Lafayette
+DESCRIPTION:⭐ Mosaic Art Classes Lafayette brings Turkish lamp-making to 
+ the table. Sip tea\, choose your colors\, and shape tiny glass pieces into
+  a glowing design. Highlights 💡 Learn Turkish mosaic lamp-making step b
+ y step with expert artisan guidance 🍵 Sip authentic Turkish tea as colo
+ rs and patterns spark creativity 🎨 Craft a personalized lamp that glows
+  with your own character 👨‍👩‍👧‍👦 Bring ages 8+ for a wel
+ coming session adults and kids share General Info 📅 Date & Time: select
+  your date & time directly in the ticket selector ⏱️ Duration: 2.5 hou
+ rs 📍 Location: Holiday Inn & Suites Lafayette North by IHG\, 2219 NW Ev
+ angeline Thruway\, Lafayette\, LA 👤 Age requirement: 8+ with adult supe
+ rvision required for children 🧠 Skill Level: no prior experience requir
+ ed Description Step into Holiday Inn & Suites Lafayette North by IHG and s
+ ettle into a hands-on Turkish mosaic workshop. Guided by expert artisans\,
+  you’ll choose colors\, set tiny glass pieces\, and build a lasting keep
+ sake lamp as authentic Turkish tea keeps the table warm. No experience is 
+ needed\, so adults and kids 8+ can share the process and leave with a radi
+ ant reminder made by hand. Get your tickets now for Mosaic Art Classes Laf
+ ayette: Turkish Lamp Workshop in Lafayette\, LA!\n\nhttps://happeningnext.
+ com/event/mosaic-art-classes-lafayette-turkish-lamp-workshop-eid1afwa6x9o5
+ b
+URL:https://happeningnext.com/event/mosaic-art-classes-lafayette-turkish-la
+ mp-workshop-eid1afwa6x9o5b
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mosaic Art Classes Lafayette: Turkish Lamp Workshop
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

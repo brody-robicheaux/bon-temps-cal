@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6244b000aa@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270115T184500
+DTEND;TZID=America/Chicago:20270115T204500
+SUMMARY:January 2027 Workshop and Social Dance
+LOCATION:328 Guilbeau Rd\, Lafayette
+DESCRIPTION:Lafayette Dance Nights (LDN) Social Dance\nJanuary 15\, 2027\nS
+ tart the new year on the dance floor with Lafayette Dance Nights! Whether 
+ you're a regular or you've been thinking about coming out for the first ti
+ me\, there's no better time to join us than the beginning of a new year.\n
+ 🕺 Workshop\nTime: 6:45 PM\nCost: $5\nDance & Instructor: To Be Determin
+ ed\nNo partner required\n💃 Social Dance\nTime: 7:30 PM (immediately fol
+ lowing the workshop)\nCost: $10\nMusic by: DJ Queen Mona\nNo partner requi
+ red\nDJ Queen Mona will be spinning an amazing mix of music to keep you da
+ ncing all night long. Whether you're brand new to social dancing or an exp
+ erienced dancer\, everyone is welcome.\nIf you've been wanting to come out
+  and see what Lafayette Dance Nights is all about\, now is the time. A new
+  year is the perfect opportunity to try something new\, meet new people\, 
+ learn a new skill\, and have a great time in a fun and welcoming environme
+ nt.\nWe can't wait to kick off 2027 with you. Grab your dancing shoes and 
+ join us on January 15th!\nNo partner needed. Just bring yourself and be re
+ ady to dance! 🎶✨\n\nhttps://happeningnext.com/event/january-2027-work
+ shop-and-social-dance-eid3a0ecgd8vp
+URL:https://happeningnext.com/event/january-2027-workshop-and-social-dance-
+ eid3a0ecgd8vp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:January 2027 Workshop and Social Dance
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
