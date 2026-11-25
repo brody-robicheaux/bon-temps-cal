@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:829ab1a623@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261202T170000
+DTEND;TZID=America/Chicago:20261202T200000
+SUMMARY:Museum Makers: Exploring Cyanotype Through Nature
+LOCATION:Hilliard Art Museum\, 710 E St Mary Blvd\, Lafayette
+DESCRIPTION:Explore cyanotype\, a historic photographic process distinguish
+ ed by its rich blue tones\, in a hands-on workshop with artist Jeni Battag
+ lia Guidry . Using leaves\, flowers\, and found objects\, participants wil
+ l experiment with composition\, texture\, and silhouette to create blue-an
+ d-white prints through exposure to UV light. Finished prints will become h
+ andmade greeting cards or bookmarks to keep or give.\n\nNo previous art ex
+ perience is necessary. All supplies are included.\n\nMember Rate: $65 per 
+ person\n\nNon-Member Rate: $75 per person\n\nAdvance registration is requi
+ red\, as space is limited.\n\nhttps://hilliardartmuseum.org/event/museum-m
+ akers-exploring-cyanotype-through-nature/
+URL:https://hilliardartmuseum.org/event/museum-makers-exploring-cyanotype-t
+ hrough-nature/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Museum Makers: Exploring Cyanotype Through Nature
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

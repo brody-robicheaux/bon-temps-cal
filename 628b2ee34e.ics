@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:628b2ee34e@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270105T180000
+DTEND;TZID=America/Chicago:20270105T190000
+SUMMARY:🎾 Cardio Tennis 🎾
+LOCATION:City Club at River Ranch\, 1100 Camellia Blvd\, Lafayette
+DESCRIPTION:*Member Only Event*\nJoin us every Tuesday from 6:00–7:00 PM 
+ for Cardio Tennis\, a complimentary group tennis clinic designed for all s
+ kill levels! Set to upbeat music\, this high-energy class combines repetit
+ ion drills\, match play\, and cardio for a fun workout on the courts.\nWhe
+ ther you’re looking to improve your game\, break a sweat\, or just have 
+ fun with friends\, Cardio Tennis is a great way to spend your Tuesday even
+ ing.\n✨ All levels welcome\n🎶 Upbeat music & energetic atmosphere\n
+ 💪 Cardio + tennis drills + match play\n📍 Meet at the City Club at Ri
+ ver Ranch tennis courts\n✅ No sign up necessary\nJust show up ready to p
+ lay! 🎾\n\nhttps://happeningnext.com/event/cardio-tennis-eid3a0ecta78c
+URL:https://happeningnext.com/event/cardio-tennis-eid3a0ecta78c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎾 Cardio Tennis 🎾
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
