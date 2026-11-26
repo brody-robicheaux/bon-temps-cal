@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1aefd7d08e@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261202T163000
+DTEND;TZID=America/Chicago:20261202T193000
+SUMMARY:Acadiana Myco | Growing Gourmet Mushrooms Together 🍄
+LOCATION:211-A Guilbeau Rd\, Lafayette\, 211 Guilbeau Rd\, Lafayette
+DESCRIPTION:🍄 Growing Mushrooms. Growing Community.\nJoin Acadiana Myco 
+ for another evening of hands-on mushroom cultivation\, education and commu
+ nity!\nAt our last gathering\, we welcomed three new members who each inoc
+ ulated and took home a bag of Oyster mushroom grain spawn.\nThey’ll be b
+ ringing their grain bags back\, and we’ll demonstrate the next stage of 
+ cultivation by transferring fully colonized grain spawn into Master’s Mi
+ x\, a hardwood and soybean hull substrate.\nWhether you’re an experience
+ d grower\, a complete beginner or just curious about the fascinating world
+  of fungi\, there’s something for everyone.\n🍄 Hands-on mushroom cult
+ ivation\n🍄 Learn about grain spawn and substrate\n🍄 Free beginner mu
+ shroom grow kits\, one per new growing family\n🍄 Connect with fellow mu
+ shroom enthusiasts\nNo experience necessary. Growing is optional\, and fam
+ ilies are always welcome.\n😋 Coming hungry? There’s also a food truck
+  at the location that a couple of our members have tried and recommend\, i
+ f it’s open that evening.\n📅 Wednesday\, December 2\n⏰ 4:30–7:30 
+ PM\n📍 211-A Guilbeau Rd\, Lafayette\, LA 70506\nOur gatherings are alwa
+ ys FREE and open to the public.\nCome grow with us!\n#AcadianaMyco #Growin
+ gMushrooms #GrowingCommunity #GourmetMushrooms #Acadiana\n\nhttps://happen
+ ingnext.com/event/acadiana-myco-growing-gourmet-mushrooms-together-eid3a0e
+ cta5jx
+URL:https://happeningnext.com/event/acadiana-myco-growing-gourmet-mushrooms
+ -together-eid3a0ecta5jx
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Acadiana Myco | Growing Gourmet Mushrooms Together 🍄
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
