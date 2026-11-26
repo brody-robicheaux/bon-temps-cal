@@ -21,20 +21,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:53b403fa39@bontemps
+UID:7cf5cc46ed@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261125T200000
-DTEND;TZID=America/Chicago:20261125T230000
-SUMMARY:OPEN MIC STONER ROCK JAM
-LOCATION:The Freetown Boom Boom Room\, 300 McKinley St\, Lafayette
-DESCRIPTION:JOIN US FOR OUR WEEKLY OPEN JAM!\nHouse drum kit and amps provi
- ded\, so bring your guitars\, cymbals\, and pedals\, and let's jam!\n\nNo 
- Cover!\n\nhttps://happeningnext.com/event/open-mic-stoner-rock-jam-eid3a0e
- ci7gnl
-URL:https://happeningnext.com/event/open-mic-stoner-rock-jam-eid3a0eci7gnl
+DTSTART;TZID=America/Chicago:20261126T090000
+DTEND;TZID=America/Chicago:20261128T170000
+SUMMARY:Philip Gould: A Selection of Works
+LOCATION:Acadiana Center for the Arts
+DESCRIPTION:https://acadianacenterforthearts.org/philip-gould-2026?occurren
+ ce=2026-11-26
+URL:https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-
+ 11-26
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:OPEN MIC STONER ROCK JAM
+DESCRIPTION:Philip Gould: A Selection of Works
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT

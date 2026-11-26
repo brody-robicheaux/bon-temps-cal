@@ -23,15 +23,15 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:d5773c2e0f@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261125T090000
+DTSTART;TZID=America/Chicago:20261126T090000
 DTEND;TZID=America/Chicago:20270109T170000
 SUMMARY:Artists’ Alliance
 LOCATION:Acadiana Center for the Arts - Main Gallery\, 101 W Vermilion St\,
   Lafayette
 DESCRIPTION:https://acadianacenterforthearts.org/artists-alliance/?occurren
- ce=2026-11-25
+ ce=2026-11-26
 URL:https://acadianacenterforthearts.org/artists-alliance/?occurrence=2026-
- 11-25
+ 11-26
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Artists’ Alliance

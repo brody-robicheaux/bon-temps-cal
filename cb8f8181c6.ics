@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cb8f8181c6@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270124T183000
+DTEND;TZID=America/Chicago:20270124T220000
+SUMMARY:Harland Williams: COMZILLA Comedy Tour 2027
+LOCATION:Club 337\, 1521 W Pinhook Rd\, Lafayette
+DESCRIPTION:Harland Williams: COMZILLA Comedy Tour 2027\nLafayette Comedy p
+ resents Harland Williams: COMZILLA Comedy Tour\nSunday\, January 24th at 6
+ :30PM & 8:30PM\nTickets go on sale on Friday\, Aug. 14th to the general pu
+ blic at 8:00 AM. Mailing list subscribers get early access now (check your
+  email)\nVIP (reserved seating in the first 3 rows) and General Admission 
+ tickets available (plus taxes/fees).\nComedian and Actor Harland Williams 
+ is known the world over for his hilarious movie roles and outlandish stand
+  up and sketch comedy routines. From his unforgettable roles in films such
+  as Dumb and Dumber\, Something about Mary\, Half Baked\, Rocketman\, Soro
+ rity Boys\, Down Periscope and so many more.\nHarland has been described a
+ s a scene stealing actor whose unique portrayals of his characters keep th
+ em etched in the minds of filmgoers everywhere. Add to this his incredible
+  stand up comedy routines\, which have been seen on Letterman\, The Tonigh
+ t Show\, Conan O’Brian\, HBO\, Comedy Central and everywhere else.\nDesc
+ ribed as sharp\, witty\, unpredictable and original\; Harland is the true 
+ master of joke telling and crowd interaction. His improvisational skills l
+ ed to him winning the award for best improviser on NBC’s prime time seri
+ es\, ‘Thank God You Are Here’ (available on YouTube ).\nHarland Willia
+ ms is the rare comic artist who has managed to master both Stand Up and Sk
+ etch comedy and combine them both masterfully into his shows. Fresh\, funn
+ y and always full of the unexpected\, Harland’s incredible shows are not
+  to be missed.\n\nUnless otherwise stated\, please consider all of our sho
+ ws as “adult subject matter.”\nNo refunds will be issued unless the sh
+ ow is canceled or rescheduled.\nNo third-party tickets allowed (do not pur
+ chase from StubHub or other 3rd party sites)\nClub 337 is inside the Doubl
+ eTree Hotel at 1521 W Pinhook Rd\, Lafayette\, LA. (Free Parking)\nClub 33
+ 7 has theater-style seating on a first-come\, first-served basis | Drinks 
+ can be purchased at the bar | 2 full bars and a restaurant on-site.\n\nhtt
+ ps://happeningnext.com/event/harland-williams-comzilla-comedy-tour-2027-ei
+ d3a0e1u4r9t
+URL:https://happeningnext.com/event/harland-williams-comzilla-comedy-tour-2
+ 027-eid3a0e1u4r9t
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Harland Williams: COMZILLA Comedy Tour 2027
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
