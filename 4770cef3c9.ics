@@ -21,19 +21,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:64106f5fcb@bontemps
+UID:4770cef3c9@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261125T190000
-DTEND;TZID=America/Chicago:20261125T210000
-SUMMARY:Bonsoir Catin TURKEY GIVEAWAY Special Show
-LOCATION:Hideaway on Lee\, 407 Lee Ave\, Lafayette
-DESCRIPTION:https://www.hideawayonlee.com/events/bonsoir-catin-turkey-givea
- way-special-show
-URL:https://www.hideawayonlee.com/events/bonsoir-catin-turkey-giveaway-spec
- ial-show
+DTSTART;TZID=America/Chicago:20261212T210000
+DTEND;TZID=America/Chicago:20261212T230000
+SUMMARY:GOTH NIGHT @ THE CABOOSE
+LOCATION:The Loose Caboose\, 201 McKinley St\, Lafayette
+DESCRIPTION:Doors @ 7\, DJs @ 9\n\nhttps://happeningnext.com/event/goth-nig
+ ht-the-caboose-eid3a0ecta4q1
+URL:https://happeningnext.com/event/goth-night-the-caboose-eid3a0ecta4q1
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Bonsoir Catin TURKEY GIVEAWAY Special Show
+DESCRIPTION:GOTH NIGHT @ THE CABOOSE
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT

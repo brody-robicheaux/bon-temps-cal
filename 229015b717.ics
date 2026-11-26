@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:229015b717@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261210T190000
+DTEND;TZID=America/Chicago:20261210T210000
+SUMMARY:*FREE SHOW!* the Has Beans
+LOCATION:Hideaway on Lee\, 407 Lee Ave\, Lafayette
+DESCRIPTION:The Has Beans perform an eclectic mix of Cajun\, Zydeco\, Ameri
+ cana\, Swamp Blues as well as an ever expanding repertoire of original son
+ gs. Unafraid to color outside of the lines\, but always keeping that stron
+ g South Louisiana groove going. The Has Beans are a band that could only h
+ ave come out of the fertile musical climate of Lafayette\, Louisiana!\nMus
+ icians Danny Kimball (drums)\, Ward Lormand (accordion)\, Blake Castille (
+ guitar)\, Phil Kaelin (guitar)\, Tommy Bodin (bass)\, Henry Hample (fiddle
+ ) all spent years playing\, absorbing and learning from the legends of Caj
+ un\, Creole and Zydeco music. Has Beans inspiration and namesake comes fro
+ m Red Beans and Rice Revue (including original "Bean" Danny Kimball)\, who
+  were one of the early influences of Cajun music to the youth of South Lou
+ isiana in the mid 1970’s.\nIn the early 70's dancehalls like Jay’s Lou
+ nge\, Bon Ton Rouler’ and Hamilton Club became the foundation for a grow
+ ing appreciation of local music. This is where groups like Red Beans and R
+ ice Revue\, Zachary Richard and Michael Doucet's pre - Beausoleil group "C
+ oteau" were setting the old dancehalls on fire. The music pouring out of t
+ he dances was exciting\, very danceable and yes\, rebellious\; Traditional
+  Cajun tunes and instruments blended with the melodic\, improvisational le
+ ad guitar influence of the Allman Brothers and GratefulDead. The music bla
+ sting out of these old dance halls turned a whole younger generation onto 
+ the indigenous music of South Louisiana.\n\nhttps://happeningnext.com/even
+ t/free-show-the-has-beans-eid3a0ecv4dbu
+URL:https://happeningnext.com/event/free-show-the-has-beans-eid3a0ecv4dbu
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:*FREE SHOW!* the Has Beans
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

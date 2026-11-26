@@ -21,18 +21,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:46be7579c7@bontemps
+UID:0a06593c7e@bontemps
 DTSTAMP:20260101T000000Z
 DTSTART;TZID=America/Chicago:20261213T170000
 DTEND;TZID=America/Chicago:20261213T190000
-SUMMARY:Rusty Metoyer & Zydeco Krush
-LOCATION:Rock'n'Bowl® de Lafayette\, 905 Jefferson St\, Lafayette
-DESCRIPTION:Zydeco Sunday!\n\nhttps://www.rocknbowl.com/events/rusty-metoye
- r-zydeco-krush-12-13-26
-URL:https://www.rocknbowl.com/events/rusty-metoyer-zydeco-krush-12-13-26
+SUMMARY:Rusty Metoyer & Zydeco Krush | Rock'n'Bowl® de Lafayette
+LOCATION:Rock'n'Bowl de Lafayette\, 905 Jefferson St\, Lafayette
+DESCRIPTION:Zydeco Sunday!\n\nhttps://happeningnext.com/event/rusty-metoyer
+ -andamp-zydeco-krush-rocknbowl-de-lafayette-eid3a0ecv4dwm
+URL:https://happeningnext.com/event/rusty-metoyer-andamp-zydeco-krush-rockn
+ bowl-de-lafayette-eid3a0ecv4dwm
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Rusty Metoyer & Zydeco Krush
+DESCRIPTION:Rusty Metoyer & Zydeco Krush | Rock'n'Bowl® de Lafayette
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
