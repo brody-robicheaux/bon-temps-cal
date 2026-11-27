@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:97310f388e@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261220T080000
+DTEND;TZID=America/Chicago:20261220T100000
+SUMMARY:Universal Cheer Association: Louisiana Regional
+LOCATION:Cajundome\, 444 Cajundome Blvd\, Lafayette
+DESCRIPTION:Universal Cheerleaders Association: Louisiana Regional\nWe look
+  forward to seeing you at this exciting Varsity Spirit event. Get ready fo
+ r incredible performances that showcase skill and teamwork in a series of 
+ non-stop routines. Bring your friends and family to share in the fun and m
+ ake memories to last a lifetime!\nTicket Information\nBox Office Opens at 
+ 6:30 AM\nTicket Prices*\nAdults (17-64): $18.75\nKids (6-16) / Military (w
+ /ID) / Seniors (65+): $13.50\n*Additional convenience fees apply to online
+  Ticketmaster purchases.\n\nhttps://www.cajundome.com/events/detail/ucala2
+ 025-2
+URL:https://www.cajundome.com/events/detail/ucala2025-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Universal Cheer Association: Louisiana Regional
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
