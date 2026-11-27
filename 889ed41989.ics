@@ -21,20 +21,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:7cf5cc46ed@bontemps
+UID:889ed41989@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=America/Chicago:20261126T090000
-DTEND;TZID=America/Chicago:20261128T170000
-SUMMARY:Philip Gould: A Selection of Works
-LOCATION:Acadiana Center for the Arts
-DESCRIPTION:https://acadianacenterforthearts.org/philip-gould-2026?occurren
- ce=2026-11-26
-URL:https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-
- 11-26
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Philip Gould: A Selection of Works
-TRIGGER:-PT1H
-END:VALARM
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Good Vibes Happy Hour ft. DJ Snuz Butt’n · Reba Water Tasting
+LOCATION:425 Jefferson Street\, Lafayette
+DESCRIPTION:https://happeningnext.com/event/good-vibes-happy-hour-ft-dj-snu
+ z-butt’n-·-reba-water-tasting-eid3a0ed4r9ml
+URL:https://happeningnext.com/event/good-vibes-happy-hour-ft-dj-snuz-butt
+ ’n-·-reba-water-tasting-eid3a0ed4r9ml
 END:VEVENT
 END:VCALENDAR

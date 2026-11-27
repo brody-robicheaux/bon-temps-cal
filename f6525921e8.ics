@@ -21,15 +21,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:72917e823e@bontemps
+UID:f6525921e8@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Community Thanksgiving Dinner – Free Meal & Delivery Available
-LOCATION:Caffe Cottage\, 1013 E St Mary Blvd\, Lafayette
-DESCRIPTION:https://happeningnext.com/event/community-thanksgiving-dinner-
- –-free-meal-andamp-delivery-available-eid3a0ec6qba0
-URL:https://happeningnext.com/event/community-thanksgiving-dinner-–-free-
- meal-andamp-delivery-available-eid3a0ec6qba0
+DTSTART;TZID=America/Chicago:20261127T090000
+DTEND;TZID=America/Chicago:20261128T170000
+SUMMARY:Philip Gould: A Selection of Works
+LOCATION:Acadiana Center for the Arts
+DESCRIPTION:https://acadianacenterforthearts.org/philip-gould-2026?occurren
+ ce=2026-11-27
+URL:https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-
+ 11-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Philip Gould: A Selection of Works
+TRIGGER:-PT1H
+END:VALARM
 END:VEVENT
 END:VCALENDAR
