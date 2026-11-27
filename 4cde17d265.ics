@@ -21,15 +21,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:889ed41989@bontemps
+UID:4cde17d265@bontemps
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:Good Vibes Happy Hour ft. DJ Snuz Butt’n · Reba Water Tasting
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Domingão Braziliana ft. DJ RV
 LOCATION:425 Jefferson Street\, Lafayette
-DESCRIPTION:https://happeningnext.com/event/good-vibes-happy-hour-ft-dj-snu
- z-butt’n-·-reba-water-tasting-eid3a0ed4r9ml
-URL:https://happeningnext.com/event/good-vibes-happy-hour-ft-dj-snuz-butt
- ’n-·-reba-water-tasting-eid3a0ed4r9ml
+DESCRIPTION:https://happeningnext.com/event/domingão-braziliana-ft-dj-rv-e
+ id3a0ed4r94s
+URL:https://happeningnext.com/event/domingão-braziliana-ft-dj-rv-eid3a0ed4
+ r94s
 END:VEVENT
 END:VCALENDAR
