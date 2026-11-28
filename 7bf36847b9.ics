@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7bf36847b9@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261202T200000
+DTEND;TZID=America/Chicago:20261202T230000
+SUMMARY:Gloria's Thanksgiving Eve Open Jam
+LOCATION:Gloria's Bar & Grill\, 106 Merchants Blvd\, Lafayette
+DESCRIPTION:Kick off the holiday with us - great company\, good music\, and
+  a great time!\nCome and join us Thanksgiving Eve at Gloria's for our mont
+ hly open jam! We'll have all the instruments you need\, but you can of cou
+ rse bring your own! Not a musician? Just come for the good time and great 
+ music.\nYes\, it's the night before Thanksgiving\, but everyone is off wor
+ k the next morning so why not come out and have a good time with us?\nAll 
+ skill levels are welcome! 21+\n\nhttps://happeningnext.com/event/glorias-t
+ hanksgiving-eve-open-jam-eid3a0ed3leh0
+URL:https://happeningnext.com/event/glorias-thanksgiving-eve-open-jam-eid3a
+ 0ed3leh0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gloria's Thanksgiving Eve Open Jam
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

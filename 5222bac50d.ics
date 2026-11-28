@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:5222bac50d@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261218T200000
+DTEND;TZID=America/Chicago:20261218T234500
+SUMMARY:Live at Sala: SEAUXLEAUX ft. Louis Michot + Tasche de la Rocha
+LOCATION:425 Jefferson Street\, Lafayette
+DESCRIPTION:SEAUXLEAUX ft. Louis Michot + Tasche de la Rocha live at Sala G
+ ood Vibes\, night 8 of 9 of 12 Days of Good Vibes. Doors at 8:00 PM\, musi
+ c until midnight. $10 Thanksgiving Special tickets through Sunday\, Nov 29
+  · $15 online from Monday\, Nov 30 (plus taxes & fees) · $20 at the door
+ . Only 50 spots per show. Tickets: https://www.socialentertainment.net/eve
+ nts · Bora pra Sala!\n\nhttps://happeningnext.com/event/live-at-sala-seau
+ xleaux-ft-louis-michot-tasche-de-la-rocha-eid3a0ed9q7he
+URL:https://happeningnext.com/event/live-at-sala-seauxleaux-ft-louis-michot
+ -tasche-de-la-rocha-eid3a0ed9q7he
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Live at Sala: SEAUXLEAUX ft. Louis Michot + Tasche de la Rocha
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
