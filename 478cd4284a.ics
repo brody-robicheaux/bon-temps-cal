@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:478cd4284a@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270107T193000
+DTEND;TZID=America/Chicago:20270107T213000
+SUMMARY:South for Winter
+LOCATION:Acadiana Center for the Arts\, 101 W Vermilion St\, Lafayette
+DESCRIPTION:With a blend of dreamy acoustic duets\, foot-stomping folk and 
+ bluesy murder ballads\, New Zealand-formed and Nashville-based South for W
+ inter’s sound is as eclectic as their origins. The award-winning act mel
+ ds three-part harmonies\, fingerstyle guitar\, mandolin\, banjo\, cello\, 
+ foot percussion\, and more into a genre-bending sound described by America
+ n Songwriter as “impeccable”. Between releases\, they have toured rele
+ ntlessly\, selling out shows and bringing audiences to their feet around t
+ he world.\n\nhttps://acadianacenterforthearts.org/events/south-for-winter/
+ ?occurrence=2027-01-07
+URL:https://acadianacenterforthearts.org/events/south-for-winter/?occurrenc
+ e=2027-01-07
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:South for Winter
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

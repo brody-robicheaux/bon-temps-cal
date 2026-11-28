@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e8af0eb07e@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20270121T193000
+DTEND;TZID=America/Chicago:20270121T213000
+SUMMARY:When I Go Away: Remembering Jo-El Sonnier
+LOCATION:Acadiana Center for the Arts\, 101 W Vermilion St\, Lafayette
+DESCRIPTION:Celebrate the enduring legacy of Jo-El Sonnier\, one of Louisia
+ na’s most beloved musical ambassadors. With his unmistakable accordion s
+ ound\, soulful voice\, and signature blend of Cajun tradition and country 
+ roots\, Sonnier carried the spirit of Acadiana to audiences around the wor
+ ld. This special concert honors his extraordinary musical journey and cele
+ brates the release of his posthumous album\, When I Go Away. A fitting tri
+ bute to a Louisiana legend whose music transcends generations and whose le
+ gacy will forever be woven into the fabric of South Louisiana. Presented b
+ y\n\nhttps://acadianacenterforthearts.org/events/when-i-go-away-rememberin
+ g-jo-el-sonnier/?occurrence=2027-01-21
+URL:https://acadianacenterforthearts.org/events/when-i-go-away-remembering-
+ jo-el-sonnier/?occurrence=2027-01-21
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:When I Go Away: Remembering Jo-El Sonnier
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
