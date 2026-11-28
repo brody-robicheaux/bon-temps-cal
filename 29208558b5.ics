@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:29208558b5@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261204T190000
+DTEND;TZID=America/Chicago:20261204T210000
+SUMMARY:Bluegrass for Charity Concert
+LOCATION:Parish Church\, 1400 W University Ave\, Lafayette
+DESCRIPTION:🎵 BLUEGRASS FOR CHARITY on 12/4 🎵\nJoin us for a bluegras
+ s concert to benefit The Sparrow Foundation\, helping victims of human tra
+ fficking.\nSwampland String Band formed out of a bluegrass jam in 2021\, b
+ ringing together some of the top pickers from across Louisiana. The band p
+ erforms a variety of bluegrass standards\, swing\, and more on festival st
+ ages\, back porches\, and anywhere in between.\nShowtime is 7:00pm\, doors
+  open at 6:00. Tickets are $12 at the door\, kids 16 and under get in free
+ . All proceeds go to The Sparrow Foundation.\nMore details about The Sparr
+ ow Foundation at http://thesparrow.foundation\n\nhttps://happeningnext.com
+ /event/bluegrass-for-charity-concert-eid3a0ed4r97t
+URL:https://happeningnext.com/event/bluegrass-for-charity-concert-eid3a0ed4
+ r97t
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bluegrass for Charity Concert
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

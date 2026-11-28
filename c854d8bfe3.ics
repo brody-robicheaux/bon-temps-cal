@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bon Temps//Lafayette events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c854d8bfe3@bontemps
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=America/Chicago:20261202T183000
+DTEND;TZID=America/Chicago:20261202T203000
+SUMMARY:🎶 SOLA SHOP CONCERT: Paul Daigle & Cajun Gold! 🎻🔥
+LOCATION:100 E Vermilion St\, Ste 102\, Lafayette
+DESCRIPTION:Paul Daigle & Cajun Gold Trio\nA celebrated name in traditional
+  Cajun music\, Paul Daigle is best known for his work with Paul Daigle\, R
+ obert Elkins & Cajun Gold\, a band recognized for its authentic Cajun soun
+ d and dedication to preserving French music. With his distinctive accordio
+ n playing and vocals\, Daigle has long been a respected figure in the Caju
+ n music community.\nFor this special trio performance\, Daigle joins talen
+ ted Cajun musicians Mark Latiolais and Cameron Fontenot\, bringing togethe
+ r three musicians who share a passion for Acadiana's rich musical heritage
+ . The group will play the tunes Pierre Varmon Daigle created for Cajun Gol
+ d and recorded\, as well as talk about the stories behind the music and th
+ e band.\n\nhttps://happeningnext.com/event/sola-shop-concert-paul-daigle-a
+ ndamp-cajun-gold-eid3a0ed9q77d
+URL:https://happeningnext.com/event/sola-shop-concert-paul-daigle-andamp-ca
+ jun-gold-eid3a0ed9q77d
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎶 SOLA SHOP CONCERT: Paul Daigle & Cajun Gold! 🎻🔥
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
